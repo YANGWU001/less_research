@@ -2,76 +2,77 @@
 
 ## Step 1. warmup training
 ```setup
-data_dir=../less_data/data
+data_dir=../data
 model_path=meta-llama/Llama-2-7b-hf
-percentage=0.05 # percentage of the full data to train, you can specify the training file you want to use in the script
+percentage=0.0001 # percentage of the full data to train, you can specify the training file you want to use in the script
 data_seed=3
-job_name=llama2-7b-p${PERCENTAGE}-lora-seed${DATA_SEED}
+job_name=llama2-7b-p${percentage}-lora-seed${data_seed}
 
-./less/scripts/train/warmup_lora_train.sh "$data_dir" "$model_path" "$percentage" "$data_seed" "$job_name"
+./step1_warmup_lora.sh "$data_dir" "$model_path" "$percentage" "$data_seed" "$job_name"
 ```
 
 ## Step 2. training storage
 ```bash
-CKPT=1688
-TRAINING_DATA_NAME=dolly
-TRAINING_DATA_FILE=../less_data/data/train/processed/dolly/dolly_data.jsonl
-GRADIENT_TYPE="adam"
-MODEL_PATH=../out/llama2-7b-p0.05-lora-seed3/checkpoint-${CKPT}
-OUTPUT_PATH=../grads/llama2-7b-p0.05-lora-seed3/${TRAINING_DATA_NAME}-ckpt${CKPT}-${GRADIENT_TYPE}
-DIMS="8192"
+ckpt=3
+training_data_name=dolly
+training_data_file=../data/train/processed/dolly/dolly_data.jsonl
+gradient_type="adam"
+model_path=../out/llama2-7b-p0.0001-lora-seed3/checkpoint-${ckpt}
+output_path=../grads/llama2-7b-p0.0001-lora-seed3/${training_data_name}-ckpt${ckpt}-${gradient_type}
+dims="8192"
+max_samples=100 #if set to None, run all samples
 
-./less/scripts/get_info/grad/get_train_lora_grads.sh "$TRAINING_DATA_FILE" "$MODEL_PATH" "$OUTPUT_PATH" "$DIMS" "$GRADIENT_TYPE"
+./step2_training_storage.sh "$training_data_file" "$model_path" "$output_path" "$dims" "$gradient_type" "$max_samples"
 ```
 
 ## Step 3. validate storage
 ```bash
-CKPT=1688
-TASK=tydiqa
-MODEL_PATH=../out/llama2-7b-p0.05-lora-seed3/checkpoint-${CKPT}
-OUTPUT_PATH=../grads/llama2-7b-p0.05-lora-seed3/${TASK}-ckpt${CKPT}-sgd # for validation data, we always use sgd
-DATA_DIR=../less_data/data
-DIMS="8192" # We use 8192 as our default projection dimension 
+ckpt=3
+task=mmlu
+model_path=../out/llama2-7b-p0.0001-lora-seed3/checkpoint-${ckpt}
+output_path=../grads/llama2-7b-p0.0001-lora-seed3/${task}-ckpt${ckpt}-sgd # for validation data, we always use sgd
+data_dir=../data
+dims="8192" # We use 8192 as our default projection dimension 
 
-./less/scripts/get_info/grad/get_eval_lora_grads.sh "$TASK" "$DATA_DIR" "$MODEL_PATH" $OUTPUT_PATH "$DIMS"
+./step3_validate_storage.sh "$task" "$data_dir" "$model_path" $output_path "$dims"
 ```
 
 ## Step 4. influence calculation
 ```bash
-DIM=8192 # decide which dimension to use
-GRADIENT_PATH=../grads/llama2-7b-p0.05-lora-seed3/{}-ckpt{}-adam/dim${DIM}
-TRAIN_FILE_NAMES="dolly cot flan_v2 oasst1" #可以是多个train 的file，用空格隔开
-#CKPTS="105 211 317 420" # checkpoing index，可以选好几个check point
-CKPTS="1688"
-CHECKPOINT_WEIGHTS="1.0e-05" # average lr of the epoch，相应的lr
+dim=8192 # decide which dimension to use
+gradient_path=../grads/llama2-7b-p0.0001-lora-seed3/{}-ckpt{}-adam/dim${dim}
+train_file_names="dolly" #可以是多个train 的file，用空格隔开
+#ckpts="105 211 317 420" # checkpoing index，可以选好几个check point
+ckpts="3"
+checkpoint_weights="1.0e-05" # average lr of the epoch，相应的lr
 
-VALIDATION_GRADIENT_PATH=../grads/llama2-7b-p0.05-lora-seed3/{}-ckpt{}-sgd/dim${DIM}
-TARGET_TASK_NAMES="tydiqa"
-SELECTED_DATA_OUTPUT_PATH="../selected_data"
+validation_gradient_path=../grads/llama2-7b-p0.0001-lora-seed3/{}-ckpt{}-sgd/dim${dim}
+target_task_names="mmlu"
+selected_data_output_path="../selected_data"
 
-./less/scripts/data_selection/matching.sh "$GRADIENT_PATH" "$TRAIN_FILE_NAMES" "$CKPTS" "$CHECKPOINT_WEIGHTS" "$VALIDATION_GRADIENT_PATH" "$TARGET_TASK_NAMES" "$SELECTED_DATA_OUTPUT_PATH"
+./step4_influence_calculation.sh "$gradient_path" "$train_file_names" "$ckpts" "$checkpoint_weights" "$validation_gradient_path" "$target_task_names" "$selected_data_output_path"
 ```
 
 ## Step 5. save selected data
 ```bash
-TRAIN_FILE_NAMES="dolly cot flan_v2 oasst1"
-python3 -m less.data_selection.write_selected_data \
---target_task_names ${TARGET_TASK_NAMES} \
---train_file_names ${TRAIN_FILE_NAMES} \
---train_files ../less_data/data/train/processed/dolly/dolly_data.jsonl ../less_data/data/train/processed/cot/cot_data.jsonl ../less_data/data/train/processed/flan_v2/flan_v2_data.jsonl ../less_data/data/train/processed/oasst1/oasst1_data.jsonl \
---output_path $SELECTED_DATA_OUTPUT_PATH \
---percentage 0.05
+target_task_name="mmlu"
+train_file_names="dolly" #可以是多个train 的file，用空格隔开
+train_files="../data/train/processed/dolly/dolly_data.jsonl"
+output_path="../selected_data"
+percentage=0.05
+
+./step5_save_selected_data.sh "$target_task_name" "$train_file_names" "$train_files" "$output_path" "$percentage"
 ```
 
 ## Step 6. finetune
 ```bash
-TARGET_TASK_NAME="tydiqa"
-PERCENTAGE=0.05
-TRAIN_FILES=../selected_data/${TARGET_TASK_NAME}/top_p${PERCENTAGE}.jsonl
-MODEL_PATH=meta-llama/Llama-2-7b-hf
-JOB_NAME=llama2-7b-less-tydiqa-p${PERCENTAGE}-lora
+target_task_name="mmlu"
+percentage=0.05
+train_files=../selected_data/${target_task_name}/top_p${percentage}.jsonl
+model_path=meta-llama/Llama-2-7b-hf
+job_name=llama2-7b-less-mmlu-p${PERCENTAGE}-lora
 
-./less/scripts/train/lora_train.sh "$TRAIN_FILES" "$MODEL_PATH" "$JOB_NAME" 
+./step6_finetune.sh "$train_files" "$model_path" "$job_name" 
 ```
 
 ## Step 7. evaluate
