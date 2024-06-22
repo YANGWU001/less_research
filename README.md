@@ -70,7 +70,7 @@ target_task_name="mmlu"
 percentage=0.05
 train_files=../selected_data/${target_task_name}/top_p${percentage}.jsonl
 model_path=meta-llama/Llama-2-7b-hf
-job_name=llama2-7b-less-mmlu-p${PERCENTAGE}-lora
+job_name=llama2-7b-less-${target_task_name}-p${percentage}-lora
 
 ./step6_finetune.sh "$train_files" "$model_path" "$job_name" 
 ```
@@ -78,8 +78,8 @@ job_name=llama2-7b-less-mmlu-p${PERCENTAGE}-lora
 ## Step 7. evaluate
 ```bash
 source eval_mmlu.sh 
-data_dir=/home/ywu19/less_data/data/eval
-mdir=/home/ywu19/out/llama2-7b-less-p0.05-lora
+data_dir=../data/eval
+mdir=../out/llama2-7b-less-mmlu-p0.05-lora
 eval_bbh "$mdir" "$data_dir"
 
 #结果会保存在 MDIR/eval/task name/metrics.json 当中，也可以看log.txt
