@@ -77,10 +77,11 @@ job_name=llama2-7b-less-${target_task_name}-p${percentage}-lora
 
 ## Step 7. evaluate
 ```bash
+cd evaluation
 source eval_mmlu.sh 
 data_dir=../data/eval
-mdir=../out/llama2-7b-less-mmlu-p0.05-lora
-eval_bbh "$mdir" "$data_dir"
+mdir=../out/llama2-7b-less-p0.05-lora
+eval_mmlu "$mdir" "$data_dir"
 
-#结果会保存在 MDIR/eval/task name/metrics.json 当中，也可以看log.txt
+#结果会保存在 midr/eval/task name/metrics.json 当中，也可以看log.txt
 ```
