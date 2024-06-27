@@ -7,8 +7,9 @@ model_path=meta-llama/Llama-2-7b-hf
 percentage=0.0001 # percentage of the full data to train, you can specify the training file you want to use in the script
 data_seed=3
 job_name=llama2-7b-p${percentage}-lora-seed${data_seed}
+num_proc=4
 
-./step1_warmup_lora.sh "$data_dir" "$model_path" "$percentage" "$data_seed" "$job_name"
+./step1_warmup_lora.sh "$data_dir" "$model_path" "$percentage" "$data_seed" "$job_name" "$num_proc"
 ```
 
 ## Step 2. training storage
@@ -71,8 +72,9 @@ percentage=0.05
 train_files=../selected_data/${target_task_name}/top_p${percentage}.jsonl
 model_path=meta-llama/Llama-2-7b-hf
 job_name=llama2-7b-less-${target_task_name}-p${percentage}-lora
+num_proc=4
 
-./step6_finetune.sh "$train_files" "$model_path" "$job_name" 
+./step6_finetune.sh "$train_files" "$model_path" "$job_name" "$num_proc"
 ```
 
 ## Step 7. evaluate
