@@ -1,9 +1,10 @@
 #!/bin/bash
 
-ID=$RANDOM
-export header="torchrun --nproc_per_node 1 --nnodes 1 \
---rdzv-id=$ID --rdzv_backend c10d \
-../less/model_training"
+# ID=$RANDOM
+# export header="torchrun --nproc_per_node 8 --nnodes 1 \
+# --rdzv-id=$ID --rdzv_backend c10d \
+# ../less/model_training.py"
+
 
 export base_training_args="--do_train True \
 --max_seq_length 2048 \
@@ -18,8 +19,8 @@ export base_training_args="--do_train True \
 --bf16 True \
 --tf32 False \
 --fp16 False \
+--report_to none \
 --overwrite_output_dir True \
---report_to wandb \
 --optim adamw_torch \
 --seed 0 \
 --percentage 1.0 \
@@ -31,4 +32,5 @@ export base_training_args="--do_train True \
 --lora_target_modules q_proj k_proj v_proj o_proj \
 --learning_rate 2e-05 \
 --per_device_train_batch_size 1 \
---gradient_accumulation_steps 32"
+--gradient_accumulation_steps 1 \
+--gradient_checkpointing True"

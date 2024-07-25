@@ -23,7 +23,7 @@ argparser.add_argument('--output_path', type=str, default="selected_data",
 
 args = argparser.parse_args()
 
-N_SUBTASKS = {"mmlu": 57, "bbh": 27, "tydiqa": 9}
+N_SUBTASKS = {"mmlu": 57, "bbh": 27, "tydiqa": 9, "shp":1,"se":1,"hh":1, "shp_all":1, "se_5_shot":1,"hh_5_shot":1}
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
@@ -51,10 +51,11 @@ for target_task_name in args.target_task_names:
     for train_file_name in args.train_file_names:
         influence_score = 0
         for i, ckpt in enumerate(args.ckpts):
-            # validation_path = args.validation_gradient_path.format(
-            # target_task_name, ckpt)
             validation_path = args.validation_gradient_path.format(
-                target_task_name,ckpt)
+            target_task_name, ckpt)
+            # validation_path = args.validation_gradient_path.format(
+            #     target_task_name,ckpt)
+            # validation_path = args.validation_gradient_path
             if os.path.isdir(validation_path):
                 validation_path = os.path.join(validation_path, "all_orig.pt")
             validation_info = torch.load(validation_path)
@@ -75,8 +76,10 @@ for target_task_name in args.target_task_names:
             influence_score += args.checkpoint_weights[i] * \
                 calculate_influence_score(
                     training_info=training_info, validation_info=validation_info)
+        print(influence_score)
         influence_score = influence_score.reshape(
             influence_score.shape[0], N_SUBTASKS[target_task_name], -1).mean(-1).max(-1)[0]
+        print(influence_score)
         output_dir = os.path.join(args.output_path, target_task_name)
         if not os.path.exists(output_dir):
             os.makedirs(output_dir)

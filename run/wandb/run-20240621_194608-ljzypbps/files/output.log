@@ -1,4 +1,0 @@
-  0%|          | 0/4 [00:00<?, ?it/s]/home/ywu19/anaconda3/envs/less/lib/python3.10/site-packages/transformers/data/data_collator.py:646: UserWarning: Creating a tensor from a list of numpy.ndarrays is extremely slow. Please consider converting the list to a single numpy.ndarray with numpy.array() before converting to a tensor. (Triggered internally at ../torch/csrc/utils/tensor_new.cpp:274.)
-  batch["labels"] = torch.tensor(batch["labels"], dtype=torch.int64)
- 25%|██▌       | 1/4 [00:00<00:02,  1.02it/s][INFO|trainer.py:3410] 2024-06-21 19:46:13,802 >> Saving model checkpoint to ../out/llama2-7b-less-mmlu-p-lora/checkpoint-1
-{'loss': 0.896, 'grad_norm': 6.264800071716309, 'learning_rate': 2e-05, 'epoch': 1.0}

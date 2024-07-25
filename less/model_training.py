@@ -5,24 +5,32 @@ import os
 import random
 import sys
 import time
-
+import functools
 import datasets
 import torch
 import torch.distributed as dist
 import transformers
-# from instruction_tuning.train.lora_trainer import LoRAFSDPTrainer, Trainer
 from peft import LoraConfig, PeftModel, TaskType, get_peft_model
 from transformers import (AutoModelForCausalLM, AutoTokenizer,
                           DataCollatorForSeq2Seq, HfArgumentParser, Trainer,
                           set_seed)
+from torch.distributed.fsdp import FullyShardedDataParallel as FSDP
+from torch.distributed.fsdp.wrap import wrap,transformer_auto_wrap_policy
 
 from data_formatter import get_training_dataset
 from arguments import DataArguments, get_data_statistics, ModelArguments, add_padding_to_tokenizer, TrainingArguments
 
 logger = logging.getLogger(__name__)
 os.environ["TOKENIZERS_PARALLELISM"] = "false"
-
-
+# gpus = "0,1,2,3"
+# os.environ["CUDA_VISIBLE_DEVICES"] = gpus
+os.environ["PYTORCH_CUDA_ALLOC_CONF"] = "max_split_size_mb:64"
+def get_block_class_from_model(model: torch.nn.Module, block_class_name: str) -> torch.nn.Module:
+    """Get the class of a block from a model, using the block's class name."""
+    for module in model.modules():
+        if module.__class__.__name__ == block_class_name:
+            return module.__class__
+    raise ValueError(f"Could not find block class {block_class_name} in model {model}")
 def main():
     parser = HfArgumentParser(
         (ModelArguments, DataArguments, TrainingArguments))
@@ -32,6 +40,8 @@ def main():
     else:
         model_args, data_args, training_args = parser.parse_args_into_dataclasses()
 
+    training_args._n_gpu=len(gpus.split(","))
+    print(training_args)
     # Setup logging
     logging.basicConfig(
         format="%(asctime)s - %(levelname)s - %(name)s - %(message)s",
@@ -49,7 +59,6 @@ def main():
     transformers.utils.logging.set_verbosity(log_level)
     transformers.utils.logging.enable_default_handler()
     transformers.utils.logging.enable_explicit_format()
-
     # Log on each process the small summary:
     logger.warning(
         f"Process rank: {training_args.local_rank}, device: {training_args.device}, n_gpu: {training_args.n_gpu}"
@@ -58,6 +67,13 @@ def main():
     logger.info(f"Training parameters {training_args}")
     logger.info(f"Model parameters {model_args}")
     logger.info(f"Dataset parameters {data_args}")
+
+    # Initialize distributed training
+    if not dist.is_initialized():
+        dist.init_process_group(backend='nccl')
+    local_rank = int(os.environ["LOCAL_RANK"])
+    torch.cuda.set_device(local_rank)
+    device = torch.device("cuda", local_rank)
 
     # Set seed before initializing model.
     set_seed(training_args.seed)
@@ -71,7 +87,7 @@ def main():
                                          seed=data_args.sample_data_seed)
 
     model = AutoModelForCausalLM.from_pretrained(
-        model_args.model_name_or_path, torch_dtype=model_args.torch_dtype)
+        model_args.model_name_or_path, torch_dtype=model_args.torch_dtype).to(device)
     add_padding_to_tokenizer(tokenizer)
 
     # resize embeddings if needed (e.g. for LlamaTokenizer)
@@ -123,24 +139,42 @@ def main():
 
     analysis_dataset = None
     if training_args.analysis_mode:
-        from less.data_selection.get_validation_dataset import get_dataset
+        from data_formatter import get_dataset
         analysis_dataset = get_dataset(training_args.analysis_dataset,
                                        data_dir=data_args.data_dir,
                                        tokenizer=tokenizer,
                                        max_length=data_args.max_seq_length)
 
-    # for testing if the model can go through full length
-    # import torch
-    # from datasets import Dataset
+    # Wrap model with FSDP
+    # fsdp_config = {
+    #     'fsdp_transformer_layer_cls_to_wrap': ['LlamaDecoderLayer'],
+    #     'fsdp_backward_prefetch': 'backward_pre',
+    #     'limit_all_gathers': 'true',
+    #     'use_orig_params': 'true',
+    #     'min_num_params': 0,
+    #     'xla': False,
+    #     'xla_fsdp_grad_ckpt': False,
+    # }
 
-    # input_ids = [torch.randint(0, 32000, (2048, )) for _ in range(10000)]
-    # attention_mask = [torch.ones(2048, ) for _ in range(10000)]
-    # train_dataset = Dataset.from_dict({"input_ids": input_ids, "labels": input_ids, "attention_mask": attention_mask})
+    wrap_class = get_block_class_from_model(model, training_args.fsdp_config['fsdp_transformer_layer_cls_to_wrap'][0])
+    model_auto_wrap_policy = functools.partial(transformer_auto_wrap_policy, transformer_layer_cls={wrap_class},)
+
+    fsdp_config= {
+        "auto_wrap_policy": model_auto_wrap_policy,
+        "backward_prefetch": "backward_pre",
+        "limit_all_gathers": "true",
+        "use_orig_params": "true",
+    }
+
+
+    model = FSDP(model, **fsdp_config)
 
     if dist.is_initialized() and dist.get_rank() == 0:
         print(model)
     elif not dist.is_initialized():
         print(model)
+    #print(training_args)
+    training_args.remove_unused_columns=False
 
     trainer = Trainer(
         model=model,
@@ -154,22 +188,23 @@ def main():
 
     # Training
     train_result = trainer.train()
-    trainer.save_model()  # Saves the tokenizer too for easy upload
+    # trainer.save_model()  # Saves the tokenizer too for easy upload
 
-    metrics = train_result.metrics
+    # metrics = train_result.metrics
 
-    metrics["train_samples"] = len(train_dataset)
+    # metrics["train_samples"] = len(train_dataset)
 
-    trainer.log_metrics("train", metrics)
-    trainer.save_metrics("train", metrics)
-    trainer.save_state()
+    # trainer.log_metrics("train", metrics)
+    # trainer.save_metrics("train", metrics)
+    # trainer.save_state()
+    # print("model saving is done")
 
-    # remove the full model in the end to save space, only adapter is needed
-    if isinstance(model, PeftModel):
-        pytorch_model_path = os.path.join(
-            training_args.output_dir, "pytorch_model_fsdp.bin")
-        os.remove(pytorch_model_path) if os.path.exists(
-            pytorch_model_path) else None
+    # # remove the full model in the end to save space, only adapter is needed
+    # if isinstance(model, PeftModel):
+    #     pytorch_model_path = os.path.join(
+    #         training_args.output_dir, "pytorch_model_fsdp.bin")
+    #     os.remove(pytorch_model_path) if os.path.exists(
+    #         pytorch_model_path) else None
 
 
 if __name__ == "__main__":

@@ -12,9 +12,9 @@ if [[ ! -d $output_path ]]; then
     mkdir -p $output_path
 fi
 
-python3 -m less.data_selection.get_info \
+python3 ../less/build_storage.py \
 --task $task \
---info_type grads \
+--info_type loss \
 --model_path $model \
 --output_path $output_path \
 --gradient_projection_dimension $dims \

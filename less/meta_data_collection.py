@@ -96,6 +96,10 @@ def obtain_gradients(model, batch):
         [p.grad.view(-1).to(device) for p in model.parameters() if p.grad is not None])
     return vectorized_grads
 
+def obtain_dpo_sgd_gradients(model, batch):
+    """ obtain gradients based on dpo loss. """
+    
+
 
 def obtain_sign_gradients(model, batch):
     """ obtain gradients with sign. """
@@ -138,11 +142,11 @@ def obtain_gradients_with_adam(model, batch, avg, avg_sq):
 
 def prepare_optimizer_state(model, optimizer_state, device):
     names = [n for n, p in model.named_parameters() if p.requires_grad]
-    dic1 = {}
-    for idx,state in optimizer_state.items():
-        if idx<len(names):
-            dic1[names[idx]] = state
-    optimizer_state = dic1
+    # dic1 = {}
+    # for idx,state in optimizer_state.items():
+    #     if idx<len(names):
+    #         dic1[names[idx]] = state
+    # optimizer_state = dic1
 
 
     avg = torch.cat([optimizer_state[n]["exp_avg"].view(-1) for n in names])
@@ -272,6 +276,10 @@ def collect_grads(dataloader,
             if count == 1:
                 print("Using Sign gradients")
             vectorized_grads = obtain_sign_gradients(model, batch)
+        elif gradient_type == "dpo_sgd":
+            if count == 1:
+                print("Using DPO SGD gradients")
+            vectorized_grads = obtain_dpo_sgd_gradients(model, batch)
         else:
             if count == 1:
                 print("Using SGD gradients")

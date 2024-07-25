@@ -11,11 +11,17 @@ if [[ ! -d $output_path ]]; then
     mkdir -p $output_path
 fi
 
-python3 ../less/build_storage.py \
+command="python ../less/build_storage.py \
 --train_file $train_file \
 --info_type grads \
 --model_path $model \
 --output_path $output_path \
 --gradient_projection_dimension $dims \
---gradient_type $gradient_type \
---max_samples $max_samples
+--gradient_type $gradient_type"
+
+# Add max_samples argument only if it's not None
+if [[ $max_samples != "None" ]]; then
+    command+=" --max_samples $max_samples"
+fi
+
+eval $command

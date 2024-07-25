@@ -13,7 +13,7 @@ if [[ ! -d $output_path ]]; then
     mkdir -p $output_path
 fi
 
-python3 -m less.data_selection.matching \
+python3 ../less/influence_estimation.py \
 --gradient_path $gradient_path \
 --train_file_names $train_file_names \
 --ckpts $ckpts \
@@ -21,3 +21,4 @@ python3 -m less.data_selection.matching \
 --validation_gradient_path $validation_gradient_path \
 --target_task_names $target_task_names \
 --output_path $output_path
+

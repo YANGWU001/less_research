@@ -16,3 +16,4 @@ python3 ../less/data_selection_save.py \
 --train_files $train_files \
 --output_path $output_path \
 --percentage $percentage
+
