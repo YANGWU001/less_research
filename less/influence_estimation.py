@@ -23,6 +23,16 @@ argparser.add_argument('--output_path', type=str, default="selected_data",
 
 args = argparser.parse_args()
 
+
+data_task_name = args.target_task_names[0]
+if "hh" in data_task_name:
+    n_task = 2
+elif "shp" in data_task_name:
+    n_task = 18
+elif "se" in data_task_name:
+    n_task = 10
+
+print(n_task)
 N_SUBTASKS = {"mmlu": 57, "bbh": 27, "tydiqa": 9, "shp":1,"se":1,"hh":1, "shp_all":1, "se_5_shot":1,"hh_5_shot":1}
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
@@ -78,7 +88,7 @@ for target_task_name in args.target_task_names:
                     training_info=training_info, validation_info=validation_info)
         print(influence_score)
         influence_score = influence_score.reshape(
-            influence_score.shape[0], N_SUBTASKS[target_task_name], -1).mean(-1).max(-1)[0]
+            influence_score.shape[0], n_task, -1).mean(-1).max(-1)[0]
         print(influence_score)
         output_dir = os.path.join(args.output_path, target_task_name)
         if not os.path.exists(output_dir):

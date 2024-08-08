@@ -45,7 +45,7 @@ import argparse
 
 
 
-os.environ['CUDA_VISIBLE_DEVICES'] = '1,2,3,4'
+os.environ['CUDA_VISIBLE_DEVICES'] = '1,2,3'
 device_0 = torch.device('cuda:0' if torch.cuda.is_available() else 'cpu')
 device_1 = torch.device('cuda:1' if torch.cuda.is_available() else 'cpu')
 device_2 = torch.device('cuda:2' if torch.cuda.is_available() else 'cpu')
@@ -420,7 +420,7 @@ output_dir = args.output_dir
 # 读取 JSON 文件
 with open(shp_test_path, 'r') as file:
     data = json.load(file)
-reference_model_path = "/maas-us/notebook/users/yang-2ewu0520/models/Llama-2-7b-hf"
+reference_model_path = "meta-llama/Llama-2-7b-hf"
 
 tokenizer = AutoTokenizer.from_pretrained(reference_model_path)
 if tokenizer.pad_token is None:
@@ -430,7 +430,7 @@ max_prompt_length = 256
 batch_size = 1
 
 flat_data = []
-truncation_mode = 'keep_start'
+truncation_mode = 'keep_end' if ('hh' in args.data_path) else 'keep_start'
 for prompt, values in data.items():
     flat_data.append((prompt, values['responses'], values['pairs'], values['sft_target'], values["rejected_target"],truncation_mode))
 collate_fn = get_collate_fn(tokenizer)
@@ -452,7 +452,7 @@ block_size = 128  # fixed block size for the projectors
 projector_batch_size = 16  # batch size for the projectors
 torch.random.manual_seed(0)  # set the random seed for torch
 
-project_interval = 16  # project every 16 batches
+project_interval = 10  # project every 16 batches
 save_interval = 10  # save every 160 batches
 proj_dim = [8192]
 

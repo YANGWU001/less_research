@@ -1,0 +1,702 @@
+[
+    {
+        "dataset": "se",
+        "id": "se_16",
+        "messages": [
+            {
+                "role": "user",
+                "content": "\n\nHuman: <p>One of my colleagues at my institution, Prof. A, is the editor of a journal, Journal X, (and I am not involved in the journal in any way). I received an email by a professor, Prof. B, who had submitted two articles to Journal X and accuses Prof. A. of intentionally delaying the publication of these articles by not handling them properly. Prof. B claims that Prof. A did not answer his queries per email and that another editor of Journal X also did not answer his emails. The email I got from Prof. B was openly targeted to several other colleagues at my institution and also to a number of other people I do not know and also to Prof A. At the end of his email, Prof. B asks me (and the others - more or less verbatim) \"Is this attitude of Prof. A normal or are there any unethical elements [...]?\" and to \"join in this story\". </p>\n\n<p>I found it disturbing that Prof. B wrote such an email to such an audience and I would say that his way of addressing the situation was not ok. However, I wonder what my reaction should be. Normally, I would just stop by at Prof. A's office, but I am on sabbatical leave so this is not an option. I do not know more details about the issue of the publication, but I think that these do not really matter in this case, as I only want to ask about what I should do:</p>\n\n<ul>\n<li>Should I answer Prof. B that this way of addressing the issue was not ok?</li>\n<li>Should I inform Prof. A that I found this email inappropriate?</li>\n<li>Should I just act as if I haven't read this email?</li>\n</ul>\n\n<p>I would especially appreciate answers from people with experience on an editorial board, but other guiding comments are also helpful.</p>\n\n\nAssistant:"
+            },
+            {
+                "role": "assistant",
+                "content": " <p>Delete the email (or move it to one of your folders where you keep old ones).</p>\n\n<p>From what you describe, you have no business joining the complaint since you <em>have</em> no complaint again colleague A. It is, in other words, not something that actually affects you: someone has beef with colleague A, and that is their business, nor yours. Worse, if you did get involved -- even if just by writing back to B --, there is nothing for you to gain, just collegiality to lose. It's neither worth your time nor your reputation to act any further than reading, then ignoring the email.</p>\n\n<p>If anyone ever asks you whether you got the email, just tersely say \"Yes, I got it; it was none of my business, so I ignored it.\"</p>\n"
+            }
+        ]
+    },
+    {
+        "dataset": "se",
+        "id": "se_18",
+        "messages": [
+            {
+                "role": "user",
+                "content": "\n\nHuman: <p>I am about to finish an undergraduate degree, with a good enough GPA that even if I got C's in all of my current classes, my final overall cumulative GPA would remain above 3.6.</p>\n\n<p>Assuming I graduate with all the whistles in my diploma it would be:</p>\n\n<p>Honours Bachelors of science in computer science with distinction and a minor in pure mathematics (quite pompous).</p>\n\n<p>In order to complete all of those whistles I had to do supervised research for two semesters. Being a naive undergraduate, I knocked on proffessor's doors, asking for a supervisor, and one of them, very generously agreed. He suggested a problem I thought was interesting and so I started the research. I originally started throwing analysis at the problem, and started trying to solve some really complex differential equations (which kept me motivated). However I did not make much progress, so after my supervisor marked that I needed to get something, I fully changed my approach and started using some geometric approximations to solve the issue. This generated some results, but was too simple. I'd like to say that my results were inversely proportional to how much effort I was putting in the research.</p>\n\n<p>Time passed, I had multiple potential solutions and a way to evaluate them. On the last week before the final submission I realised there was a bug in my code base that was destroying the results (they were mathematically impossible). I tried to find the error, but the best I could do was identify an area where a mistake could have happened. </p>\n\n<p>Finally I got my evaluation on the course after presenting it. The feedback said the methods were a bit naive and could be improved on, and it was dissapointing that I didn't get numerical results (I had visual results, not numerical), however since I was not a seasoned researcher they decided to be lenient and gave me an A anyway.</p>\n\n<p>I applied to the grad program at my university, and asked the same proffessor to be my supervisor for the grad program. I am in desperate need of financial support until the grad program starts, and so my supervisor said I could do summer research for him and in the meanwhile we could discuss what the grad project could be. What he wants me to do is finish my previous work and get a publication. </p>\n\n<p>The issue is that I legitimately feel that dinking bleach would be more motivating (I am using this metaphor to convey just how much anxiety this is giving me). This research really does not appeal to me in any way or form, and the interesting part is over, all that is missing is finding the bug, which could take more than two weeks to solve and implementing a couple of modifications to make my naive methods less naive if things go well, or complete failure to finish it in the worst case.</p>\n\n<p>In addition to that I have been doing independent research simultaneously as I have been taking courses and doing everything else. Although this independent research still needs a lot of work, it's in a good place, I have already improved many of the papers I have read and have multiple ideas to explore. In an ideal world I would win the lottery tomorrow and I could just support myself while I carry on with this research.</p>\n\n<p>I am not sure how to approach my supervisor and tell him I don't want to finish this research, nor how to suggest to do my research instead and get a publication out of that, or even if I should touch on this topic at all.</p>\n\n\nAssistant:"
+            },
+            {
+                "role": "assistant",
+                "content": " <p><strong>Talk to your supervisor when you know how long you will need to finish the publication.</strong></p>\n\n<p>You are currently in the phase of a project where you have to make very sure everything really works. This is usually the least motivating stage, but it is absolutely necessary. So your supervisor will (hopefully) push you to go through this phase and finish the publication, because finishing research projects is something you have to learn as a budding researcher.</p>\n\n<p>Of course, not every project should be finished. If the costs (time invested) of a project outweigh the benefits (results and publication strength), your supervisor may want to abandon the project. It is important to find out how long you still need, and only then (if still applicable - maybe it's a two-week bug fix that doesn't feel like drinking bleach) have a discussion with your supervisor. You can bring up your independent research during that discussion as well - either as an alternative or as a next project.</p>\n"
+            }
+        ]
+    },
+    {
+        "dataset": "se",
+        "id": "se_33",
+        "messages": [
+            {
+                "role": "user",
+                "content": "\n\nHuman: <p>I am interested in using truly free (FLOSS) fonts for my academic writing. What are the most popular free fonts used in academic writing?</p>\n\n\nAssistant:"
+            },
+            {
+                "role": "assistant",
+                "content": " <p>Use what your target journal's guide for authors, and style guide, tell you to use. And if the journal supplies a template, use it.</p>\n\n<p>Typefaces vary by journal and by discipline. There is no meaningful single answer of a particular typeface.</p>\n\n<p>Assuming you actually do want to get published, then make your submitted paper look as much like existing papers in that journal as possible. And follow the target journals' guide for authors, and style guide. Those documents exist for a reason.</p>\n"
+            }
+        ]
+    },
+    {
+        "dataset": "se",
+        "id": "se_34",
+        "messages": [
+            {
+                "role": "user",
+                "content": "\n\nHuman: <p>I am currently a PhD student and I have done some research and got great results. I have a Twitter account in which I have not mentioned anything about my research. My followers are mainly normal people with a few researchers.</p>\n<p>I want to share some of my research results in my Twitter account. However these are planned to be published in a journal later this year. I do not know if it is acceptable to share a figure or two that may reveal many things about the research and the results.</p>\n<p>So, how will this impact my research future and journal publications? I have seen some researchers who share their results after their work is published. But I am excited about my results and I want to share some parts informally with the world.</p>\n\n\nAssistant:"
+            },
+            {
+                "role": "assistant",
+                "content": " <p>My suggestion is to avoid social media for such things. There are a couple of issues to consider. While you seem to retain copyright for posts to Twitter et. al. it might be hard to actually protect your rights since so many people see such things and they are in different legal jurisdictions.</p>\n<p>But a possibly more serious issue is whether posting constitutes &quot;publication&quot; of the material, including graphics. Some publications won't consider things that have been previously &quot;published&quot; other than in certain restricted ways, such as a preprint server.</p>\n<p>A website <a href=\"https://writingcooperative.com/is-posting-on-social-media-publication-or-not-1f720e414c2c\" rel=\"noreferrer\">used by poets</a>, for example, suggests that some poetry publishers won't consider things posted online in any form, discouraging poets from tweeting their work. Poetry is a bit different from most academic publishing, of course, but it is a consideration.</p>\n<p>I'd suggest holding expressions of your ideas a bit closer until you have a publisher. There are other forms of communication that don't &quot;broadcast&quot; your expression. While there are some advantages in being widely seen, it seems to me to be better if it is a bit more formal. You also avoid the possible problem of attracting cranks.</p>\n"
+            }
+        ]
+    },
+    {
+        "dataset": "se",
+        "id": "se_14",
+        "messages": [
+            {
+                "role": "user",
+                "content": "\n\nHuman: <p>Recently a manuscript from my Masters by research thesis has been accepted in a Q1 journal with Impact factor nearly 4. At the beginning of the manuscript submission, I requested my advisers to be the coauthors of my article but they denied my request. Is that ethically ok to publish the accepted manuscript?</p>\n\n\nAssistant:"
+            },
+            {
+                "role": "assistant",
+                "content": " <p>There are a few different situations that could lead to this:</p>\n<ol>\n<li><p><strong>Most plausible case:</strong> Your supervisors determined that in accordance with the standards of your field, they do not count as coauthors.</p>\n<p>Different fields have different customs concerning whether supervisors are assumed to be coauthors of papers resulting from the supervised work. If you worked independently and your supervisors agree, then being a single author on the resulting paper will always be reasonable. Since you mention asking them only at submission stage, it does sound as if their involvement is limited.</p>\n</li>\n<li><p>Your supervisors really ought to be coauthors by the standards of your field, but declined to give you an (unfair) advantage or similar.</p>\n<p>This is problematic from an ethical perspective. Having another persons consent still doesn't allow an academic to present their ideas as ones own. A carefully worded acknowledgement might work.</p>\n</li>\n<li><p>Your supervisors declined because they are aware of flaws in your paper, and don't want to be associated with it.</p>\n<p>While one would hope that peer review would spot problems, there is no guarantee that it does. If your supervisors are aware of any major flaws, it would be your ethical responsibility to find out and either fix the paper, or to withdraw it if it is unfixable.</p>\n</li>\n<li><p>The manusscript is sound, but your supervisors are under political pressure to not associate themselves with the results. (pointed out by nick012000 in the comments)</p>\n<p>Probably no ethical concerns about you publishing here, unless the political pressure is there for very good reasons.</p>\n</li>\n</ol>\n"
+            }
+        ]
+    },
+    {
+        "dataset": "se",
+        "id": "se_13",
+        "messages": [
+            {
+                "role": "user",
+                "content": "\n\nHuman: <p>Mac paused all my running apps (including Terminal) when the OS was low on memory. Now due to a Mac bug, the paused apps wouldn't continue even while I had clicked resume. I'd like to send SIGCONT (<code>kill -cont</code>) to the Terminal app.</p>\n\n<p>Is there an alternative Terminal?</p>\n\n\nAssistant:"
+            },
+            {
+                "role": "assistant",
+                "content": " <p>I have the same problem with my MBP running Mac OS 10.13.1. My non-Apple monitors are plugged into an OWC Thunderbolt 3 Dock using USB-C to Display Port and Thunderbolt to Display Port cables. So far, the only solution I have come up with is to keep my monitors awake. I am using a black screen saver to make the monitors go dark after 10 minutes. While this is not ideal, it does solve the issue of the displays changing places.</p>\n"
+            }
+        ]
+    },
+    {
+        "dataset": "se",
+        "id": "se_18",
+        "messages": [
+            {
+                "role": "user",
+                "content": "\n\nHuman: <p>My iPhone 4 periodically does not wake up from being locked. I have to wake it by holding the home and power buttons. This is happening a lot more frequently as of late than before. It has the latest OS. It seems quite <a href=\"https://discussions.apple.com/thread.jspa?threadID=2476608&amp;start=0&amp;tstart=0\" rel=\"nofollow noreferrer\">a few people</a> have the same problem. Does anyone know a solution to this problem? None that I found on the Apple forum seems to solve it.</p>\n\n\nAssistant:"
+            },
+            {
+                "role": "assistant",
+                "content": " <p>You could try going by the Apple Store to meet with a Genius (if there is one close enough to you). They have diagnostics they'll run for free to see if something weird is going on with your phone. <a href=\"http://www.apple.com/retail/geniusbar/\" rel=\"nofollow\">Make an appointment online.</a></p>\n"
+            }
+        ]
+    },
+    {
+        "dataset": "se",
+        "id": "se_200",
+        "messages": [
+            {
+                "role": "user",
+                "content": "\n\nHuman: <p>I have an iPad 2 currently using my AppleID. I want to reset it\n(almost) completely and change it to my girlfriend's Apple ID.</p>\n\n<p><strong>The thing is:</strong> there are 2 or 3 apps whose data we really don't want to\nloose. They are free apps, so it's trivial to reinstall them under the\nnew account.</p>\n\n<p>I only need a way of backing up the data of these apps <strong>under <em>my</em> Apple\nID</strong> and then restoring it <strong>under <em>her</em> Apple ID</strong>.</p>\n\n<p>Is there a way to achieve this?</p>\n\n<p>I'm not trying to transfer purchases or anything like that, just copy\nsome data.</p>\n\n<p><em>NOTE:</em> The software needs to be Windows or Linux.</p>\n\n\nAssistant:"
+            },
+            {
+                "role": "assistant",
+                "content": " <p>You can backup data from apps with a program such as <a href=\"https://ecamm.com/mac/phoneview/\" rel=\"nofollow\">PhoneView</a> (Mac) or <a href=\"http://www.i-funbox.com/\" rel=\"nofollow\">iFunBox</a> (Mac &amp; Windows).</p>\n\n<blockquote>\n  <p>Browse, manage and download most any data saved by App Store apps from your iPhone, iPad or iPod Touch. If you're looking for a quick way to download saved recordings, videos or images from your apps, this is it. Even transfer game high scores between devices. <em>--PhoneView</em></p>\n</blockquote>\n\n<p>This data can then be restored to a new installation of an app under a different Apple ID or even on a different device.</p>\n"
+            }
+        ]
+    },
+    {
+        "dataset": "se",
+        "id": "se_139",
+        "messages": [
+            {
+                "role": "user",
+                "content": "\n\nHuman: <p>I haven't upgraded to Yosemite on my Mac yet and still using Mavericks. I wanted to purchase an app during its promotion period but the app min version is 10.10 so Mac App Store complains saying that the app cannot be installed and does not even allow me to purchase. Is there a way where I can just purchase even though I might not have to download and install it. I searched and could not find any way (iTunes does not support). </p>\n\n<p>While I might upgrade shortly, it might take time since I want to take proper backups and then upgrade during which the promotion of the app might be over.</p>\n\n\nAssistant:"
+            },
+            {
+                "role": "assistant",
+                "content": " <p>Unfortunately, the only way I've found the App Store to cooperate with that was to create a user account on a compatible system from which to log into the App Store and download the now-compatible app. For example, on my Lion system with a 32-bit EFI, I was unable to download Mountain Lion or newer to install on my daughter's MBA. I had to log into her Air in my account to download the OS upgrade for her.</p>\n\n<p>Not convenient.</p>\n"
+            }
+        ]
+    },
+    {
+        "dataset": "se",
+        "id": "se_99",
+        "messages": [
+            {
+                "role": "user",
+                "content": "\n\nHuman: <p>I am using Microsoft Office 2011 Suite on my MacBook Pro with Retina Display.</p>\n\n<p>The user interfaces are super blur as shown below.</p>\n\n<p><img src=\"https://i.stack.imgur.com/Rbr2Q.png\" alt=\"enter image description here\"></p>\n\n<p><img src=\"https://i.stack.imgur.com/ETicP.png\" alt=\"enter image description here\"></p>\n\n<p>Am I missing out some patches or paddings or MS Office does not support retina display at all?</p>\n\n\nAssistant:"
+            },
+            {
+                "role": "assistant",
+                "content": " <p>According to <a href=\"http://blog.officeformac.com/retina-display-support-is-here-for-office-for-mac-2011/\" rel=\"nofollow\">Microsoft</a>, they've supported Retina Display since version 14.2.4. If you are using an older version of Office 2011, then you should upgrade.</p>\n"
+            }
+        ]
+    },
+    {
+        "dataset": "se",
+        "id": "se_388",
+        "messages": [
+            {
+                "role": "user",
+                "content": "\n\nHuman: <p>Calculator is opening multiple times automatically during normal operation and while idle.</p>\n\n\nAssistant:"
+            },
+            {
+                "role": "assistant",
+                "content": " <p>Worth a shot:</p>\n\n<p>Many keyboards have a key to open the calculator, perhaps yours is stuck.</p>\n\n<p>To check if this is happening, go to <em>System \u2192 Preferences \u2192 Keyboard Shortcuts</em> and look for \"Launch Calculator\". The assigned key should be <code>XF86Calculator</code>.</p>\n\n<p>Set a new shortcut, one that you're not going to trigger by accident, and see if it's still happening.</p>\n"
+            }
+        ]
+    },
+    {
+        "dataset": "se",
+        "id": "se_782",
+        "messages": [
+            {
+                "role": "user",
+                "content": "\n\nHuman: <p>Back story: I installed ubuntu with wubi. I had windows on one NTFS partition, then I made a new NTFS partition in which I put wubi in and where My ubuntu OS was born. Eventually I moved /home into another partition and made a swap partition, but I digress.</p>\n\n<p>I deleted My original NTFS partition where windows is not thinking it would not matter but now I can't get into ubuntu. And the weird thing is that when I boot my computer I still see the option to boot into both windows and ubuntu. When I try to boot into windows, It tries to fix stuff and never succeds. When I try to boot into ubuntu, it shows me \"cannot find GRLDR in all devices. Press CTRL+ALT+DELETE to restart\". </p>\n\n<p>so, what do you guys think? I just want ubuntu running again, with all my stuff in /home there and all my system preferences how I like them.</p>\n\n<p>EDIT: Boot Repair disk did its thing but it did not fix anything. I think I will be installing ubuntu from cd then transferring /home and such manually.</p>\n\n\nAssistant:"
+            },
+            {
+                "role": "assistant",
+                "content": " <p>This is what happened:</p>\n\n<p>Wubi uses the Windows boot manager to load it, even if it's on a separate partition.  So by deleting your Windows partition, you have deleted the \"pointer\" that tells your computer where to look for the Wubi install.  Now, I in all fairness don't know that much about Wubi (how <em>exactly</em> it is booted) so I can't tell you the <em>exact</em> steps.</p>\n\n<p>There is almost certainly a better way to do this.  Wubi stores your OS in a virtual hard disk file.  It's possible that it could be extracted to a separate partition and booted.  BUT that's a little complex and you might run into some issues because of the way it's set up.  So, here's something you can do:</p>\n\n<p>Boot up an Ubuntu LiveCD or USB that is the same architecture (32- or 64-bit) and version as your Wubi install.  (I assume you already know how to do this, but just in case you didn't use the LiveCD earlier run <code>sudo gparted</code> to edit partitions easily).  Tell it to look for a lost partition or partitions.  <strong>As long as you have not written to the space where it was, your data will still be there.</strong>  Now, you can run Startup repair for Windows to automatically restore the boot sector of the partition, and voila!  You should be able to boot your Wubi install once again.</p>\n\n<p>If you <strong>have</strong> written to the partition space, try making a new NTFS partition with the same size and dimensions of the previous one and running file recovery.  For instance:</p>\n\n<p>Boot up Hiren's Boot CD and start the Windows XP option.  Then, install Piriform's Recuva and look for C:\\boot.ini.  Once you have that copied to a flash drive, install Windows again and copy that file over the new boot.ini.  You should be able to start up your Wubi install again.</p>\n\n<p>See the <a href=\"https://help.ubuntu.com/community/DataRecovery\" rel=\"nofollow\" title=\"Data recovery\">Ubuntu community wiki on data recovery</a> for more information</p>\n"
+            }
+        ]
+    },
+    {
+        "dataset": "se",
+        "id": "se_399",
+        "messages": [
+            {
+                "role": "user",
+                "content": "\n\nHuman: <p>Anyone know where the powerpc iso for natty is?  I found the one for oneiric -- <a href=\"http://cdimage.ubuntu.com/daily/current/\" rel=\"nofollow\">http://cdimage.ubuntu.com/daily/current/</a> but there is not one for natty in <a href=\"http://cdimage.ubuntu.com/ports/releases/\" rel=\"nofollow\">http://cdimage.ubuntu.com/ports/releases/</a></p>\n\n\nAssistant:"
+            },
+            {
+                "role": "assistant",
+                "content": " <p>There is <a href=\"https://lists.ubuntu.com/archives/ubuntu-announce/2007-February/000098.html\" rel=\"nofollow\">no <strong>official</strong> PowerPC support in Ubuntu since 7.04</a>.</p>\n\n<p>Unofficial ports are made exclusively by volunteers, and always lag a bit behind. So I guess you just have to be patient. </p>\n"
+            }
+        ]
+    },
+    {
+        "dataset": "se",
+        "id": "se_277",
+        "messages": [
+            {
+                "role": "user",
+                "content": "\n\nHuman: <p>I'm getting familiar with the terminal commands, and I came across <a href=\"https://toolbelt.herokuapp.com/linux\" rel=\"noreferrer\">this</a> command to install the Heroku toolbelt:</p>\n\n<pre><code>wget -qO- https://toolbelt.heroku.com/install.sh | sh\n</code></pre>\n\n<p>Now from <a href=\"http://manpages.ubuntu.com/manpages/lucid/man1/wget.1.html\" rel=\"noreferrer\">here</a> I gather that wget is used to download files from the internet through various supported protocols, and they'll download even if I logoff.</p>\n\n<p>Is that right?</p>\n\n<p>And I wanted to know two more things about that command :</p>\n\n<ol>\n<li><p>I see <code>-q0-</code> in the code. What does it mean? From manpages I see that <code>-q</code> is used to turn the output of <code>Wget</code> off. But what does that mean too? And how is using <code>-q</code> different from <code>-q0-</code></p></li>\n<li><p>What is the <code>|sh</code> at the end of the command for? What does that do?</p></li>\n</ol>\n\n<p>Thank you very much for the time!</p>\n\n\nAssistant:"
+            },
+            {
+                "role": "assistant",
+                "content": " <p>That command actually is <code>wget -qO</code> not <code>wget -q0</code>.</p>\n\n<p>It will download the file <em>https://toolbelt.heroku.com/install.sh</em> silently (<em>-q</em> option) and anything downloaded will be will be concatenated together and written to a single file buffer file (<em>-O</em> option), that downloaded buffer will then be pipped to and executed with <code>sh</code>.</p>\n\n<p><a href=\"http://en.wikipedia.org/wiki/Bourne_shell\" rel=\"noreferrer\"><code>sh</code></a> is a shell interpreter that will run the information that wget just downloaded.</p>\n\n<p>So, in simple words you are telling with this command: download this sh file and don't create a progress output and whatever you download execute it with <code>sh</code>.</p>\n"
+            }
+        ]
+    },
+    {
+        "dataset": "se",
+        "id": "se_41",
+        "messages": [
+            {
+                "role": "user",
+                "content": "\n\nHuman: <p>Help! just installed Ubuntu to replace XP. Excellent so far, except Ubuntu will not accept the install disc for my HP Deskjet F4580. It has recognised the item and allowed me to print even before I tried the disc. Now I wish to scan documents and I can't do this without the HP software installed. It keeps telling me the Archive manager has an error when I try to get it to read the HP disc.It has the HP menu but not start the Set Up process. Is there a remedy please. I really use my scanner a lot and am now lost. Any useful comments please. Stuart</p>\n\n\nAssistant:"
+            },
+            {
+                "role": "assistant",
+                "content": " <h1>Step 1: Install <code>hplip-gui</code></h1>\n<p>This app does not show up in Ubuntu Software Center. However, it can be installed from the terminal or <code>synaptic</code>. To install it from the terminal open a terminal by pressing <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>T</kbd> and enter:</p>\n<pre><code>sudo apt install hplip-gui\n</code></pre>\n<p>Enter your password when prompted. You won't see the cursor move or <code>*******</code> when you type the password in the terminal. This is normal.</p>\n<h1>Step 2: Install <code>simple-scan</code></h1>\n<p>This is the scanning utility for Ubuntu. You can either install it from the <strong>Ubuntu Software Center</strong> or from the terminal. At the terminal, enter:</p>\n<pre><code>sudo apt install simple-scan\n</code></pre>\n<h1>Or Combine the 2 Steps</h1>\n<p>You can use one command to install both the software:</p>\n<pre><code>sudo apt install hplip-gui simple-scan\n</code></pre>\n<h1>To Scan a Document</h1>\n<p>Open the <code>simple-scan</code> program when you want to scan a document. Ubuntu does not support scanning directly from the printer.</p>\n<p>Hope this helps</p>\n"
+            }
+        ]
+    },
+    {
+        "dataset": "se",
+        "id": "se_15",
+        "messages": [
+            {
+                "role": "user",
+                "content": "\n\nHuman: <p>It may seem silly, but being a non-native English speaker (and writer), I find it difficult sometimes to choose appropriate words for my writing. </p>\n\n<p>Can someone help me to find a COMMON word for all the \"Artifical accidents\", like Roadside accidents, building collapse, or fire, or someone who falls from the building?</p>\n\n\nAssistant:"
+            },
+            {
+                "role": "assistant",
+                "content": " <p>Paint by Numbers is a technique for non artists to achieve a reasonable result in a painting exercise.</p>\n\n<p><a href=\"https://i.stack.imgur.com/5LKgf.png\" rel=\"noreferrer\"><img src=\"https://i.stack.imgur.com/5LKgf.png\" alt=\"Paint by Numbers image\"></a></p>\n\n<p>Each number in the painting resolves to a particular colour and the non artist just has to pick the correct colour and stay [more or less] within the lines to achieve a reasonable result.</p>\n\n<p>So, in context</p>\n\n<p><strong>Everybody wants a solution [for scalable ad campaigns] that is easy and can be achieved by a non marketing expert</strong></p>\n"
+            }
+        ]
+    },
+    {
+        "dataset": "se",
+        "id": "se_406",
+        "messages": [
+            {
+                "role": "user",
+                "content": "\n\nHuman: <p>What is the difference between the verbs <em>comprehend</em> and <em>understand</em>?</p>\n\n<p>Can we say </p>\n\n<blockquote>\n  <p>comprehend a lesson</p>\n</blockquote>\n\n<p>?</p>\n\n\nAssistant:"
+            },
+            {
+                "role": "assistant",
+                "content": " <p>According to the dictionary, <em>comprehend</em> simply means <em>understand,</em> but to me the connotations are slightly different.  <em>Comprehend</em> seems more \"comprehensive\" --I would describe it as a deeper and more complete level of understanding.  </p>\n\n<p>I also see <em>comprehend</em> as dealing more with ability, the mental capacity to grasp something.  For instance, I would say \"I <em>understand</em> French, I <em>comprehend</em> physics.\"  In terms of French, I either know what the words mean or I don't, it's (arguably) not a conceptual leap.  For physics, I actually need to see the world in a different way.</p>\n\n<p>You might say that a child comprehends a lesson, but only if it represents an actual conceptual advance, not just memorization.</p>\n"
+            }
+        ]
+    },
+    {
+        "dataset": "se",
+        "id": "se_321",
+        "messages": [
+            {
+                "role": "user",
+                "content": "\n\nHuman: <p>Of course it would be preferable to say, \"He put a box on the shelf,\" but is it incorrect to say \"He put on the shelf a box?\" </p>\n\n<p>This sentence was an item on a test for people with aphasia. The target sentence is \"He put the box on the shelf.\" Inversions are acceptable if they're correct. An easier example is \"She is giving the boy a present\" for \"She is giving a present to the boy.\"</p>\n\n\nAssistant:"
+            },
+            {
+                "role": "assistant",
+                "content": " <p>Not only is this word order correct, it may also be the preferred order in the special case where the direct object (\"a box\" in your example sentence) is modified by one or more lengthy modifier phrases and clauses. For example:</p>\n\n<blockquote>\n  <p><strong>He put on the shelf a box</strong> of mementos that his grandmother had brought from the Old Country when she fled from the murderous persecutors who were pursuing her.</p>\n</blockquote>\n\n<p>The above inversion sounds much better than the normal SVO order:</p>\n\n<blockquote>\n  <p><strong>He put a box</strong> of mementos that his grandmother had brought from the Old Country when she fled from the murderous persecutors who were pursuing her <strong>on the shelf</strong>.</p>\n</blockquote>\n"
+            }
+        ]
+    },
+    {
+        "dataset": "se",
+        "id": "se_405",
+        "messages": [
+            {
+                "role": "user",
+                "content": "\n\nHuman: <p>There are a few questions about past vs. passed, but it seems to me that this is very much a subtle matter, where small changes can change the answer, so here is yet another one.</p>\n\n<p>If you were to say, \"Go past/passed the store, then take a left.\", would it be <em>past</em> or <em>passed?</em></p>\n\n<p>A friend of mine insists that it is <em>passed,</em> but I disagree.  She is so convinced that it is <em>passed</em> that she believes I am being willfully ignorant.  I am not an expert in the English language, so it's possible that I'm wrong, but it would be a surprise to me if I were.  So, StackExchange, what's the verdict?  Who's right?</p>\n\n\nAssistant:"
+            },
+            {
+                "role": "assistant",
+                "content": " <p><em>Past</em>, rather than <em>passed</em>, is certainly what is needed here, but it\u2019s not, as others have said, an adverb when used in this way. It\u2019s a preposition having <em>the store</em> as its complement. </p>\n"
+            }
+        ]
+    },
+    {
+        "dataset": "se",
+        "id": "se_171",
+        "messages": [
+            {
+                "role": "user",
+                "content": "\n\nHuman: <p>I'm an alien worker here in USA.\nThis happens a lot when I start chit-chatting with a stranger, he/she would ask \"Where're you from?\"\n\"China\" I say.\nThen chances are the following question would be \"Which part of China are you from?\"</p>\n\n<p>I never figured out the best answer to the \"which part\" question. I guess average Americans don't know world geography as good as the rest of world knows about America, so why bother asking \"which part\"?</p>\n\n<p>Then I thought this might just be a polite way of keeping on the conversation. Sometimes I tried to give a specific answer like my province or the nearby famous city, but almost always got a \"I don't know where the heck is that and not interested in knowing\" face. Otherwise, I'd just give a general direction like Southeast, but that makes me feel I'm being too perfunctory to the nice guy. Either way, the topic is quickly switched over with a bit of awkwardness.</p>\n\n<p>What do Americans expect when asking the \"which part\" question? Is there a short yet nice way of answering that question without having to give a geography lecture?</p>\n\n\nAssistant:"
+            },
+            {
+                "role": "assistant",
+                "content": " <p>You are right, people often ask stupid questions based on ignorance and thoughtlessness.  Now I will answer the question that you didn't ask -- <strong>what should you say in response?</strong></p>\n\n<p>Say something charming and intriguing about the place or region where you grew up, with a brief geographic orientation so they can imagine it on a a map.  For example:</p>\n\n<blockquote>\n  <p>My partner is from a tiny village in northern Germany, that has two small grocery stores, one gas station, two churches (one Lutheran and one Catholic), and a one-room public library that is open two afternoons per week.</p>\n</blockquote>\n\n<p>Now, this person knows at least twice as much about the geography of China than he did before he asked!</p>\n\n<p>You follow up by asking them where they're from.</p>\n"
+            }
+        ]
+    },
+    {
+        "dataset": "se",
+        "id": "se_160",
+        "messages": [
+            {
+                "role": "user",
+                "content": "\n\nHuman: <p>It says on the <a href=\"http://www.minecraftwiki.net/wiki/Skin\" rel=\"nofollow noreferrer\">wiki page</a> and in <a href=\"https://gaming.stackexchange.com/questions/18192/is-it-possible-in-minecraft-to-change-your-skin-in-single-player\">this question</a> that you can change you skin online, but my brother actually bought the game and we just share it and play in offline mode.</p>\n\n<p>Is it possible to do this offline? I've tried changing the char.png file, and it changes my image, but it also changes both of theirs and we all still look the same, and they can't see it.</p>\n\n\nAssistant:"
+            },
+            {
+                "role": "assistant",
+                "content": " <p>When you say \"play offline\", do you mean you simply play the solo game mode?  Or do you mean that you play without a net connection.</p>\n\n<p>If you're playing without a connection to the internet, you won't be able to log in to your <a href=\"http://www.minecraft.net/\" rel=\"nofollow noreferrer\">Minecraft</a> account.  Even if you've changed the skin associated with your account, when playing offline your skin will always be the default.</p>\n"
+            }
+        ]
+    },
+    {
+        "dataset": "se",
+        "id": "se_91",
+        "messages": [
+            {
+                "role": "user",
+                "content": "\n\nHuman: <p>Does Nunu's ultimate get cancelled by <em>any</em> crowd control like slow, or only by hard CCs like a snare or stun?</p>\n\n\nAssistant:"
+            },
+            {
+                "role": "assistant",
+                "content": " <p>Nunu's Ulti gets canceled by any hard CC, like Knock ups, knock backs, silence, suppression, stun, charm, and polymorph. This is why Banshee's Veil is a popular item on this champ. Slows have no effect on his ultimate, as they do not interrupt anything. </p>\n\n<p>Note that interrupting his ultimate doesn't fully cancel it. Part of the damage will still be dealt. This damage will be <a href=\"http://na.leagueoflegends.com/board/showthread.php?t=2325425\" rel=\"nofollow noreferrer\">between 12.5% and 87.5%</a> of the full damage, depending on how long he was channeling.</p>\n"
+            }
+        ]
+    },
+    {
+        "dataset": "se",
+        "id": "se_139",
+        "messages": [
+            {
+                "role": "user",
+                "content": "\n\nHuman: <p>Is there a tool that will monitor Minecraft servers and notify you when they come online? </p>\n\n<p>How hard would it be to make such a tool? How would you check without using the Minecraft client?</p>\n\n\nAssistant:"
+            },
+            {
+                "role": "assistant",
+                "content": " <p>I think this is what your looking for : <a href=\"http://www.xboxmb.com/forum/52-programming/31864-minecraft-server-status-checker-using-kinks-snippet.html\" rel=\"noreferrer\"> Minecraft Server Status Checker</a></p>\n\n<p><img src=\"https://i.stack.imgur.com/2SDFF.png\" alt=\"enter image description here\"></p>\n"
+            }
+        ]
+    },
+    {
+        "dataset": "se",
+        "id": "se_72",
+        "messages": [
+            {
+                "role": "user",
+                "content": "\n\nHuman: <p>Cloak and dagger has 100% generation rate, besides you remain half-invisible even if the cloak is depleted. This looks like it has lots of advantages over Invisibility Watch but not any shortcomings. But there has to be some. Can someone tell me what they are?</p>\n\n<p>And considering these disadvantages what is the best situation to use it instead of regular Invisibility Watch?</p>\n\n\nAssistant:"
+            },
+            {
+                "role": "assistant",
+                "content": " <p>A few disadvantages:</p>\n\n<ol>\n<li><p>It has less overall cloak time than the Invisibility Watch if you're running (6.6s vs. 9s).</p></li>\n<li><p>Whilst cloaked, you cannot use ammo boxes or dropped weapons to recharge your cloak, you must decloak to pick them up. With the Invisibility Watch, you can pick them up under full cloak.</p></li>\n</ol>\n"
+            }
+        ]
+    },
+    {
+        "dataset": "se",
+        "id": "se_36",
+        "messages": [
+            {
+                "role": "user",
+                "content": "\n\nHuman: <p>My character is a soldier and doesn't have a good regenerative shield like the one used by krypton321 in the YouTube video. I am able to get around 50% of the armor down and then both my squad mates die. I had no med gel to start with, so that is another problem. Once the squad mates die, it gets harder to take the barrier down as well. What I have done so far is to run around the platform and then take a few shots. </p>\n\n<p>A good shield would have been helpful. I think the soldier option was not very smart. Without a good shield, collector ship is going to be a problem as well. </p>\n\n<p>Edit: I finished Horizon. Same strategy. Needed to run around the platform. Cannot expect much from the squad. I had Garrus and Mordin as squad mates. Mordin was useful to bring the armor down with incineration as long he was alive. Around 75% armor both of them died. I used rifle and heavy reave until the armor was close to 25% and then used the collector particle beam to take out the rest. Died way too many times. Key is to run from cover to cover and never get caught on the inside. Don't wait for the praetorian to get too close or you will take heavy damage if you don't have a good shield. </p>\n\n<p>Edit 2: On the collector ship now. Completed 4 loyalty missions without any problem (Miranda, Jacob, Mordin and Grunt in that order). The ambush part doesn't look good at all. Died a few times already. May be I will try next weekend. </p>\n\n<p>Edit 3: After 2 hours of trying I gave up on the collector ship as soldier. I also kept seeing the message \"Sentinels are nearly indestructible. Tech armor gives additional layer of protection...\". So I started a sentinel career on insanity difficulty. So far it has been good. I completed the horizon fairly easily as well because I could restore my shields often. Hopefully that will help on collector ship. </p>\n\n<p>Edit 4: I have completed the collector ship with Miranda and Jack. Grunt kept dying. Tech armor helped a lot. </p>\n\n<p>Edit 5: I have completed the game on insanity. Completing all loyalty missions helped with the upgrades necessary for the final battle. It wasn't hard with all that heavy damages. Took grunt and legion along at collector base because they have shields. Too many harbingers while fighting the reaper though. Used legions combat drones to distract the harbinger. Had armor piercing ammo (tungsten rounds) as the power. Again, thanks to the tech armor. </p>\n\n\nAssistant:"
+            },
+            {
+                "role": "assistant",
+                "content": " <p>Welcome to Gaming.stackexchange!</p>\n\n<p>Anyway, you're right about the Praetorians being general P.I.T.A.s on Insanity, and it sounds like you're already using the optimal strategy: find a pillar or other large environmental cover, and simply keep it between yourself and the praetorian, peeking out and letting rip with powers when you can (warp is very useful here). </p>\n\n<p>Use what heavy weapons you can -- the Collector Particle gun is a good choice due to its R.O.F. and accuracy, and the cain retains its awesome damage (assuming you can survive long enough to get it off).</p>\n\n<p>Don't be discouraged if it takes you several tries -- the fights are hard, especially on the Collector Ship, when you have to fight off drones + harbinger at the same time.</p>\n"
+            }
+        ]
+    },
+    {
+        "dataset": "se",
+        "id": "se_76",
+        "messages": [
+            {
+                "role": "user",
+                "content": "\n\nHuman: <p>I'm a 10 year old with a question. If you have a waterproof box the shape of a prism with an open top and you have a lid that fits perfectly in the top and you fill the box with water then put the lid on top, will the lid float or sink?</p>\n\n\nAssistant:"
+            },
+            {
+                "role": "assistant",
+                "content": " <p>The laws of thermodynamics state quite clearly that the increase in entropy at your power plant supplying the input power must be greater than the decrease in entropy in your machine which is pumping heat from a cooler region to a warmer one.  This implies that the input power is greater than the output power.</p>\n\n<p>You might be interested to know, though, that power <strong>can</strong> be produced from <strong>differences</strong> in ambient temperature.  For instance, if your groundwater is 15 K warmer than your atmosphere in the winter, you could build a power plant which requires no input power once it is running.  This is made possible because the required increase in entropy can be satisfied by allowing large amounts of heat to flow from the groundwater into the atmosphere in the process of extracting power.</p>\n\n<p>Edit:</p>\n\n<p>The machine you would like to build is a slightly messy version of a \"perpetual motion machine of the second kind\" about which you can read here:</p>\n\n<p><a href=\"https://en.wikipedia.org/wiki/Perpetual_motion\" rel=\"nofollow\">https://en.wikipedia.org/wiki/Perpetual_motion</a></p>\n\n<p>This might also be good to read:</p>\n\n<p><a href=\"https://en.wikipedia.org/wiki/Carnot_cycle\" rel=\"nofollow\">https://en.wikipedia.org/wiki/Carnot_cycle</a></p>\n"
+            }
+        ]
+    },
+    {
+        "dataset": "se",
+        "id": "se_162",
+        "messages": [
+            {
+                "role": "user",
+                "content": "\n\nHuman: <p>According to Newton's third law, whenever objects A and B interact with each other, they exert equal and opposite forces upon each other. I have always struggled with how to apply this law to problems and real life.</p>\n\n<blockquote>\n  <p>Suppose I get a pull from my friend with some force, then I get pulled forward by  a large distance as compared to the distance covered by my friend. Isn't this a case where Newton's third law of motion fails?  Or, does this happen because of the difference in our masses?</p>\n</blockquote>\n\n<p>My second question is about the tension in the rope in Atwood's Machine (two unequal masses connected by a rope on either side of a friction-less pulley). <a href=\"http://hyperphysics.phy-astr.gsu.edu/hbase/atwd.html\" rel=\"noreferrer\">http://hyperphysics.phy-astr.gsu.edu/hbase/atwd.html</a> I have solved various pulley mass problems but I have not thought about applying Newton's Third Law of Motion to it.</p>\n\n<blockquote>\n  <p>Is tension the counterforce to weight? Consider a segment of rope from which a  mass is suspended in Atwood's Machine.  That segment will experience a force $m1g$ from the weight. People say this weight is the reason for the counterforce in that segment, and that this force will travel all the way through the rope to the other segment resulting in a uniform tension.  If this is correct then I can see the uniform tension around the rope as an application of newton's third law but the fact  that this resulted from the weight negates the third law and also this will mean that m1=m2 where m1 and m2 are the masses at each segment\n  ...can somebody explain this to me</p>\n</blockquote>\n\n\nAssistant:"
+            },
+            {
+                "role": "assistant",
+                "content": " <p>If you and your friend are interacting, when he pulls you, he will feel that you apply to him the same force as he applies to you. If both of you are in vacuum and no further forces are present, the change in momentum will be equal for both of you. If further forces like friction are present, then the total forces acting on each of you might differ. But the parts which come due to you two interacting with each other will still be equal.</p>\n\n<p>In the rope example there are two things playing a role and they should be kept apart:</p>\n\n<ol>\n<li>Each segment of the rope acts on any of the adjacent segments with the same force as the adjacent segment acts on it. Here we are looking at forces acting on different objects interacting with each other. This is Newton's 3rd law.</li>\n<li>The weight and the rope (and thus each segment of the rope) are in a force equilibrium, so the total force on each segment exercised by both adjacent segments totals to zero. Here we are looking at the forces on one object exercised by all other objects it interacts with.</li>\n</ol>\n\n<p>While the first point is always true, the second one doesn't have to be true, say, if the rope and the weight are in a free fall accelerating towards the earth, rather than in an equilibrium situation. Obviously, there will be no tension force in case that the second point is not given.</p>\n"
+            }
+        ]
+    },
+    {
+        "dataset": "se",
+        "id": "se_322",
+        "messages": [
+            {
+                "role": "user",
+                "content": "\n\nHuman: <p><a href=\"https://i.stack.imgur.com/WeZtU.png\" rel=\"nofollow noreferrer\"><img src=\"https://i.stack.imgur.com/WeZtU.png\" alt=\"enter image description here\"></a></p>\n\n<p><strong>Question</strong>: Calculate the efficiency of the real and ideal cycles.</p>\n\n<p>The process 1-2 is polytropic, 2-3 is isochoric, 3-4 is polytropic as well, and 4-1 completes the cycle with another isochoric process.</p>\n\n<p><strong>My attempt:</strong> I know that to calculate the efficiency of a cycle we must know the work done as output and the heat supplied to the system. As such, the efficiency will be the ratio of these two:\n$$\\eta = \\frac{w_{out}}{q_{in}}$$\nFrom this diagram, I am able to calculate $w_{out}$ but I don't see how $q_{in}$ can be determined.</p>\n\n<p>I originally just thought it to be equal to the work done from process 1-2, but I don't see think that is correct at all.</p>\n\n<p>Would the heat in be through the isochoric process 4-1?</p>\n\n<p>I'm not even sure if the heat in can be calculated straight from the p-v diagram. </p>\n\n<p>Any help regarding how to determine $q_{in}$ would be greatly appreciated.</p>\n\n<p><strong>Edit:</strong> Can assume a working substance is undergoing this cycle. E.g. air</p>\n\n\nAssistant:"
+            },
+            {
+                "role": "assistant",
+                "content": " <p>See if you can show that, for a polytropic expansion or compression, $$Q=m\\left[C_V-\\frac{R}{(n-1)}\\right]\\Delta T$$where m is the number of moles.  So you can get the heat for the polytropic expansion and compression in your process by knowing the temperatures and pressures at the two end points (using the polytropic equation in conjunction with the ideal gas law).  So, the first step in your calculation should be to get the temperatures and pressures at the four corners of your cycle.  </p>\n\n<p>Of course, for the constant volume changes, $Q=mC_v\\Delta T$.  </p>\n\n<p>So you can get the heat for all four legs of your cycle.</p>\n"
+            }
+        ]
+    },
+    {
+        "dataset": "se",
+        "id": "se_524",
+        "messages": [
+            {
+                "role": "user",
+                "content": "\n\nHuman: <p>I have read that destructive interference between water waves always leads to the creation of smaller waves which eventually die out. </p>\n\n<p>Why, in particular for water waves, it is hard to cancel each other?</p>\n\n\nAssistant:"
+            },
+            {
+                "role": "assistant",
+                "content": " <p>Interference requires exactly same frequency in both the sources and also needs them to be coherent i.e. their phase relation must remain same throughout. It's very hard to create such things for macroscopic water bodies. Nevertheless in laboratory environment, you can see perfect interference in water waves.</p>\n"
+            }
+        ]
+    },
+    {
+        "dataset": "se",
+        "id": "se_365",
+        "messages": [
+            {
+                "role": "user",
+                "content": "\n\nHuman: <p>Electrons show a banded distribution at the end of a double-slit experiment set-up. This banded pattern shows that wave interference prevents many electrons from reaching areas where probability is lowest.</p>\n<p>My question is about how an electron can pass through both slits without dividing because electrons are detected in whole at the end of the experiment.</p>\n<p>How does a single object pass through two separate areas (the two slits) at once?</p>\n\n\nAssistant:"
+            },
+            {
+                "role": "assistant",
+                "content": " <p>A wave function is not a particle until it is detected.</p>\n<p>The wave function relates to the relative likelihood of detecting the particle at each point &amp; time.</p>\n<p>Whereas a wave function is spread out in both space and time, a particle can have a definite position or momentum at a given moment.</p>\n<p>So, the electron does not divide.  The wave function divides.  The wavefunction behaves as a wave and so can pass through both slits- as long as the detection method leaves the trajectory of the electron indeterminate.</p>\n"
+            }
+        ]
+    },
+    {
+        "dataset": "se",
+        "id": "se_70",
+        "messages": [
+            {
+                "role": "user",
+                "content": "\n\nHuman: <p>I'm testing a web application, when I send an input data to web application, this places the data in an <code>onclick</code> function, something like this:</p>\n\n<pre><code>&lt;a href=\"#\" onclick=\"someFunction('dataFromServer', '0');\"&gt;link&lt;/a&gt;\n</code></pre>\n\n<p>But, the web application transforms that data from lowercase to uppercase, then if I replace <code>dataFromServer</code> for <code>','0');alert('XSS');someFunction('</code>, I have the following result:</p>\n\n<pre><code>&lt;a href=\"#\" onclick=\"someFunction('','0');ALERT('XSS');SOMEFUNCTION('', '0');\"&gt;link&lt;/a&gt;\n</code></pre>\n\n<p>So, my XSS exploit doesn't work, because, the browser says \"ALERT is undefined\", I have tested on Firefox and IE.</p>\n\n<p>Is there some way to execute a XSS in this case?</p>\n\n\nAssistant:"
+            },
+            {
+                "role": "assistant",
+                "content": " <p>You can encode the letters using ampersand and numbers (html encoding). <code>a = &amp;#x41;</code> or <code>&amp;#x65;</code> and so on.</p>\n\n<p>JavaScript code can be encoded without using alphanumeric characters. The easiest way to do this is to check out: <a href=\"http://www.jsfuck.com/\" rel=\"noreferrer\">http://www.jsfuck.com/</a>\nThis site can encode it for you.</p>\n"
+            }
+        ]
+    },
+    {
+        "dataset": "se",
+        "id": "se_17",
+        "messages": [
+            {
+                "role": "user",
+                "content": "\n\nHuman: <p>In the case of social engineering attack vector is an email sent with a malicious attachment like XSL file, I am not really understanding where we will need Sandbox solution if we can just use CDR (content disarm and reconstruction) solution (in many cases much cheaper for organization)</p>\n\n\nAssistant:"
+            },
+            {
+                "role": "assistant",
+                "content": " <p>CDR and analysis inside a sandbox are both techniques which have their own problems. \nSandboxes can be bypassed by clever attackers by basing the behavior of the malware on environment and time and thus not showing malicious behavior inside the sandbox. </p>\n\n<p>CDR instead somehow must assume what kind of payload is allowed in the first place in order to remove everything which is not allowed. This might lead to removing too much payload or too few - like removing every macros from Office documents or every Javascript from PDF even though there are actual valid  and innocent use cases for both. CDR can also not handle every kind of content, which means that any content it cannot handle either needs to be blocked completely or need to be blindly passed through.</p>\n\n<p>If a very strict configured CDR (i.e. only allow very few and clearly innocent things) works for you then it might be the best option. This would be similar to configuring a firewall to only allow clearly good incoming and outgoing connections. But such very strictly configured firewall is often unusable in the real world since there are not only clearly good and clearly bad things bad there is also a grey area of things which actually might be innocent or bad but where this cannot be trivially be found out: like posts to Twitter might be fine but might also be communication of malware. And the same problem with the grey area exists when using a very strictly configured CDR. </p>\n\n<p>Thus it might be necessary to use the CDR in a less restrictive way so that it does not accidentally destroy innocent content. But this also means more risk that bad content can pass through. This risk then again might be reduced by using additional security measures, like having CDR policies based on the (claimed) sender of the mail or by using a sandbox or similar technologies to further analyze not clearly innocent (but not clearly bad either) content.</p>\n"
+            }
+        ]
+    },
+    {
+        "dataset": "se",
+        "id": "se_15",
+        "messages": [
+            {
+                "role": "user",
+                "content": "\n\nHuman: <p>I'm trying to understand how CA's operate.\nOne question that came to my mind is that, according to my intuition, a single private key should have a limited amount of certificates it can issue. Given this,</p>\n\n<blockquote>\n  <p><strong>How often do CA's renew the keys, and under what circumstances (number of certificates issued, time, etc.)?</strong></p>\n</blockquote>\n\n<p>As an additional question, in the case that a CA needs to renew its key pair, what happens with the previous certificates that are still valid? are these signed again under the new key?</p>\n\n<p>Thanks in advance.</p>\n\n\nAssistant:"
+            },
+            {
+                "role": "assistant",
+                "content": " <p>This is a great chance to flesh-out the basics of how CAs work. I will assume that we're talking about root CAs here, since renewing a subordinate CA is not really a big deal.</p>\n\n<blockquote>\n  <p>How often do CA's renew the keys, and under what circumstances (number of certificates issued, time, etc.)?</p>\n</blockquote>\n\n<p>I will re-phrase this question:</p>\n\n<blockquote>\n  <p>What factors increase an attacker's likelihood of cracking the CA's private key?</p>\n</blockquote>\n\n<p>Assuming we're not talking about hacks, backdoors, insider threat, etc, and only talking about cracking based on public information, then the answer is: the choice of algorithm, key size, and amount of time.</p>\n\n<p>The calculation goes something like this: say we choose RSA-4096, then we'd look up the runtime of the best known attacks against RSA, look up costs for renting that amount of computing power on Amazon, do some   Moore's Law calculations and take a guess how long it would take an attacker to break it. It turns out for RSA and ECC that the best known attacks only need the public key; a signature leaks zero information about the private key, so seeing lots of signatures does not help.</p>\n\n<p><em>Note that this will not be true for some of the post-quantum signature algorithms. In particular with hash-based signatures [<a href=\"http://www.pqsignatures.org/index/hbs.html\" rel=\"nofollow noreferrer\">article1</a>], [<a href=\"https://www.imperialviolet.org/2013/07/18/hashsig.html\" rel=\"nofollow noreferrer\">article2</a>], the private keys are essentially huge collections of single-use keys where each signature reveals a private key. Once the worlf switches to post-quantum crypto, your question will become much more relevant.</em></p>\n\n<hr>\n\n<blockquote>\n  <p>In the case that a CA needs to renew its key pair, what happens with the previous certificates that are still valid? are these signed again under the new key?</p>\n</blockquote>\n\n<p>This is indeed a fundamental problem with the way CAs are designed. I have seen it be handled in two different ways:</p>\n\n<ol>\n<li><p>The CA simply won't issue certs that outlive itself. Say you have a CA that issues 1-year certs. When the CA itself has less than a year on it they will stand up a new issuing CA. The old CA is still around for revocation checks and stuff, but no longer issues new certificates.</p></li>\n<li><p>Cross-certify the old CA with the new one so that when validating a cert issued by the old CA, it will chain to the current CA. This is a bit hacky because there is technically an expired CA in the chain. Most TLS engines do not support this kind of thing, so I have only seen it in closed environments like corporate email or ID badge systems where you have more control over the clients.</p></li>\n</ol>\n\n<p>Because of the disruption of rolling over a root CA, you want it to be valid for a long time. A quick look through my browser's root certs shows 15 year certs, 20 year certs, and even some 30 year certs.</p>\n"
+            }
+        ]
+    },
+    {
+        "dataset": "se",
+        "id": "se_96",
+        "messages": [
+            {
+                "role": "user",
+                "content": "\n\nHuman: <p>In the company where I work (webhosting) our custoumers can choose the PHP version they want to use for their website. </p>\n\n<p>However, I have just realized that all of the offered PHP versions are outdated (ie. PHP 5.4.38, 5.5.22 and 5.6.6  being offered to our clients - current versions are 5.4.43, 5.5.27 and 5.6.11). How dangerous is that to our customers? Is running those old versions pure madness or is it just a minor risk for our customers?</p>\n\n<p>edit: There are no security updates applied, it is just PHP 5.4.38 from a few months ago.</p>\n\n\nAssistant:"
+            },
+            {
+                "role": "assistant",
+                "content": " <p>Most new versions come with security improvements, so the older a version is the more time an attacker has to take advantage of it.</p>\n\n<p>You can browse through a vulnerabilities library, for example <a href=\"http://www.cvedetails.com/vulnerability-list/vendor_id-74/product_id-128/version_id-38980/PHP-PHP-5.4.0.html\" rel=\"nofollow\">here is one for php 5.4</a>.\nYou can check yourself how many vulnerabilities have been disclosed and how severe they are. For the most part I think its a matter of which extensions are enabled and the specific code, I dont remember the CVE identifier but I remember a multibyte function in php (a long time ago) that would cause a buffer overflow if given a specific string.</p>\n\n<p>In my opinion, the versions you currently have are not terribly old, but they do pose some security concerns, here's <a href=\"http://www.cvedetails.com/cve/CVE-2014-3669/\" rel=\"nofollow\">one example</a> of a DoS vulnerability.</p>\n\n<p>Look at it from another angle, new php versions also come with changes in functions and updating to a newer version may not always be transparent to the application, things may break. So a hosting company should also not automatically update the PHP version without consent from the client.</p>\n"
+            }
+        ]
+    },
+    {
+        "dataset": "se",
+        "id": "se_37",
+        "messages": [
+            {
+                "role": "user",
+                "content": "\n\nHuman: <p>I often use GnuPG to encrypt files with a passphrase. I'm very paranoid, and afraid that the key derivation used by GnuPG isn't slow enough.</p>\n\n<p>For this reason, I've decided to do my own key derivation before feeding the passphrase into GnuPG.</p>\n\n<p>I have a Python script that runs 10 million rounds of PBKDF2-SHA512 with a static salt and outputs the result hex encoded. I call this 'pre derivation'.</p>\n\n<p>I first run that on the passphrase, and feed its output to GnuPG as an intermediate passphrase.</p>\n\n<p>Am I on the right track, or am I wasting my time doing this, or even worse, weakening the encryption security?</p>\n\n\nAssistant:"
+            },
+            {
+                "role": "assistant",
+                "content": " <p>Apart from the fact <a href=\"https://security.stackexchange.com/q/18197/19837\">you'd better not deploy custom crypto code anyway</a>, you're reinventing the wheel. OpenPGP's string-to-key functionality is configurable and can be adjusted to your needs, while not losing compatiblity. I'm not discussing your choices in the number of cycles here, although they seem a little bit harsh. I'd recommend reading <a href=\"https://security.stackexchange.com/q/44361/19837\"><em>At what point does adding more iterations to PBKDF2 provide no extra security?</em></a> on this topic.</p>\n\n<p>From <code>man gpg</code>:</p>\n\n<blockquote>\n  <p><strong><code>--s2k-cipher-algo name</code></strong></p>\n  \n  <p>Use name as the cipher algorithm for symmetric encryption with a passphrase if <code>--personal-cipher-preferences</code> and <code>--cipher-algo</code> are not given.  The default is AES-128.</p>\n  \n  <p><strong><code>--s2k-digest-algo name</code></strong></p>\n  \n  <p>Use name as the digest algorithm used to mangle the passphrases for symmetric encryption.  The default is SHA-1.</p>\n  \n  <p><strong><code>--s2k-mode n</code></strong></p>\n  \n  <p>Selects how passphrases for symmetric encryption are mangled. If n is 0 a plain passphrase (which is in general not recommended) will be used,  a  1  adds  a  salt  (which\n  should not be used) to the passphrase and a 3 (the default) iterates the whole process a number of times (see <code>--s2k-count</code>).</p>\n  \n  <p><strong><code>--s2k-count n</code></strong></p>\n  \n  <p>Specify  how  many times the passphrases mangling for symmetric encryption is repeated.  This value may range between 1024 and 65011712 inclusive.  The default is inquired\n  from gpg-agent.  Note that not all values in the 1024-65011712 range are legal and if an illegal value is selected, GnuPG will round up to the nearest legal  value.   This\n  option is only meaningful if <code>--s2k-mode</code> is set to the default of 3.</p>\n</blockquote>\n\n<p>To wrap up, following options will have the same effect:</p>\n\n<pre><code>gpg --s2k-mode 3 --s2k-digest-algo SHA512 --s2k-count 10000000 --symmetric\n</code></pre>\n\n<p><code>--s2k-mode 3</code> is GnuPG's default (and only reasonable setting for this option); I did not include <code>--s2k-cipher-algo</code> as this is not relevant for key derivation (and not handled by the \"pre-derivation\" you described, anyway). Alternatively, you can set this as default in your <code>gpg.conf</code>:</p>\n\n<pre><code>s2k-mode 3\ns2k-digest-algo SHA512\ns2k-count 10000000\n</code></pre>\n\n<p>Those options can not only be used for symmetric encryption of messages/files, but are also used for passphrase protection of private keys.</p>\n"
+            }
+        ]
+    },
+    {
+        "dataset": "se",
+        "id": "se_34",
+        "messages": [
+            {
+                "role": "user",
+                "content": "\n\nHuman: <p>Environment: SP2010 Enterprise, VS2012</p>\n\n<p>I've been using C# to programmatically create alerts for various users and implementing the alert.Filter property to assign filters that point to specific directories. It's simple enough to create a variable for the path to insert into the filter, but when it comes to the username, passing a variable in its place does not seem to work using any method I have tried. CAML (or at least the pseudo-CAML used in filters) likes the user's name to actually be the name <strong>field</strong> (in this case, pulled from AD) not the <strong>account</strong> name. So after a little playing around I figured out how to turn that into a variable to pass into the filter like this:</p>\n\n<pre><code>string userName = vUser.Name;\nstring oFilter = (\"&lt;Query&gt;&lt;And&gt;&lt;Or&gt;&lt;Eq&gt;&lt;FieldRef Name='ItemFullUrl'/&gt;&lt;Value type='string'&gt;\" + fullPath + \"&lt;/Value&gt;&lt;/Eq&gt;&lt;BeginsWith&gt;&lt;FieldRef Name='ItemFullUrl'/&gt;&lt;Value type='string'&gt;\" + fullPath + \"/&lt;/Value&gt;&lt;/BeginsWith&gt;&lt;/Or&gt;&lt;Neq&gt;&lt;Value type='string'&gt;\" + userName + \"&lt;/Value&gt;&lt;FieldRef Name='Editor/New'/&gt;&lt;/Neq&gt;&lt;/And&gt;&lt;/Query&gt;)\");\noAlert.Filter = oFilter;\n</code></pre>\n\n<p>The user.Name property outputs a name that matches the format in the CAML filter of a working alert I examined. If I type the name directly into the filter it works fine, but when I try to pass it as a variable it breaks, even if I explicitly set the variable to \"User Name\".</p>\n\n<p>Is there some part of how the filter/string works that I'm not accounting for? Every search I've done online has said this method should work, in theory. My goal is simply to make the alert apply only to changes made by other users, is there perhaps another way to accomplish that?</p>\n\n<p>Any advice is greatly appreciated!</p>\n\n\nAssistant:"
+            },
+            {
+                "role": "assistant",
+                "content": " <p>Maybe the problem is in the order of <strong>Value</strong> and <strong>FieldRef</strong> elements in your query.\nAlso, if you can, try CAML query, based on SPUser Id instead of user login name, like this one:</p>\n\n<pre><code>@\"&lt;Neq&gt;\n    &lt;FieldRef Name='Editor/New' LookupId='TRUE' /&gt;\n    &lt;Value Type='Integer'&gt;\"+ userId + @\"&lt;/Value&gt;\n&lt;/Neq&gt;\"\n</code></pre>\n"
+            }
+        ]
+    },
+    {
+        "dataset": "se",
+        "id": "se_0",
+        "messages": [
+            {
+                "role": "user",
+                "content": "\n\nHuman: <p>I set up SharePoint 2013 with FBA users (SQL). I'd like to know if it's possible to create new users using PowerShell script ?</p>\n\n<p>What I tried but did not work : </p>\n\n<pre><code>[System.AppDomain]::CurrentDomain.SetData(\"APP_CONFIG_FILE\", \"C:\\inetpub\\wwwroot\\wss\\VirtualDirectories\\mysite\\web.config\")\n[System.Reflection.Assembly]::LoadWithPartialName(\"System.Web\")\n[System.Web.Security.Membership]::Providers\n</code></pre>\n\n<p>But the last command only shows me the default <code>AspnetSqlMembershipProvider</code> ... and not my custom one (web.config is configured with a custom Membership provider, and FBA SQL Authentication is working).</p>\n\n\nAssistant:"
+            },
+            {
+                "role": "assistant",
+                "content": " <p>Nico,</p>\n\n<p>I found a source that may help you immensely. The following link walks you through how to use a PowerShell script to import a list of users from Excel and create them for FBA.</p>\n\n<p><a href=\"http://sharepointsolutions.blogspot.com/2012/07/importing-and-exporting-data-in_27.html\" rel=\"nofollow\">Importing and Exporting Data in Extranet Collaboration Manager (ExCM) 2010</a></p>\n\n<p>You can also download the PowerShell source code from this link.</p>\n\n<p>It looks like the code creating the user account is as follows.</p>\n\n<pre><code># Import user\n$status = [System.Web.Security.MembershipCreateStatus]::Success\n$extranetUser = $membershipProvider.CreateUser($username, $password, $email, $passwordQuestion, $passwordAnswer, $true, $null, [ref]$status)\n</code></pre>\n\n<p>You may need to modify the code to fit your needs, but it should get you pointed in the right direction. Let me know if you need further assistance. I'm eager to help.</p>\n\n<p>Jim</p>\n"
+            }
+        ]
+    },
+    {
+        "dataset": "se",
+        "id": "se_61",
+        "messages": [
+            {
+                "role": "user",
+                "content": "\n\nHuman: <p>We are migrating User Profile Synchronization service from SharePoint 2010 to SharePoint 2013 using content database attach upgrade method.</p>\n\n<p>We have a fully configured and working state SharePoint 2010 environment. We have created a new SharePoint 2013 farm, during the installation we did not configure \"User Profile Service Application\" and \"Managed Metadata Service Application\" services using the standard configurations wizard in Central Administration as per the recommendations in Microsoft article.</p>\n\n<p>We are able to upgrade databases using the PowerShell commands as per the standard Microsoft articles. We are seeing the upgraded user profiles in SharePoint 2013 as well. Problem, is we are not able to start the \"User Profile Synchronization Service\". When we click on \"Start\" button for this service from \"Central Administration, Application Management, Manage services on the server\", it is showing \"starting\" status for sometime and then finally status sets to \"Stopped\".</p>\n\n<p>Did anyone face similar issue and what is the resolution?</p>\n\n<p>Thanks</p>\n\n<p>Reference Link:\n<a href=\"https://technet.microsoft.com/en-us/library/jj839719.aspx\" rel=\"nofollow noreferrer\">https://technet.microsoft.com/en-us/library/jj839719.aspx</a></p>\n\n\nAssistant:"
+            },
+            {
+                "role": "assistant",
+                "content": " <p>Make sure the following:</p>\n\n<ul>\n<li>You are using the Farm Account to start UPSs.</li>\n<li>The Farm account is added to local administrator group during starting UPS service.</li>\n<li>Adding the service account running User Profile Sync Service to local administrator group on the server running Distributed Cache.</li>\n<li>AppFabricCachingService in services is running via Farm account.</li>\n</ul>\n\n<p><strong>Note:</strong> </p>\n\n<ul>\n<li>After adding the farm account to local administrator group, you must restart the SharePoint 2013 Timer service.</li>\n<li><p>Adding farm account to local administrator group is required only to start the User Profile Synchronization service. After the User Profile Synchronization service is started, you can remove the farm account from the Administrators group. for more details check.</p></li>\n<li><p>if you are using SQL server 2014 RTM with SharePoint 2013, in this case, update SQL Server 2014 RTM to SQL Server 2014 SP2, Patch your farm with the June 2014 CU or higher one. </p></li>\n</ul>\n\n<p>For more details check <a href=\"https://blog.devoworx.net/2016/02/05/user-profile-synchronization-service-starting-and-stoped/\" rel=\"nofollow noreferrer\">User Profile Synchronization Service Starting then Stopped in SharePoint</a></p>\n"
+            }
+        ]
+    },
+    {
+        "dataset": "se",
+        "id": "se_53",
+        "messages": [
+            {
+                "role": "user",
+                "content": "\n\nHuman: <p>Context : SharePoint Online, using CSOM C# or Powershell</p>\n\n<p>I have a content search webpart (CSWP) on the homepage of a website. I need to edit the query of my CSWP programmatically. </p>\n\n<p>Why programmatically ? Because I have the same WebPart on more than 80 websites and I can't take three days going on each and everyone of them...</p>\n\n<p>So, I \"only\" need to find a way to edit the query of an existing CSWP without recreating it. If you have some ideas, anything could help !</p>\n\n<p>Thank you. </p>\n\n\nAssistant:"
+            },
+            {
+                "role": "assistant",
+                "content": " <p>For VS 2015,  I suggest download office developer tools preview 1 by clicking  </p>\n\n<p><a href=\"https://aka.ms/officedevtoolsforvs2015\" rel=\"nofollow noreferrer\">This</a></p>\n\n<p>Once you have installed it, SharePoint Addins option wil start reflecting as follows and to create share point hosted Add-in select SharePoint Addins option from the following:</p>\n\n<p><a href=\"https://i.stack.imgur.com/dvlEe.png\" rel=\"nofollow noreferrer\"><img src=\"https://i.stack.imgur.com/dvlEe.png\" alt=\"enter image description here\"></a></p>\n"
+            }
+        ]
+    },
+    {
+        "dataset": "se",
+        "id": "se_39",
+        "messages": [
+            {
+                "role": "user",
+                "content": "\n\nHuman: <p>I'm using SharePoint 2010 and I want to get the files that are not either checked out nor checked in. \nMeaning that I want to retrieve all documents that:\n- were uploaded in the Documents library without pressing Save button and without doing any change on them further more (either check out or check in)\n- were added in the document library using Windows Explorer option</p>\n\n<p>I've tried to use the following CAML Query:</p>\n\n<pre><code>&lt;Query&gt;&lt;Where&gt;&lt;IsNull&gt;&lt;FieldRef Name=\"CheckoutUser\" /&gt;&lt;/IsNull&gt;&lt;/Where&gt;&lt;/Query&gt;\n</code></pre>\n\n<p>But the above query returns the desired documents + the documents that have been check-in. I want to display just the first category.</p>\n\n<p>The other method I've tried was to loop over the files of the library and to check the following condition:</p>\n\n<pre><code>file.CheckOutType == SPFile.SPCheckOutType.None\n</code></pre>\n\n<p>But also the above condition returned the same results as the CAML Query.</p>\n\n<p>Is there a reliable method to programmatically distinguish between simply uploaded documents and check-in documents in SharePoint 2010?</p>\n\n<p>EXTRA INFORMATION:</p>\n\n<p>Below are the steps to reproduce the issue:</p>\n\n<p>STEP 1: Ensure that option \"Require documents to be checked out before they can be edited?\" under Library Settings>Versioning settings is set to \u00a8No\u00a8\nSTEP 2: In the document library, click \u00a8Add document\u00a8. Select the document and click OK. \nSTEP 3: Another window appears with the file name and other data and with a Save and Cancel buttons. Click Cancel button. \nSTEP 4: The file is now uploaded but it is not checkout nor checked-in. At this step it has a single version.\nSTEP 5: Try to upload a document with the same name following the procedure described above. Make sure option \"Add as a new version to existing files\" is checked.\nSTEP 6: The file is updated with a new version but its status is neither checkout nor checked-in.\nI want to retrieve only these files that have an uncertain status (they are simply uploaded). These can be documents that users uploaded but forget to checkout or check-in.\nIf the \"Require documents to be checked out before they can be edited?\" option is set to True then SPDocumentLibrary.CheckedOutFiles will return the newly uploaded files.\nBut the problem is, when this option is set to False, then SPDocumentLibrary.CheckedOutFiles does not return anything.</p>\n\n<p>If anyone can help with this issue please give a reply.</p>\n\n\nAssistant:"
+            },
+            {
+                "role": "assistant",
+                "content": " <pre><code>SPList list = web.GetList(\"/Lists/TestList\");\n</code></pre>\n\n<p>Should be</p>\n\n<pre><code> SPList list = web.GetList(web.ServerRelativeUrl + \"/Lists/TestList\");\n</code></pre>\n\n<p>As it needs the server relative URL to your list</p>\n"
+            }
+        ]
+    },
+    {
+        "dataset": "se",
+        "id": "se_33",
+        "messages": [
+            {
+                "role": "user",
+                "content": "\n\nHuman: <p>Suppose I want to write a library that deals with vectors and matrices. Is it possible to bake the dimensions into the types, so that operations of incompatible dimensions generate an error at compile time?</p>\n\n<p>For example I would like the signature of dot product to be something like</p>\n\n<pre><code>dotprod :: Num a, VecDim d =&gt; Vector a d -&gt; Vector a d -&gt; a\n</code></pre>\n\n<p>where the <code>d</code> type contains a single integer value (representing the dimension of these Vectors).</p>\n\n<p>I suppose this could be done by defining (by hand) a separate type for each integer, and group them in a type class called <code>VecDim</code>. Is there some mechanism to \"generate\" such types?</p>\n\n<p>Or perhaps some better/simpler way of achieving the same thing? </p>\n\n\nAssistant:"
+            },
+            {
+                "role": "assistant",
+                "content": " <p>To expand on @KarlBielefeldt's answer, here's a full example of how to implement <em>Vectors</em> - lists with a statically-known number of elements - in Haskell. Hold on to your hat...</p>\n\n<pre><code>{-# LANGUAGE DataKinds #-}\n{-# LANGUAGE ExistentialQuantification #-}\n{-# LANGUAGE DeriveFoldable #-}\n{-# LANGUAGE DeriveFunctor #-}\n{-# LANGUAGE DeriveTraversable #-}\n{-# LANGUAGE GADTs #-}\n{-# LANGUAGE KindSignatures #-}\n{-# LANGUAGE StandaloneDeriving #-}\n{-# LANGUAGE TypeOperators #-}\n{-# LANGUAGE TypeFamilies #-}\n\nimport Prelude hiding (foldr, zipWith)\nimport qualified Prelude\nimport Data.Type.Equality\nimport Data.Foldable\nimport Data.Traversable\n</code></pre>\n\n<p>As you can see from the long list of <code>LANGUAGE</code> directives, this'll only work with a recent version of GHC.</p>\n\n<p>We need a way of representing lengths within the type system. By definition, a natural number is either zero (<code>Z</code>) or it's the successor of some other natural number (<code>S n</code>). So, for example, the number 3 would be written <code>S (S (S Z))</code>.</p>\n\n<pre><code>data Nat = Z | S Nat\n</code></pre>\n\n<p>With the <a href=\"http://dreixel.net/research/pdf/ghp.pdf\" rel=\"noreferrer\">DataKinds extension</a>, this <code>data</code> declaration introduces a <em>kind</em> called <code>Nat</code> and two <em>type</em> constructors called <code>S</code> and <code>Z</code> - in other words we have <em>type-level</em> natural numbers. Note that the types <code>S</code> and <code>Z</code> don't have any member values - only types of kind <code>*</code> are inhabited by values.</p>\n\n<p>Now we introduce a <a href=\"http://en.wikibooks.org/wiki/Haskell/GADT\" rel=\"noreferrer\">GADT</a> representing vectors with a known length. Note the kind signature: <code>Vec</code> requires a type <em>of kind <code>Nat</code></em> (ie a <code>Z</code> or an <code>S</code> type) to represent its length.</p>\n\n<pre><code>data Vec :: Nat -&gt; * -&gt; * where\n    VNil :: Vec Z a\n    VCons :: a -&gt; Vec n a -&gt; Vec (S n) a\nderiving instance (Show a) =&gt; Show (Vec n a)\nderiving instance Functor (Vec n)\nderiving instance Foldable (Vec n)\nderiving instance Traversable (Vec n)\n</code></pre>\n\n<p>The definition of vectors is similar to that of linked lists, with some extra type-level information about its length. A vector is either <code>VNil</code>, in which case it has a length of <code>Z</code>(ero), or it's a <code>VCons</code> cell adding an item to another vector, in which case its length is one more than the other vector (<code>S n</code>). Note that there's no constructor argument of type <code>n</code>. It's just used at compile time to track lengths, and will be erased before the compiler generates machine code.</p>\n\n<p>We've defined a vector type which carries around static knowledge of its length. Let's query the type of a few <code>Vec</code>s to get a feel for how they work:</p>\n\n<pre><code>ghci&gt; :t (VCons 'a' (VCons 'b' VNil))\n(VCons 'a' (VCons 'b' VNil)) :: Vec ('S ('S 'Z)) Char  -- (S (S Z)) means 2\nghci&gt; :t (VCons 13 (VCons 11 (VCons 3 VNil)))\n(VCons 13 (VCons 11 (VCons 3 VNil))) :: Num a =&gt; Vec ('S ('S ('S 'Z))) a  -- (S (S (S Z))) means 3\n</code></pre>\n\n<hr>\n\n<p>The dot product proceeds just as it would for a list:</p>\n\n<pre><code>-- note that the two Vec arguments are declared to have the same length\nvap :: Vec n (a -&gt; b) -&gt; Vec n a -&gt; Vec n b\nvap VNil VNil = VNil\nvap (VCons f fs) (VCons x xs) = VCons (f x) (vap fs xs)\n\nzipWith :: (a -&gt; b -&gt; c) -&gt; Vec n a -&gt; Vec n b -&gt; Vec n c\nzipWith f xs ys = fmap f xs `vap` ys\n\ndot :: Num a =&gt; Vec n a -&gt; Vec n a -&gt; a\ndot xs ys = foldr (+) 0 $ zipWith (*) xs ys\n</code></pre>\n\n<p><code>vap</code>, which 'zippily' applies a vector of functions to a vector of arguments, is <code>Vec</code>'s applicative <code>&lt;*&gt;</code>; I didn't put it in an <code>Applicative</code> instance because <a href=\"https://personal.cis.strath.ac.uk/conor.mcbride/pub/hasochism.pdf\" rel=\"noreferrer\">it gets messy</a>. Note also that I'm using the <code>foldr</code> from the compiler-generated instance of <code>Foldable</code>.</p>\n\n<p>Let's try it out:</p>\n\n<pre><code>ghci&gt; let v1 = VCons 2 (VCons 1 VNil)\nghci&gt; let v2 = VCons 4 (VCons 5 VNil)\nghci&gt; v1 `dot` v2\n13\nghci&gt; let v3 = VCons 8 (VCons 6 (VCons 1 VNil))\nghci&gt; v1 `dot` v3\n&lt;interactive&gt;:20:10:\n    Couldn't match type \u2018'S 'Z\u2019 with \u2018'Z\u2019\n    Expected type: Vec ('S ('S 'Z)) a\n      Actual type: Vec ('S ('S ('S 'Z))) a\n    In the second argument of \u2018dot\u2019, namely \u2018v3\u2019\n    In the expression: v1 `dot` v3\n</code></pre>\n\n<p>Great! You get a compile-time error when you try to <code>dot</code> vectors whose lengths don't match.</p>\n\n<hr>\n\n<p>Here's an attempt at a function to concatenate vectors together:</p>\n\n<pre><code>-- This won't compile because the type checker can't deduce the length of the returned vector\n-- VNil +++ ys = ys\n-- (VCons x xs) +++ ys = VCons x (concat xs ys)\n</code></pre>\n\n<p>The length of the output vector would be the <em>sum</em> of the lengths of the two input vectors. We need to teach the type checker how to add <code>Nat</code>s together. For this we use a <a href=\"https://wiki.haskell.org/GHC/Type_families\" rel=\"noreferrer\">type-level function</a>:</p>\n\n<pre><code>type family (n :: Nat) :+: (m :: Nat) :: Nat where\n    Z :+: m = m\n    (S n) :+: m = S (n :+: m)\n</code></pre>\n\n<p>This <code>type family</code> declaration introduces a <em>function on types</em> called <code>:+:</code> - in other words, it's a recipe for the type checker to calculate the sum of two natural numbers. It's defined recursively - whenever the left operand is greater than <code>Z</code>ero we add one to the output and reduce it by one in the recursive call. (It's a good exercise to write a type function which multiplies two <code>Nat</code>s.) Now we can make <code>+++</code> compile:</p>\n\n<pre><code>infixr 5 +++\n(+++) :: Vec n a -&gt; Vec m a -&gt; Vec (n :+: m) a\nVNil +++ ys = ys\n(VCons x xs) +++ ys = VCons x (concat xs ys)\n</code></pre>\n\n<p>Here's how you use it:</p>\n\n<pre><code>ghci&gt; VCons 1 (VCons 2 VNil) +++ VCons 3 (VCons 4 VNil)\nVCons 1 (VCons 2 (VCons 3 (VCons 4 VNil)))\n</code></pre>\n\n<hr>\n\n<p>So far so simple. What about when we want to do the opposite of concatenation and split a vector in two? The lengths of the output vectors depend on the runtime value of the arguments. We'd like to write something like this:</p>\n\n<pre><code>-- this won't work because there aren't any values of type `S` and `Z`\n-- split :: (n :: Nat) -&gt; Vec (n :+: m) a -&gt; (Vec n a, Vec m a)\n</code></pre>\n\n<p>but unfortunately Haskell won't let us do that. Allowing the <em>value</em> of the <code>n</code> argument to appear in the <em>return type</em> (this is commonly called a <em>dependent function</em> or <em>pi type</em>) would require \"full-spectrum\" dependent types, whereas <code>DataKinds</code> only gives us promoted type constructors. To put it another way, the type constructors <code>S</code> and <code>Z</code> don't appear at the value level. We'll have to settle for <a href=\"https://www.cis.upenn.edu/~eir/papers/2012/singletons/paper.pdf\" rel=\"noreferrer\"><em>singleton values</em></a> for a run-time representation of a certain <code>Nat</code>.*</p>\n\n<pre><code>data Natty (n :: Nat) where\n    Zy :: Natty Z  -- pronounced 'zed-y'\n    Sy :: Natty n -&gt; Natty (S n)  -- pronounced 'ess-y'\nderiving instance Show (Natty n)\n</code></pre>\n\n<p>For a given type <code>n</code> (with kind <code>Nat</code>), there is precisely one term of type <code>Natty n</code>. We can use the singleton value as a run-time witness for <code>n</code>: learning about a <code>Natty</code> teaches us about its <code>n</code> and vice versa.</p>\n\n<pre><code>split :: Natty n -&gt;\n         Vec (n :+: m) a -&gt;  -- the input Vec has to be at least as long as the input Natty\n         (Vec n a, Vec m a)\nsplit Zy xs = (Nil, xs)\nsplit (Sy n) (Cons x xs) = let (ys, zs) = split n xs\n                           in (Cons x ys, zs)\n</code></pre>\n\n<p>Let's take it for a spin:</p>\n\n<pre><code>ghci&gt; split (Sy (Sy Zy)) (VCons 1 (VCons 2 (VCons 3 VNil)))\n(VCons 1 (VCons 2 VNil), VCons 3 VNil)\nghci&gt; split (Sy (Sy Zy)) (VCons 3 VNil)\n&lt;interactive&gt;:116:21:\n    Couldn't match type \u2018'S ('Z :+: m)\u2019 with \u2018'Z\u2019\n    Expected type: Vec ('S ('S 'Z) :+: m) a\n      Actual type: Vec ('S 'Z) a\n    Relevant bindings include\n      it :: (Vec ('S ('S 'Z)) a, Vec m a) (bound at &lt;interactive&gt;:116:1)\n    In the second argument of \u2018split\u2019, namely \u2018(VCons 3 VNil)\u2019\n    In the expression: split (Sy (Sy Zy)) (VCons 3 VNil)\n</code></pre>\n\n<p>In the first example, we successfully split a three-element vector at position 2; then we got a type error when we tried to split a vector at a position past the end. Singletons are the standard technique for making a type depend on a value in Haskell.</p>\n\n<p><sub>* The <a href=\"https://hackage.haskell.org/package/singletons\" rel=\"noreferrer\"><code>singletons</code> library</a> contains some Template Haskell helpers to generate singleton values like <code>Natty</code> for you.</sub></p>\n\n<hr>\n\n<p>Last example. What about when you don't know the dimensionality of your vector statically? For example, what if we're trying to build a vector from run-time data in the form of a list? You need the <em>type</em> of the vector to depend on the <em>length</em> of the input list. To put it another way, we can't use <code>foldr VCons VNil</code> to build a vector because the type of the output vector changes with each iteration of the fold. We need to keep the length of the vector a secret from the compiler.</p>\n\n<pre><code>data AVec a = forall n. AVec (Natty n) (Vec n a)\nderiving instance (Show a) =&gt; Show (AVec a)\n\nfromList :: [a] -&gt; AVec a\nfromList = Prelude.foldr cons nil\n    where cons x (AVec n xs) = AVec (Sy n) (VCons x xs)\n          nil = AVec Zy VNil\n</code></pre>\n\n<p><code>AVec</code> is an <a href=\"https://wiki.haskell.org/Existential_type\" rel=\"noreferrer\"><em>existential type</em></a>: the type variable <code>n</code> does not appear in the return type of the <code>AVec</code> data constructor. We're using it to simulate a <a href=\"http://en.wikipedia.org/wiki/Dependent_type#Dependent_pair_type\" rel=\"noreferrer\"><em>dependent pair</em></a>: <code>fromList</code> can't tell you the length of the vector statically, but it can return something you can pattern-match on to <em>learn</em> the length of the vector - the <code>Natty n</code> in the first element of the tuple. As Conor McBride puts it in <a href=\"https://stackoverflow.com/a/27030038/1523776\">a related answer</a>, \"You look at one thing, and in doing so, learn about another\".</p>\n\n<p>This is a common technique for existentially quantified types. Because you can't actually do anything with data for which you don't know the type - try writing a function of <code>data Something = forall a. Sth a</code> - existentials often come bundled up with GADT evidence which allows you to recover the original type by performing pattern-matching tests. Other common patterns for existentials include packaging up functions to process your type (<code>data AWayToGetTo b = forall a. HeresHow a (a -&gt; b)</code>) which is a neat way of doing first-class modules, or building-in a type class dictionary (<code>data AnOrd = forall a. Ord a =&gt; AnOrd a</code>) which can help emulate subtype polymorphism.</p>\n\n<pre><code>ghci&gt; fromList [1,2,3]\nAVec (Sy (Sy (Sy Zy))) (VCons 1 (VCons 2 (VCons 3 Nil)))\n</code></pre>\n\n<p>Dependent pairs are useful whenever the static properties of data depend on dynamic information not available at compile time. Here's <code>filter</code> for vectors:</p>\n\n<pre><code>filter :: (a -&gt; Bool) -&gt; Vec n a -&gt; AVec a\nfilter f = foldr (\\x (AVec n xs) -&gt; if f x\n                                    then AVec (Sy n) (VCons x xs)\n                                    else AVec n xs) (AVec Zy VNil) \n</code></pre>\n\n<p>To <code>dot</code> two <code>AVec</code>s, we need to prove to GHC that their lengths are equal. <a href=\"https://hackage.haskell.org/package/base-4.7.0.2/docs/Data-Type-Equality.html\" rel=\"noreferrer\"><code>Data.Type.Equality</code></a> defines a GADT which can only be constructed when its type arguments are the same:</p>\n\n<pre><code>data (a :: k) :~: (b :: k) where\n    Refl :: a :~: a  -- short for 'reflexivity'\n</code></pre>\n\n<p>When you pattern-match on <code>Refl</code>, GHC knows that <code>a ~ b</code>. There are also a few functions to help you work with this type: we'll be using <a href=\"https://hackage.haskell.org/package/base-4.7.0.2/docs/Data-Type-Equality.html#g:2\" rel=\"noreferrer\"><code>gcastWith</code></a> to convert between equivalent types, and <a href=\"https://hackage.haskell.org/package/base-4.7.0.2/docs/Data-Type-Equality.html#g:3\" rel=\"noreferrer\"><code>TestEquality</code></a> to determine whether two <code>Natty</code>s are equal.</p>\n\n<p>To test the equality of two <code>Natty</code>s, we're going to need to make use of the fact that if two numbers are equal, then their successors are also equal (<code>:~:</code> is <em>congruent</em> over <code>S</code>):</p>\n\n<pre><code>congSuc :: (n :~: m) -&gt; (S n :~: S m)\ncongSuc Refl = Refl\n</code></pre>\n\n<p>Pattern matching on <code>Refl</code> on the left-hand side lets GHC know that <code>n ~ m</code>. With that knowledge, it's trivial that <code>S n ~ S m</code>, so GHC lets us return a new <code>Refl</code> right away.</p>\n\n<p>Now we can write an instance of <code>TestEquality</code> by straightforward recursion. If both numbers are zero, they are equal. If both numbers have predecessors, they are equal iff the predecessors are equal. (If they're not equal, just return <code>Nothing</code>.)</p>\n\n<pre><code>instance TestEquality Natty where\n    -- testEquality :: Natty n -&gt; Natty m -&gt; Maybe (n :~: m)\n    testEquality Zy Zy = Just Refl\n    testEquality (Sy n) (Sy m) = fmap congSuc (testEquality n m)  -- check whether the predecessors are equal, then make use of congruence\n    testEquality Zy _ = Nothing\n    testEquality _ Zy = Nothing\n</code></pre>\n\n<p>Now we can put the pieces together to <code>dot</code> a pair of <code>AVec</code>s of unknown length.</p>\n\n<pre><code>dot' :: Num a =&gt; AVec a -&gt; AVec a -&gt; Maybe a\ndot' (AVec n u) (AVec m v) = fmap (\\proof -&gt; gcastWith proof (dot u v)) (testEquality n m)\n</code></pre>\n\n<p>First, pattern match on the <code>AVec</code> constructor to pull out a runtime representation of the vectors' lengths. Now use <code>testEquality</code> to determine whether those lengths are equal. If they are, we'll have <code>Just Refl</code>; <code>gcastWith</code> will use that equality proof to ensure that <code>dot u v</code> is well-typed by discharging its implicit <code>n ~ m</code> assumption.</p>\n\n<pre><code>ghci&gt; let v1 = fromList [1,2,3]\nghci&gt; let v2 = fromList [4,5,6]\nghci&gt; let v3 = fromList [7,8]\nghci&gt; dot' v1 v2\nJust 32\nghci&gt; dot' v1 v3\nNothing  -- they weren't the same length\n</code></pre>\n\n<p>Note that, since a vector without static knowledge of its length is basically a list, we've effectively re-implemented the list version of <code>dot :: Num a =&gt; [a] -&gt; [a] -&gt; Maybe a</code>. The difference is that this version is implemented in terms of the vectors' <code>dot</code>. Here's the point: before the type checker will allow you to call <code>dot</code>, <strong>you must have tested</strong> whether the input lists have the same length using <code>testEquality</code>. I am prone to getting <code>if</code>-statements the wrong way round, but not in a dependently-typed setting!</p>\n\n<p>You can't avoid using existential wrappers at the edges of your system, when you're dealing with runtime data, but you can use dependent types everywhere inside your system and keep the existential wrappers at the edges, when you perform input validation.</p>\n\n<p>Since <code>Nothing</code>is not very informative, you could further refine the type of <code>dot'</code> to return <em>a proof that the lengths aren't equal</em> (in the form of evidence that their difference is not 0) in the failure case. This is pretty similar to the standard Haskell technique of using <code>Either String a</code> to possibly return an error message, although a proof term is far more computationally useful than a string!</p>\n\n<hr>\n\n<p>Thus ends this whistle-stop tour of some of the techniques that are common in dependently-typed Haskell programming. Programming with types like this in Haskell is really cool, but really awkward at the same time. Breaking up all your dependent data into lots of representations which mean the same thing - <code>Nat</code> the type, <code>Nat</code> the kind, <code>Natty n</code> the singleton - is really quite cumbersome, despite the existence of code-generators to help with the boilerplate. There are also presently limitations on what can be promoted to the type level. It's tantalising though! The mind boggles at the possibilities - in the literature there are examples in Haskell of strongly typed <code>printf</code>, database interfaces, UI layout engines...</p>\n\n<p>If you want some further reading, there's a growing body of literature about dependently typed Haskell, both published and on sites like Stack Overflow. A good starting point is <a href=\"https://personal.cis.strath.ac.uk/conor.mcbride/pub/hasochism.pdf\" rel=\"noreferrer\">the <em>Hasochism</em> paper</a> - the paper goes through this very example (among others), discussing the painful parts in some detail. <a href=\"https://www.cis.upenn.edu/~eir/papers/2012/singletons/paper.pdf\" rel=\"noreferrer\">The <em>Singletons</em> paper</a> demonstrates the technique of singleton values (such as <code>Natty</code>). For more information about dependent typing in general, the <a href=\"http://www.cse.chalmers.se/~ulfn/darcs/AFP08/LectureNotes/AgdaIntro.pdf\" rel=\"noreferrer\">Agda</a> tutorial is a good place to start; also, <a href=\"http://eb.host.cs.st-andrews.ac.uk/writings/idris-tutorial.pdf\" rel=\"noreferrer\">Idris</a> is a language in development that's (roughly) designed to be \"Haskell with dependent types\".</p>\n"
+            }
+        ]
+    },
+    {
+        "dataset": "se",
+        "id": "se_117",
+        "messages": [
+            {
+                "role": "user",
+                "content": "\n\nHuman: <p>I have a script written in Ruby that has maxed out a core in my server's Xeon processor for the last 2 hours.  Since it's currently only using 1 of four possible cores, I want to try and rewrite the script to take advantage of all four cores.</p>\n\n<p>I can use the .each_slice(n) method on the array that contains my data, but I'm curious as to what would then be the best/most efficient way to then write this data to a file.  It seems that I have a couple options.</p>\n\n<ol>\n<li><p>Pass the file object to the functions being called by the Thread.new function (I assume this is legal in ruby?) and have them write as they see fit.</p></li>\n<li><p>Have each function store the results in arrays, return the array on completion and let the main program then write to the disk.</p></li>\n<li><p>Pass the same array object to each item and have them all add to it, then sort it.</p></li>\n</ol>\n\n<p>My assumption is that although 2 would probably be more memory intensive, it'll by far be most efficient method.  Is there a different way to accomplish what I'm doing?</p>\n\n\nAssistant:"
+            },
+            {
+                "role": "assistant",
+                "content": " <p>You didn't mention if it matters what order the output is in. If it really doesn't matter I'd use a single-threaded Queue to receive messages from multiple reader/processor threads. Then another thread could be in charge of reading from the Queue and writing to the output file.</p>\n\n<p>If order matters then your #2 seems a good idea.</p>\n\n<p>I am concerned that with your suggestions #1 and #3 that if one is not very careful with the locking around the shared output object (file pointer or array) that one would be in 'undefined behavior' territory.</p>\n"
+            }
+        ]
+    },
+    {
+        "dataset": "se",
+        "id": "se_132",
+        "messages": [
+            {
+                "role": "user",
+                "content": "\n\nHuman: <p>My question here is relative to jobs for programmers.</p>\n\n<p>Why does employer still contract programmers if today we have a lot of good commercial system avaliable on the market?</p>\n\n<p>I want to be very clear at this point, this question is relative only to a system, more specially to ERP systems.  Maybe this question looks a little bit useless, but right now I'm working and this doubt arose to me and my boss.</p>\n\n<p>I have a few answers to my own question, but I really would like to speculate this subject a bit more.</p>\n\n<p>Also I know, every good company needs a customized system, but ... the question is here. :-)</p>\n\n<p>Any answer will make me feel better. Thanks.</p>\n\n\nAssistant:"
+            },
+            {
+                "role": "assistant",
+                "content": " <p>Do you realize how expensive some of those higher-end commercial systems can cost to buy in the first place?  If companies are spending hundreds of thousands if not millions of dollars, don't you think they would want someone to help them get the most out of this big purchase?</p>\n\n<p>Paying for the customization is why the contractors come in and don't forget that the big guys like SAP and Oracle may well have other companies that work as \"System Integrators\" that help companies implement the system correctly at a rather high cost.  Think of this as the difference between having a personal chef cook your meals and getting them in bulk from McDonald's.  That personal chef can put in so many touches that while yes it is expensive, some people tend to believe you pay for what you get and want lots of little things that they do pay but they may be happy in the end.</p>\n"
+            }
+        ]
+    },
+    {
+        "dataset": "se",
+        "id": "se_48",
+        "messages": [
+            {
+                "role": "user",
+                "content": "\n\nHuman: <p>For those unfamiliar with the SOLID principles you can start reading here: <a href=\"http://en.wikipedia.org/wiki/SOLID_(object-oriented_design)\" rel=\"nofollow\">Wikipedia article</a>. However, most of my understanding comes from: <a href=\"http://www.objectmentor.com/resources/publishedArticles.html\" rel=\"nofollow\">http://www.objectmentor.com/resources/publishedArticles.html</a></p>\n\n<p>Regardless, it seems that every GUI interface I run into in Java (even the one in Adobe Flex honestly) is filled with dozens of methods which are duplicated across many classes. Deep inheritance hierarchies are the norm and <a href=\"http://en.wikipedia.org/wiki/Composition_over_inheritance\" rel=\"nofollow\">composition is definitely not preferred over inheritance</a>. This seems to be a clear violation of <a href=\"http://en.wikipedia.org/wiki/Single_responsibility_principle\" rel=\"nofollow\">SRP</a> and <a href=\"http://en.wikipedia.org/wiki/Interface_segregation_principle\" rel=\"nofollow\">ISP</a>.</p>\n\n<p>What I would like to know is, am I correct in thinking that these frameworks are violating the SOLID design principles? If so, then why?</p>\n\n<p>Response to Snowman</p>\n\n<p>I have to disagree that SWING is an example of SOLID. Lets use the JButton example:</p>\n\n<p>1) SRP: The method isDoubleBuffered goes beyond the responsibility of JButton to represent a UI button. That method represents an implementation detail that has nothing to do with abstract concept of a UI button.</p>\n\n<p>2) OCP: If I want to change how JButton handles events I have to replace the JButton class completely.</p>\n\n<p>3) LSP: The implementation of JButton cannot be readily substituted with other implementations. JButton inherits most of it's implementation details directly. If I want to change the way a JButton creates tooltips, assigns action listeners, or access the graphics context, I have to throw away all of SWING. I cannot simply drop in a new class that handles those things since JButton inherits directly from JComponent.</p>\n\n<p>4) ISP: The JButton public interface is littered with dozons of methods from every class that it inherits from. It is litterally a dumping group of public methods from JComponent, Container, Compound, etc. If the interface of JButton adhered to ISP there would only be 10 or so publically exposed methods.</p>\n\n<p>5) DIP: JButton publicly exposes methods of it's concrete implementation details. If it applied true dependancy inversion then things like icon's, layout, event handling, etc would be delegated to separate classes that the user could readily switch out to achieve new functionality.</p>\n\n\nAssistant:"
+            },
+            {
+                "role": "assistant",
+                "content": " <p>In general, I disagree that GUI frameworks violate <a href=\"http://en.wikipedia.org/wiki/SOLID_(object-oriented_design)\" rel=\"nofollow\">SOLID</a>. There may be exceptions, but this wraps up my experience with multiple frameworks:</p>\n\n<ul>\n<li><p>SRP: a GUI class typically has one responsibility. Maybe it is responding to an event, rendering an object, or maybe it is \"represent this UI element.\" That last one might sound like it is not a \"single\" responsibility because that one responsibility is to tie everything together (e.g. <code>JButton</code> or <code>JPanel</code>). The key to look for is those \"big\" object often delegate to other objects that are specialized and handle one aspect of the object in detail (event handling, rendering, etc).</p></li>\n<li><p>Open/Closed: Your example shows how UI classes are definitely open for extension: there is a lot of inheritance going on. One could argue that UI classes violate the \"closed for modification\" aspect since they are typically very configurable and can be modified to do a lot of things differently, but that is one purpose of these classes to begin with.</p></li>\n<li><p>Liskov Substitution: in pretty much every framework I have seen, subclasses add more functionality and still allow parent class behavior. It does not always make sense, but it is supported. For example, you could nest UI elements inside of a button if it extends a frame (perhaps one could add an icon to a button this way, a picture element nested inside a button despite \"button\" not being commonly thought of as a parent element). This principle is key to the nested nature of UI frameworks.</p></li>\n<li><p>Interface segregation: my main experience here is with Java, where there are many little interfaces for various listeners and handlers. Seems like a good fit.</p></li>\n<li><p>Dependency inversion: along with the Liskov argument, many frameworks do rely on abstractions. For example, there may be some high level interface or abstract class to represent all UI components. Parent components can then accept any high-level component as a child, which allows arbitrarily complex layouts via nesting.</p></li>\n</ul>\n\n<p>Overall, I think there is a strong argument <em>for</em> GUI frameworks adhering to SOLID.</p>\n"
+            }
+        ]
+    },
+    {
+        "dataset": "se",
+        "id": "se_93",
+        "messages": [
+            {
+                "role": "user",
+                "content": "\n\nHuman: <p>This question is a narrowing-down of these related questions:</p>\n\n<ul>\n<li><a href=\"https://softwareengineering.stackexchange.com/questions/7000/how-much-effort-should-we-spend-to-programming-for-multiple-cores\">How much effort should we spend to programming for multiple cores?</a></li>\n<li><a href=\"https://softwareengineering.stackexchange.com/questions/24936/concurrency-how-do-you-approach-the-design-and-debug-the-implementation\">Concurrency: How do you approach the design and debug the implementation?</a></li>\n</ul>\n\n<p>Given that each user's computers may have different performance characteristics with respect to calculations, memory, disk I/O bandwidth and network I/O bandwidth, and that it is difficult to implement an automated self-tuning system in your software, how much configurability should we give to the end-users so that they can find ways (by trial-and-error?) to improve our software's efficiency?</p>\n\n<p>If we give users the ability to change these settings, how do we give visual feedback to users so they can measure the performance changes?</p>\n\n\nAssistant:"
+            },
+            {
+                "role": "assistant",
+                "content": " <p>If you are going to write most of your app from scratch and have developers with very good skills and motivation to mess with unstable specifications and browser quirks in exchange for doing cool things that nobody did before - go HTML5.</p>\n\n<p>If on the other hand you prefer to build on top of what others build, use advanced tools and ready-made widgets and prefer getting things done sooner rather than later, no matter if a little ugly, and want to have a wide choice of developers be available to you - you may want to go with more established technologies, like Flash or Silverlight. </p>\n\n<p>It also depends on if there are some existing tools and libraries in the area you are targeting or you are opening an entirely new topic. </p>\n"
+            }
+        ]
+    },
+    {
+        "dataset": "se",
+        "id": "se_9",
+        "messages": [
+            {
+                "role": "user",
+                "content": "\n\nHuman: <p>Two years ago, my boss handed me my first annual salary adjustment letter. It was a substantial increase, retroactive to the beginning of the year.</p>\n\n<p>I filed it away. I noticed a pay bump, but because I also adjusted my 401k and insurance around that time, it wasn't obvious that I wasn't getting the full amount described on the adjustment letter.</p>\n\n<p>Doing my taxes the next year, I noticed my gross income didn't seem to match what I remembered that letter saying. I looked at my paychecks online and found that I was actually being paid <em>$5k less</em> than that amount. Unfortunately, I'd misplaced that letter, and started to suspect that I had just misread it. And it was still a decent increase, after all.</p>\n\n<p>My next annual salary adjustment hailed a \"raise\" of $2k (i.e., less than I originally thought I was making the year before). But again, I couldn't say for sure without last year's letter, and I was embarrassed to think I'd misread that sort of pay increase.</p>\n\n<p>After filing this year's salary adjustment letter, however, I found my original letter from 2017. It really does have that higher salary figure in black and white, and confirmed that number by saying it was \"an increase of $XX,XXX.\" I hadn't misread it after all.</p>\n\n<p>I brought all three salary adjustment letters to HR today and asked what happened. It turns out my manager asked for special permission to give me the larger-than-usual raise. In an email to HR, the CEO approved the smaller raise I actually got, but somehow that change never made it to the letter my manager ultimately signed and handed to me a couple weeks later.</p>\n\n<p>On the surface, it looks like an honest mistake on HR's part. And I should have been more diligent in following up when I noticed the problem, especially now that it's two years (and two salary adjustment letters) past.</p>\n\n<p><strong>Should I mention anything to my manager?</strong> Or just let it go?</p>\n\n\nAssistant:"
+            },
+            {
+                "role": "assistant",
+                "content": " <p>Go to your boss and see if he\u2019ll go to bat for the raise again, assuming all is still going well there.</p>\n\n<p>You\u2019re not owed anything from before - it\u2019s sad that you got a letter saying the wrong amount, but in the end the CEO approves what the CEO approves, and he approved $5k less than what they tried to give you.  There\u2019s no circumstance in which they are going to give you back pay or automatically raise your salary based on someone putting the clearly wrong number on a letter.</p>\n\n<p>But you have even more of a track record of doing whatever you\u2019ve been doing, and your boss may be motivated to try again given he thought you got it in the first place.</p>\n"
+            }
+        ]
+    },
+    {
+        "dataset": "se",
+        "id": "se_16",
+        "messages": [
+            {
+                "role": "user",
+                "content": "\n\nHuman: <p>So last week I got offered a job by a company that I\u2019ve went to multiple interviews for and I am excited to join them. I signed the job offer but told the employer verbally that the expected start date I will write on the offer is just estimated initially based on what I have read on the company\u2019s policy (I can join them one month later) and once I hand in my resignation I will know more. (i.e. if my boss needs me for handover or something).</p>\n\n<p>This Thursday I told my direct manager that I will not renew my contract and he told me that he needs me for two months (so that is one month more than I have calculated initially) so I can help in finding a replacement, train them, handover all my current projects to them. And he told me that the period might be one month only depending on how fast we find a replacement and when can they join.</p>\n\n<p>Right now I am kind of embarrassed to talk to my future employer and tell them that I might join them later. I feel like it was my mistake was that I signed the job offer and gave them an expected start date before talking to my manager.\nWhat is the right approach to handle this?\nShould I negotiate with my current manager on the notice period?\nShould I just be honest to my future employer about the hand over? But what if it takes less than two months and I am able to join early?</p>\n\n\nAssistant:"
+            },
+            {
+                "role": "assistant",
+                "content": " <p>Your contract is King here.  What your manager desires<sup>[1]</sup> has nothing to do with what your contract says.</p>\n\n<p>So the next step is to review your contract in the smallest detail and determine if there is any section that requires you to stay longer.  You made need to involve a legal specialist from your locale to help you do this.</p>\n\n<p>Once you are certain of your facts you have two possibilities:</p>\n\n<ol>\n<li><p>If there is no requirement for you to stay, then you politely tell\nyour current manager that you will be leaving after one month.</p></li>\n<li><p>If there is a requirement for you to stay past one month, then you\nhave to politely inform your new company that due to a contract\nmis-understanding you are not able to join at the date you\nindicated.</p></li>\n</ol>\n\n<p>All in all just be honest and polite with both parties, know your contract in the smallest detail and stick to you what you want to do.</p>\n\n<hr>\n\n<p>[1] Your manager can't seem to decide if it is 1 month or 2 that you have to stay.  But what if it is 3 months?  In my opinion your manager is trying to guilt trip you into staying longer than you want, because the earlier you leave then the more likely he will be blamed for not having a replacement for you.  All in all it's his problem and not yours as to when you leave.</p>\n\n<p>And even if he wants you to stay but you still leave when you want, what is he going to do?  Not pay you?  Going down that sort of path opens up your current company to legal action on your part - and that would probably be worse for your manager than you simply leaving (even if it is only a threat and not an actual action)</p>\n\n<hr>\n\n<p>On a related note, when you make the job change you could also offer to help your old company outside of normal work hours as a favor to them (for a fee - think contracting rates and then shamelessly multiply that number by 2).  Doing so will make lessen the impression that you are burning bridges when you leave.</p>\n"
+            }
+        ]
+    },
+    {
+        "dataset": "se",
+        "id": "se_29",
+        "messages": [
+            {
+                "role": "user",
+                "content": "\n\nHuman: <p>With StackOverflow and Careers 2.0 it's becoming easier to use the SE network as a professional profile. Yet at the same time there are more and more sites on the SE network, some of which you might not want your employer to know about. Either because they are too personal (like Relationships and Dating) or because, like The Workplace itself, they are actually about your workplace.</p>\n<p>I am wondering if it is more professional to have a &quot;work&quot; set of SE accounts and a &quot;personal&quot; set, or is it not worth troubling to keep them separate? What other factors might you need to consider?</p>\n<p>In particular I am wondering about:</p>\n<ul>\n<li>how it might affect how you are viewed by potential employers if non-professional SEs are linked to your Careers 2.0 profile</li>\n<li>similarly, how it might affect how you are viewed by current employers</li>\n<li>what other disadvantages there might be to having all questions on the same account that I haven't considered, why they are a disadvantage and how they could be mitigated <em>other</em> than by using two accounts</li>\n<li>if there are any advantages (besides convenience) of having everything on the same account - in particular regarding (though not limited to) professionalism and the workplace</li>\n</ul>\n<hr />\n<h2>Thanks everybody who has contributed so far. In light of the answers received so far I would like to make the problem clearer.</h2>\n<p>I would like to:</p>\n<ul>\n<li>leave the option open to use Careers 2.0 at some point in the future if I decide it is a good idea, and</li>\n<li>participate fully on the SE network, including some of the less professional sites (as described in first paragraph)</li>\n</ul>\n<p><strong>How do I reconcile these two desires?</strong></p>\n\n\nAssistant:"
+            },
+            {
+                "role": "assistant",
+                "content": " <p>Interesting topic! If you use a range of different Stack Exchange sites, and you use you Stack/Careers2.0 profile professionally for job-hunting, etc., then sure, it's worth considering.</p>\n\n<p>You basically answered you own questions with the reason why you might wish to do this. Effectively, if you participate on work-related (in my case, core Stack Overflow, Programmers and Workplace) and also non work-related (in my case, Genealogy &amp; Family History and the Arqade) sites, that's the equivalent of, say, having a technical blog and also a personal blog. Do you link the two together? Up to you.</p>\n\n<p>Personally, I don't think there's any reason to stress too much about mixing work-related and non work-related things on the one Stack profile. Instead, I'd look at it from the angle of whether or not you want any given question or answer to be linked to your main profile. For instance, we often see people creating new anonymous accounts to ask questions here on the Workplace because they don't want their questions about their workplace connected to their known profile. It's probably easier to do it case-by-case and use a fresh profile to ask a question if and when you need to.</p>\n"
+            }
+        ]
+    },
+    {
+        "dataset": "se",
+        "id": "se_27",
+        "messages": [
+            {
+                "role": "user",
+                "content": "\n\nHuman: <p>Several times in my career, I've encountered situations where the business has a technical problem, and I have the previous experience and skills necessary to resolve the issue.</p>\n\n<p>Instead of being trusted to solve the issue, these companies have typically hired (expensive) external consultants to come in and \"save us\". Their theory being \"they're paid to work in that area, so they must be experts\"...</p>\n\n<p>In each case, I've already presented my understanding of the problem and my proposed solution. Each and every time, the consultants produce a report that supports my conclusions (but often goes into less detail - as I've had the advantage of examining the original issue over more time).</p>\n\n<p>Then, what usually happens is that I've gained some \"business credibility\" in subject \"A\", but if a problem ever occurs with topic \"B\" it'll be the same uphill battle all over again.</p>\n\n<p>I've also seen attitudes resembling:</p>\n\n<blockquote>\n  <p>\"We don't know, so you can't know.\"</p>\n</blockquote>\n\n<p>If they've had an issue for months or years, then you join and suggest something they haven't tried, there's almost a willful refusal to consider the possibility.</p>\n\n<blockquote>\n  <p>\"The consultants are employed by the vendor/OEM, so they must know.\"</p>\n</blockquote>\n\n<p>Even when it's a relatively trivial issue, they'll assume they need an oracle on the subject (thinking along the lines of \"we have a Java issue, James Gosling must be the only person able to help us\").</p>\n\n<p>Now, I'd hope that I have a reasonably realistic assessment of my own abilities (or lack thereof), so when there's a problem outside of my \"domain\" I'll just do everything possible to stay out of the way and absorb the knowledge demonstrated by whoever gets tasked with resolving it (basically, I don't pretend to know what I don't know about). </p>\n\n<p><strong>How can I convince my employer that I have the level of competence they require when it's in an area where they lack the expertise to assess competence?</strong> </p>\n\n<hr>\n\n<p><strong>Update</strong></p>\n\n<p>A few people commenting and answering have missed a nuance to my question. The people I'm working with are not incompetent in general (quite the opposite in fact), they simply lack competence <strong>for a given skill</strong> - usually on a rare topic.</p>\n\n<p>This means I do not patronize, talk down to them or speak to them with any disdain or disrespect (as some answerers have assumed). In fact, when the topic is in an area they have a degree of familiarity with, I find it very easy to get \"buy-in\" and support for my ideas. The only time I encounter any issues is when they lack the tools to assess my competence in a skill they lack themselves.</p>\n\n\nAssistant:"
+            },
+            {
+                "role": "assistant",
+                "content": " <p>The best way to prevent the race for a consultant is present a convincing business case that doesn't include a consultant.  From the business cases I've developed the main points are as follows:</p>\n\n<ol>\n<li>Thoroughly define the problem being solved - Do not include your solution within the problem definition.  Concisely state the problem in business terms rather than technical terms.  For example \"Based on submitted bug reports customers find feature X confusing.  This confusion leads to frustration and reduces engagement in the overall product.\" is much better than \"The UI of feature X is flawed in these ways...\" because it states the problem in terms of business value.  In terms of solution ownership this shows that you understand the issue from a business perspective which is key since this is the same perspective that the decision makers will be looking from.  This will get everyone on the same page as to what the problem is from a high level.</li>\n<li>State your solution along with several other possible plans of\naction including the null case of doing nothing and state the\ncosts/benefits for each. For the above example I would go through\ndoing nothing, scrapping feature X, improving user training/help\ndocuments, reworking the UI on feature X.  This shows that you have\nlooked at the issue from several sides rather than immediately\nhopping onto your pet solution to the exclusion of all others.</li>\n<li>Show how you can effectively test if your solution eliminates the\nproblem.  This is huge in selling non-technical people on technical\nsolutions.  They want assurance that their investment is working so\nif you can give them concrete parameters and a way to measure\nsuccess.  If the definition of success is murky it is\npsychologically much harder to buy in to an idea.</li>\n</ol>\n\n<p>My best real world example regarding going to a consultant is imagine you go to a mechanic for routine inspection.  If you hear \"Your garbles are cracked.  It's $800 to change them out.  Should I go ahead with that?\"  you are not going to be very confident in your ability to know if your money is being well spent and you may get a second opinion.  If you hear \"Your garbles are slightly cracked which could lead to your steering failing if you hit a pothole.  We could wait and see but that's risky.  I could weld across the crack for $500 but I wouldn't trust it long run.  It would be $800 to swap them out.  Swapping them out is the only way we can be sure they will hold.  What do you want me to do?\" you are going to feel more empowered to make a good decision even if the ultimate decision is the same.</p>\n\n<p>As a side note in a lot of places you are going to be fighting the culture to make headway on this.  Don't take it personally if the default answer is consultancy, just continue to work on your sales skills for selling your ideas to management.  When a decision goes against you on this remember that you may be missing pieces of the bigger picture (ie cost of failure may be higher than it generally appears due to interdependencies) or the opportunity cost for you doing this project rather than something else might be too high.</p>\n"
+            }
+        ]
+    },
+    {
+        "dataset": "se",
+        "id": "se_31",
+        "messages": [
+            {
+                "role": "user",
+                "content": "\n\nHuman: <p>I'm currently entering my senior year of college and am beginning to apply for full time positions after graduation.</p>\n\n<p>For the past 1.5 years I've worked part time during the school year and full time during the summers for a mid-large size firm. One of the supervisors who I worked closely with wrote my a one page letter of reference at my request. This supervisor used to be a high up department head for a major government regulatory agency (he has a Wikipedia page and is extremely well known by those within the industry). The reference letter he wrote me is extremely positive and highlights much of the specific work we have done together over the past 1.5 years. It's about a page long.</p>\n\n<p>I obviously want to highlight that relationship and present future employers with the letter as I feel that it would certainly help me in my application. The issue that i'm having is that the majority of applications don't ask for a reference letter. Should I send this reference letter to employers even if it has not been asked for? </p>\n\n<p>For example I am actually applying to work in the government agency he used to head. Obviously I feel that his recommendation would carry a lot of weight but the application for that position doesn't ask for a reference letter and doesn't seem to expect it. How can I include the letter in these types of applications or should I simply leave it out unless asked? </p>\n\n<p>I've already highlighted that we had a close working relationship in my resume and talked about some of the work we did together but would like to showcase his perspective if possible.</p>\n\n\nAssistant:"
+            },
+            {
+                "role": "assistant",
+                "content": " <p>Most job applications in industry (rather than academia) do not use reference letters at all. I would never attach a reference letter unless asked for one specifically. However, most jobs do ask for <em>references</em>, which is a list of people (around 3) that they can contact to ask about you. This list should most certainly include your supervisor, as well as a couple others who know you (professor, adviser, manager, etc). I would usually recommend waiting to give an interviewer a reference list until they ask for it, which they may not even do.</p>\n\n<p>You say that you've already highlighted your relationship with your supervisor in your resume, which is an okay place to put it. Usually though a resume should focus on your own skills and accomplishments and less on the people you know. An even better place to talk about your work with this person is in your cover letter. This way you can highlight exactly what you learned from him and how that affects your career goals. This is especially true when applying to your supervisor's agency. You can explain that he is the reason you became interested in applying for the job.</p>\n\n<p>So to summarize, you probably won't need the reference letter itself, but he is certainly still a good person to have as a reference.</p>\n"
+            }
+        ]
+    }
+]

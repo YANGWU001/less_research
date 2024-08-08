@@ -22,8 +22,8 @@ from arguments import DataArguments, get_data_statistics, ModelArguments, add_pa
 
 logger = logging.getLogger(__name__)
 os.environ["TOKENIZERS_PARALLELISM"] = "false"
-# gpus = "0,1,2,3"
-# os.environ["CUDA_VISIBLE_DEVICES"] = gpus
+gpus = "0,1,2,3"
+os.environ["CUDA_VISIBLE_DEVICES"] = gpus
 os.environ["PYTORCH_CUDA_ALLOC_CONF"] = "max_split_size_mb:64"
 def get_block_class_from_model(model: torch.nn.Module, block_class_name: str) -> torch.nn.Module:
     """Get the class of a block from a model, using the block's class name."""

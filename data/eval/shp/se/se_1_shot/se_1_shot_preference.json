@@ -1,0 +1,539 @@
+{
+    "\n\nHuman: <p>Recently a manuscript from my Masters by research thesis has been accepted in a Q1 journal with Impact factor nearly 4. At the beginning of the manuscript submission, I requested my advisers to be the coauthors of my article but they denied my request. Is that ethically ok to publish the accepted manuscript?</p>\n\n\nAssistant:": {
+        "responses": [
+            " <p>If your advisors do not want to be co-authors, I think it is fine. You do not have to feel any sort of ethical conundrum for that matter.</p>\n<p>By the way, have you asked them why they do not want to be co-authors?</p>\n<p>Maybe they are already well accomplished and well published and want you to be the sole author of the paper; which will be a good thing for you. If that's the case, then your advisers are godly.</p>\n",
+            " <p>There are a few different situations that could lead to this:</p>\n<ol>\n<li><p><strong>Most plausible case:</strong> Your supervisors determined that in accordance with the standards of your field, they do not count as coauthors.</p>\n<p>Different fields have different customs concerning whether supervisors are assumed to be coauthors of papers resulting from the supervised work. If you worked independently and your supervisors agree, then being a single author on the resulting paper will always be reasonable. Since you mention asking them only at submission stage, it does sound as if their involvement is limited.</p>\n</li>\n<li><p>Your supervisors really ought to be coauthors by the standards of your field, but declined to give you an (unfair) advantage or similar.</p>\n<p>This is problematic from an ethical perspective. Having another persons consent still doesn't allow an academic to present their ideas as ones own. A carefully worded acknowledgement might work.</p>\n</li>\n<li><p>Your supervisors declined because they are aware of flaws in your paper, and don't want to be associated with it.</p>\n<p>While one would hope that peer review would spot problems, there is no guarantee that it does. If your supervisors are aware of any major flaws, it would be your ethical responsibility to find out and either fix the paper, or to withdraw it if it is unfixable.</p>\n</li>\n<li><p>The manusscript is sound, but your supervisors are under political pressure to not associate themselves with the results. (pointed out by nick012000 in the comments)</p>\n<p>Probably no ethical concerns about you publishing here, unless the political pressure is there for very good reasons.</p>\n</li>\n</ol>\n",
+            " <p>While the other current answers are good, they don't directly answer the main question. <em>Yes it is ethical</em> for you to publish on your own. There should be no question about that. Actually, be thankful that they almost certainly think enough of you that they don't see the need or have the desire to share your glory. It is good that the <a href=\"https://academia.stackexchange.com/a/157540/75368\">answer of Arno</a> raised the third point, but I think the tis very unlikely.</p>\n<p>Ethics enters in to authorship questions when people are improperly included or excluded from authorship. But there is no question of &quot;exclusion&quot; here, since you are acting on their recommendation when publishing without them.</p>\n<hr />\n<p>Yes, <a href=\"https://academia.stackexchange.com/a/157533/75368\">PK1995</a> implies that there is no ethical constraint.</p>\n"
+        ],
+        "pairs": [
+            [
+                1,
+                0
+            ],
+            [
+                2,
+                0
+            ],
+            [
+                1,
+                2
+            ]
+        ],
+        "sft_target": " <p>There are a few different situations that could lead to this:</p>\n<ol>\n<li><p><strong>Most plausible case:</strong> Your supervisors determined that in accordance with the standards of your field, they do not count as coauthors.</p>\n<p>Different fields have different customs concerning whether supervisors are assumed to be coauthors of papers resulting from the supervised work. If you worked independently and your supervisors agree, then being a single author on the resulting paper will always be reasonable. Since you mention asking them only at submission stage, it does sound as if their involvement is limited.</p>\n</li>\n<li><p>Your supervisors really ought to be coauthors by the standards of your field, but declined to give you an (unfair) advantage or similar.</p>\n<p>This is problematic from an ethical perspective. Having another persons consent still doesn't allow an academic to present their ideas as ones own. A carefully worded acknowledgement might work.</p>\n</li>\n<li><p>Your supervisors declined because they are aware of flaws in your paper, and don't want to be associated with it.</p>\n<p>While one would hope that peer review would spot problems, there is no guarantee that it does. If your supervisors are aware of any major flaws, it would be your ethical responsibility to find out and either fix the paper, or to withdraw it if it is unfixable.</p>\n</li>\n<li><p>The manusscript is sound, but your supervisors are under political pressure to not associate themselves with the results. (pointed out by nick012000 in the comments)</p>\n<p>Probably no ethical concerns about you publishing here, unless the political pressure is there for very good reasons.</p>\n</li>\n</ol>\n",
+        "rejected_target": " <p>If your advisors do not want to be co-authors, I think it is fine. You do not have to feel any sort of ethical conundrum for that matter.</p>\n<p>By the way, have you asked them why they do not want to be co-authors?</p>\n<p>Maybe they are already well accomplished and well published and want you to be the sole author of the paper; which will be a good thing for you. If that's the case, then your advisers are godly.</p>\n"
+    },
+    "\n\nHuman: <p>There are 3rd party apps but I'm not interested in those.  I'm a web developer and during testing I find myself entering login credentials over and over again.  If I could quickly \"play\" these keystorkes it would help my sanity.  I'm assuming Automator can do this?  I've never used Automater so a complete answer for that would be appreciated.  However I would prefer something even more native if it's possible.</p>\n\n\nAssistant:": {
+        "responses": [
+            " <p>Let me start by saying that there are lots of good third party apps for automatically logging in to web forms. I highly recommend using one of those.</p>\n\n<p>To answer your question: Yes, you can do this with a combination of Automator and AppleScript. Here's how.</p>\n\n<p>Open Automator. Go to File-> New. Select <code>Service</code>.<br>\nType <code>applescript</code> into the search bar near the top left.<br>\nDrag the <code>Run AppleScript</code> item to the area on the right.<br>\nReplace the purple code that starts in the box with this:</p>\n\n<pre><code>tell application \"System Events\"\n    keystroke \"username\"\n    keystroke tab\n    keystroke \"password\"\nend tell\n</code></pre>\n\n<p>Now replace the <code>username</code> text with your username, and replace the <code>password</code> text with your password.<br>\nThis will have the computer type your username, hit tab, and type your password.<br>\nNow, at the top of the Automator window, set <code>Service receives</code> to <code>no input</code> and <code>in</code> to the app you need this to happen in.<br>\nAutomator shoud now look like this:\n<img src=\"https://i.stack.imgur.com/gl26o.png\" alt=\"enter image description here\"></p>\n\n<p>Save this and give it a name. Now, go to the app you selected at the top right and put your cursor in the username field.</p>\n\n<p>Go to the app's menu (next to the Apple menu) and choose Services-> {<em>what you named your Automator app</em>}.</p>\n\n<p>It should run the Automator workflow and 'play back' the keystrokes.</p>\n\n<p>Again, this is the hard, insecure way. I highly recommend apps like <a href=\"https://agilebits.com/products/1Password\" rel=\"nofollow noreferrer\">1Password</a> and <a href=\"https://lastpass.com/\" rel=\"nofollow noreferrer\">LastPass</a>.</p>\n",
+            " <p>Well, if you just want to input a username and a password automatically, simply go to <code>Safari &gt; Preferences &gt; Autofill</code> and select \"User Names and Passwords\". In theory that should ask you upon submiting the form if you want Safari to remember it, and if you select yes, it will store it in your Keychain.</p>\n\n<p>Next time you visit the website you will just have to type the first character and Safari will automatically fill in the rest for you.</p>\n\n<p>Hope it helps!</p>\n"
+        ],
+        "pairs": [
+            [
+                0,
+                1
+            ]
+        ],
+        "sft_target": " <p>Let me start by saying that there are lots of good third party apps for automatically logging in to web forms. I highly recommend using one of those.</p>\n\n<p>To answer your question: Yes, you can do this with a combination of Automator and AppleScript. Here's how.</p>\n\n<p>Open Automator. Go to File-> New. Select <code>Service</code>.<br>\nType <code>applescript</code> into the search bar near the top left.<br>\nDrag the <code>Run AppleScript</code> item to the area on the right.<br>\nReplace the purple code that starts in the box with this:</p>\n\n<pre><code>tell application \"System Events\"\n    keystroke \"username\"\n    keystroke tab\n    keystroke \"password\"\nend tell\n</code></pre>\n\n<p>Now replace the <code>username</code> text with your username, and replace the <code>password</code> text with your password.<br>\nThis will have the computer type your username, hit tab, and type your password.<br>\nNow, at the top of the Automator window, set <code>Service receives</code> to <code>no input</code> and <code>in</code> to the app you need this to happen in.<br>\nAutomator shoud now look like this:\n<img src=\"https://i.stack.imgur.com/gl26o.png\" alt=\"enter image description here\"></p>\n\n<p>Save this and give it a name. Now, go to the app you selected at the top right and put your cursor in the username field.</p>\n\n<p>Go to the app's menu (next to the Apple menu) and choose Services-> {<em>what you named your Automator app</em>}.</p>\n\n<p>It should run the Automator workflow and 'play back' the keystrokes.</p>\n\n<p>Again, this is the hard, insecure way. I highly recommend apps like <a href=\"https://agilebits.com/products/1Password\" rel=\"nofollow noreferrer\">1Password</a> and <a href=\"https://lastpass.com/\" rel=\"nofollow noreferrer\">LastPass</a>.</p>\n",
+        "rejected_target": " <p>Well, if you just want to input a username and a password automatically, simply go to <code>Safari &gt; Preferences &gt; Autofill</code> and select \"User Names and Passwords\". In theory that should ask you upon submiting the form if you want Safari to remember it, and if you select yes, it will store it in your Keychain.</p>\n\n<p>Next time you visit the website you will just have to type the first character and Safari will automatically fill in the rest for you.</p>\n\n<p>Hope it helps!</p>\n"
+    },
+    "\n\nHuman: <p>I've just installed Ubuntu 14.04 LTS on my HP Envy spectre xt 13-2000eg and i just can't get my wifi working.\nI have an Intel Centrino Advanced-N 6205 \nI also have the gnome shell installed (I don't think thats the problem) when I try to connect to a wifi network it says hardware disabled.\nWhen I run </p>\n\n<pre><code>rfkill list\n</code></pre>\n\n<p>I get </p>\n\n<pre><code>0: phy0: Wireless LAN\nSoft blocked: no\nHard blocked: yes\n</code></pre>\n\n<p>Further I already checked, but I don't have a hardware switch for wireless connections. Simply trying </p>\n\n<pre><code>rfkill unblock all\n</code></pre>\n\n<p>won't do the trick either. </p>\n\n<p>Funny thing is that for a short time the wifi worked but after the reboot i had the same problem again.\nMaybe it is intel's iwlwifi? I couldn't figure out how to install that :/</p>\n\n<p>I really hope someone can help me.</p>\n\n\nAssistant:": {
+        "responses": [
+            " <p>Hard Block cannot be unblocked using the software. </p>\n\n<p>Your WiFi is perhaps turned of by your keyboard WiFi shortcut. It is also possible that it is disabled by your BIOS settings.  Try to enable it using your keyboard shortcut or any other key available in you system. Also check you BIOS settings for any WiFi related settings.</p>\n",
+            " <p>Update: As I already mentioned in the comment of the answer my wifi now kind of works. \nI figured out that after the restart the wifi is \"hardware disabled\" however if I suspend (in my case just close the laptop) and then immediately reopen i.e. wake it up again it works.\nI have no clue why, but it does.\nMaybe this helps someone, too.</p>\n",
+            " <p>I had the same problem with HP Pavilion G6 and I tried everything including several re-installations. The solution is unbelievably simple. All I did was to load BIOS default setting and the hard block was removed. Working perfectly since then. Try and see if this helps. </p>\n"
+        ],
+        "pairs": [
+            [
+                0,
+                1
+            ],
+            [
+                2,
+                0
+            ],
+            [
+                2,
+                1
+            ]
+        ],
+        "sft_target": " <p>Hard Block cannot be unblocked using the software. </p>\n\n<p>Your WiFi is perhaps turned of by your keyboard WiFi shortcut. It is also possible that it is disabled by your BIOS settings.  Try to enable it using your keyboard shortcut or any other key available in you system. Also check you BIOS settings for any WiFi related settings.</p>\n",
+        "rejected_target": " <p>Update: As I already mentioned in the comment of the answer my wifi now kind of works. \nI figured out that after the restart the wifi is \"hardware disabled\" however if I suspend (in my case just close the laptop) and then immediately reopen i.e. wake it up again it works.\nI have no clue why, but it does.\nMaybe this helps someone, too.</p>\n"
+    },
+    "\n\nHuman: <p>Is there a word/phrase for that?</p>\n\n<p>Example:</p>\n\n<blockquote>\n  <p>I closed my eyes, and listened to the [...] stones.</p>\n</blockquote>\n\n\nAssistant:": {
+        "responses": [
+            " <p><em>Vibrate</em></p>\n\n<blockquote>\n  <p>\u2022 [ no obj. ] (of a sound) resonate; continue to be heard</p>\n</blockquote>\n\n<p>Noun: Vibration.</p>\n",
+            " <p>Consider <em>gurgling</em></p>\n\n<ul>\n<li>To flow in a broken irregular current with a bubbling sound.</li>\n</ul>\n",
+            " <p>Depending on the size of the stones and other characteristics of the stream and stones, it could be clashing, rattling, grinding, whispering, tumbling (not exactly a sound, but still), grumbling, grating.</p>\n",
+            " <p><a href=\"http://www.oxforddictionaries.com/definition/english/burble\" rel=\"nofollow\"><em>Burble</em></a> seems like a good choice.</p>\n\n<ul>\n<li>(<em>Verb</em>) Make a continuous murmuring noise:</li>\n</ul>\n\n<blockquote>\n  <p>\"<em>a stream burbled through the woods</em>\"</p>\n</blockquote>\n\n<ul>\n<li>(<em>Noun</em>) Continuous murmuring noise:</li>\n</ul>\n\n<blockquote>\n  <p>\"<em>the steady burble of running water</em>\"</p>\n</blockquote>\n\n<p>Also <em><a href=\"http://www.oxforddictionaries.com/definition/english/babble?q=babbling\" rel=\"nofollow\">Babbling</a></em></p>\n\n<ul>\n<li><strong>2</strong> (usually as adjective babbling) (Of a stream) make the continuous murmuring sound of water flowing over stones:</li>\n</ul>\n\n<blockquote>\n  <p><em>\"a gently babbling brook\"</em></p>\n</blockquote>\n",
+            " <p>To my ear, the term that works best in your example is \"clatter.\"</p>\n\n<blockquote>\n  <p>I closed my eyes, and listened to the <a href=\"http://www.carlaking.com/dispatches/chinaroad/china14.html\" rel=\"nofollow\">clattering stones</a>.</p>\n</blockquote>\n\n<p>For denser rocks, consider \"<a href=\"http://www.dbsaintothelight.org/IssueTwo/IssueTwoPoetryM.html\" rel=\"nofollow\">rumble</a>.\"</p>\n"
+        ],
+        "pairs": [
+            [
+                1,
+                0
+            ],
+            [
+                2,
+                0
+            ],
+            [
+                3,
+                0
+            ],
+            [
+                4,
+                0
+            ],
+            [
+                2,
+                1
+            ],
+            [
+                1,
+                3
+            ],
+            [
+                1,
+                4
+            ],
+            [
+                2,
+                3
+            ],
+            [
+                2,
+                4
+            ],
+            [
+                4,
+                3
+            ]
+        ],
+        "sft_target": " <p>Depending on the size of the stones and other characteristics of the stream and stones, it could be clashing, rattling, grinding, whispering, tumbling (not exactly a sound, but still), grumbling, grating.</p>\n",
+        "rejected_target": " <p><em>Vibrate</em></p>\n\n<blockquote>\n  <p>\u2022 [ no obj. ] (of a sound) resonate; continue to be heard</p>\n</blockquote>\n\n<p>Noun: Vibration.</p>\n"
+    },
+    "\n\nHuman: <p>I have been playing kitten game and I have noticed that if I leave the game for a year the game runs fine and no kittens starve. Is there a consequence to this or can I just leave my game running to get resources?</p>\n\n\nAssistant:": {
+        "responses": [
+            " <p>There's a few things you'll be missing. They are events that you need to click (Astronomical events) that you'll miss the science from them.</p>\n\n<p>There might be other events like those but I'm not that far out to know but I suspect there might be.</p>\n\n<p>You won't be able to send hunters to hunt and gain the happiness bonus from the resources they get as that need a click to do.</p>\n\n<p>If you are sure your catnip reserve will never get to 0 even with all seasons being cold ones, it should be safe kitten-wise.</p>\n",
+            " <p>Depends on how far into the game you are. If your catnip production is high enough such that a -90% cold winter comes along and your kittens don't starve, than there are no negative consequences. But, it's possible you'll miss out on some advantages - based on how far you are into the game.</p>\n\n<p>At the very beginning of the game (before Astronomical events) you won't 'miss out' on anything, but your resource limits aren't likely to be high enough to make this a useful strategy.</p>\n\n<p>Once Astronomical Events and Hunters are unlocked, you'll have to pay more attention to the game if you want to make sure you aren't maxing out your catpower (thereby losing valuable ivory and furs, which equals more production) or missing Astronomical events - which give you science and a starchart.</p>\n\n<p>At the end of the game, once you have a Mint (or a few) (which produces furs and ivory) and have the upgrade that automatically registers Astronomical Events, the only thing you have to watch out for is maxing out your resource pools.</p>\n\n<p>TLDR; The only things you have to worry about are negative producing resources, click required resources (Astronomical Events and Hunting), and maxing out any resource pools.</p>\n"
+        ],
+        "pairs": [
+            [
+                1,
+                0
+            ]
+        ],
+        "sft_target": " <p>Depends on how far into the game you are. If your catnip production is high enough such that a -90% cold winter comes along and your kittens don't starve, than there are no negative consequences. But, it's possible you'll miss out on some advantages - based on how far you are into the game.</p>\n\n<p>At the very beginning of the game (before Astronomical events) you won't 'miss out' on anything, but your resource limits aren't likely to be high enough to make this a useful strategy.</p>\n\n<p>Once Astronomical Events and Hunters are unlocked, you'll have to pay more attention to the game if you want to make sure you aren't maxing out your catpower (thereby losing valuable ivory and furs, which equals more production) or missing Astronomical events - which give you science and a starchart.</p>\n\n<p>At the end of the game, once you have a Mint (or a few) (which produces furs and ivory) and have the upgrade that automatically registers Astronomical Events, the only thing you have to watch out for is maxing out your resource pools.</p>\n\n<p>TLDR; The only things you have to worry about are negative producing resources, click required resources (Astronomical Events and Hunting), and maxing out any resource pools.</p>\n",
+        "rejected_target": " <p>There's a few things you'll be missing. They are events that you need to click (Astronomical events) that you'll miss the science from them.</p>\n\n<p>There might be other events like those but I'm not that far out to know but I suspect there might be.</p>\n\n<p>You won't be able to send hunters to hunt and gain the happiness bonus from the resources they get as that need a click to do.</p>\n\n<p>If you are sure your catnip reserve will never get to 0 even with all seasons being cold ones, it should be safe kitten-wise.</p>\n"
+    },
+    "\n\nHuman: <p>I have an exam in two days for first year university physics. Often for dynamics problems, I am required to solve algebraic systems of equations by hand, and this can be very daunting. </p>\n\n<p>When I see the solutions, however, the steps that the solver took to seem very clean and almost obvious. Are there some rules of thumb that physicists use to solve small systems of equations, either by elimination or substitution?</p>\n\n<p>Here is an example. Find $\\frac{m_1}{m_2}$ in terms of only $\\theta$ where the known quantities are $\\theta$, $m_1$, $m_2$.</p>\n\n<p>$$F_T \\sin \\theta = m_1 g$$\n$$F_T \\cos \\theta = m_1 a$$\n$$F_T \\sin \\theta + F_N \\cos \\theta = m_2 g$$\n$$F_N \\sin \\theta - F_T \\cos \\theta = m_2 a$$</p>\n\n\nAssistant:": {
+        "responses": [
+            " <p>A rule of thumb would be to <strong>get rid of unwanted variables</strong>. For example, since we're only interested in $\\frac{m_1}{m_2}$ and $\\theta$, we can get rid of $F_T$.</p>\n\n<p>$$F_T \\sin \\theta = m_1 g$$\n$$F_T \\cos \\theta = m_1 a$$</p>\n\n<p>Rearrange to get</p>\n\n<p>$$\\frac{m_1 g}{\\sin \\theta}=\\frac{ m_1 a}{\\cos \\theta} \\hspace{20mm}\\text{  ...Eq  5}$$      </p>\n\n<p>I don't know whether getting this 'Equation 5' is part of the solution, but my point is get rid of unwanted variables.</p>\n",
+            " <p>It is sometimes useful to add and/or subtract equations. Eq. 3 minus Eq. 1 gives you</p>\n\n<p>$$F_N \\cos \\theta = (m_2 - m_1) g$$</p>\n\n<p>and eq. 4 + eq. 2 gives you</p>\n\n<p>$$F_N \\sin \\theta = (m_1 + m_2) a.$$\nDivide these two guys, and you then obtain</p>\n\n<p>$$(m_2 - m_1)\\frac{g}{a} \\tan \\theta = m_2 + m_1.$$\nThis should be easy to solve for $m_1/m_2.$</p>\n",
+            " <p>One \"trick\" I use often is to resolve the equations along coordinate systems that decouple my forces as much as possible. For example with your equations you can write them in a rotated coordinate system as</p>\n\n<p>$$\\begin{matrix} F_T\\sin\\theta = m_1\\,g \\\\ F_N \\cos\\theta = m_1\\,a\n\\\\  F_N = m_2 ( g\\,\\cos\\theta+ a\\,\\sin\\theta) \n\\\\ -F_T = m_2 ( a\\,\\cos\\theta - g\\,\\sin\\theta ) \\end{matrix} $$</p>\n\n<p>So now you can add/subtract equations to eliminate variables easier.</p>\n\n<p>For example adding #1 to $\\sin\\theta$ times #4 creates</p>\n\n<p>$$  F_T\\sin\\theta + \\sin\\theta (-F_T) = m_1\\,g  + \\sin\\theta (m_2 ( a\\,\\cos\\theta - g\\,\\sin\\theta ) ) $$\n  $$ a\\, m_2 \\sin\\theta \\cos\\theta = g (m_2 \\sin^2\\theta - m_1 ) $$\n  $$ a = \\frac{g (m_2 \\sin^2\\theta - m_1 )}{ m_2 \\sin\\theta \\cos\\theta} $$</p>\n"
+        ],
+        "pairs": [
+            [
+                0,
+                1
+            ],
+            [
+                0,
+                2
+            ],
+            [
+                2,
+                1
+            ]
+        ],
+        "sft_target": " <p>A rule of thumb would be to <strong>get rid of unwanted variables</strong>. For example, since we're only interested in $\\frac{m_1}{m_2}$ and $\\theta$, we can get rid of $F_T$.</p>\n\n<p>$$F_T \\sin \\theta = m_1 g$$\n$$F_T \\cos \\theta = m_1 a$$</p>\n\n<p>Rearrange to get</p>\n\n<p>$$\\frac{m_1 g}{\\sin \\theta}=\\frac{ m_1 a}{\\cos \\theta} \\hspace{20mm}\\text{  ...Eq  5}$$      </p>\n\n<p>I don't know whether getting this 'Equation 5' is part of the solution, but my point is get rid of unwanted variables.</p>\n",
+        "rejected_target": " <p>It is sometimes useful to add and/or subtract equations. Eq. 3 minus Eq. 1 gives you</p>\n\n<p>$$F_N \\cos \\theta = (m_2 - m_1) g$$</p>\n\n<p>and eq. 4 + eq. 2 gives you</p>\n\n<p>$$F_N \\sin \\theta = (m_1 + m_2) a.$$\nDivide these two guys, and you then obtain</p>\n\n<p>$$(m_2 - m_1)\\frac{g}{a} \\tan \\theta = m_2 + m_1.$$\nThis should be easy to solve for $m_1/m_2.$</p>\n"
+    },
+    "\n\nHuman: <p>According to <a href=\"https://xkcd.com/936/\" rel=\"noreferrer\">XKCD: Password Strength</a>, if the password consists of \u201cfour random common words\u201d, it will be secure and memorable.  </p>\n\n<p>I want to make a web application and make users create their passwords in this way. Each password should have at least 16 characters and must be sentence of at least 4 words to make it more secure and memorable. But this will make the attacker know that all passwords are like that. Is this a bad idea?  </p>\n\n<p>What better ways are there to force passwords that are more secure and memorable at the same time? </p>\n\n\nAssistant:": {
+        "responses": [
+            " <p>You are not damaging the security of the passwords by telling the attacker that the password is at least 16 chars long, and comprised of 4 or more words. It's the same as telling that the password must have at least 10 chars, have at least one capitalized letter, one number and one symbol. Right?</p>\n\n<p>With 4 words, the cost of a bruteforce is bigger than 10 random chars. If you ask the user to use at least one capital letter, the cost increases even more.</p>\n\n<p>According to the Oxford dictionary, English have a little less than 175k words. There are 8.64 \u00d7 10<sup>20</sup> possible combinations. Using all 95 chars on an English keyboard, you have 5.98 \u00d7 10<sup>19</sup> possible combinations.</p>\n",
+            " <p>It is not necessarily a bad idea. The attacker can know the password is in that format, considering the 4 words are random enough. But here is the thing, there are other good ways to make a memorable strong password. Limiting your users to the one you like is not very nice. For example I use password manager with truly random long passwords, which is even better than what you propose, but I could not do that on your site.</p>\n\n<p>More importantly, if the reason you want to do this is to force users to use strong password, then generate the 4 words password for them. You can generate such password by having a dictionary, then choosing random number between 1 and the number of words in your dictionary and taking that word. Do this 4 times and you have a password. You can get inspiration <a href=\"https://bitbucket.org/jvdl/correcthorsebatterystaple/src\" rel=\"noreferrer\">here</a>. This is important, as most users may not choose 4 truly random words, but instead 4 easily guessable words. In such scenario, this would be worse then letting them choose any password.</p>\n",
+            " <p>You are alluding to <a href=\"https://en.wikipedia.org/wiki/Kerckhoffs%27_principle\" rel=\"noreferrer\">Kerckhoff's Principle</a>. When we design cryptographic systems, we assume that the attacker will know everything about your system except for the entropy derived parts (Keys/passwords/etc, typically) - this is because we can't guarantee that they don't know details, but must assume that they don't know our generated keys. Any password generation scheme follows this reasoning - if a password scheme is said to be secure, then you can believe that an attacker knowing which scheme you're using isn't a problem.</p>\n\n<p>The reason that it isn't a problem is due to the way that password namespaces work. If you demand that a user generate a password based off of a known diceware list, such as the EFF list, and you demand that it is at least 4 words long, then we can compute the namespace complexity. </p>\n\n<p>First, we'll figure out the namespace of a single word - In the EFF diceware list, you roll five six sided dice and pick the result that comes up. Because there are five positions with six options, we can compute 6^5, which gives us 7776 - this simply means that there are 7776 different possible words for each place.</p>\n\n<p>Now, we can compute the minimum namespace complexity of four of these words. This is simply done by taking the number of possible words and raising it to the power of the number of words in the password - 7776 ^ 4. This gives us 3656158440062976 (3.6 Quadrillion) possible different passwords of four EFF diceware words.</p>\n\n<p>Now, to guess how long this would take, we have to make some assumptions - </p>\n\n<ol>\n<li><p>You are using a good hashing algorithm - scrypt, bcrypt, PBKDF2, etc.</p></li>\n<li><p>The attacker has consumer grade hardware. - We'll look at some benchmarks for an array of 8x 1080 TIs, which are top of the line at time of writing, but shouldn't be taken as the maximum hash rate - the NSA, etc probably has special hardware just for hashing passwords as fast as possible.</p></li>\n</ol>\n\n<p>We can see from <a href=\"https://gist.github.com/epixoip/ace60d09981be09544fdd35005051505\" rel=\"noreferrer\">this benchmark</a> that in OpenCL, an attacker with 8x 1080 Ti can attack good algorithms at the following rates:</p>\n\n<ol>\n<li>scrypt at a rate of ~ 6.4 million hashes per second.</li>\n<li>bcrypt at a rate of 184 thousand hashes per second.</li>\n<li>PBKDF2-SHA256 at a rate of 775 thousand hashes per second.</li>\n<li>SHA1 (just for comparison, don't use this for passwords) at a rate of 101 billion hashes per second.</li>\n</ol>\n\n<p>So for our given namespace of 3.6 quadrillion possible passwords, we can compute the following expected times to crack - please keep in mind that on average, 50% of the namespace will need to be exhausted, not 100%.</p>\n\n<ol>\n<li>scrpyt - 571274756.25984 seconds (~9 years)</li>\n<li>bcrypt - 19870426304.690086956521739130435 seconds (~315 years)</li>\n<li>PBKDF2 - 4717623793.6296464516129032258065 seconds (~75 years)</li>\n<li>SHA1 - 36199.588515475009900990099009901 seconds (~.2 days)</li>\n</ol>\n\n<p>So, we can see that you need to implement a good hashing algorithm as well. </p>\n\n<p>Two things are missing from this algorithm - first, we didn't omit words shorter than 4 characters. The EFF diceware list has many words that are 3 characters long. If you increase the minimum word length, you reduce the namespace. I think the EFF list has ~500 words that are 3 characters long, but that's a guess. So, the namespace is slightly less complex.</p>\n\n<p>Second, we treated these passwords are randomly derived. Because you instead wanted sentences, we need to keep in mind that sentences aren't random. If you want the sentences to make sense, then there are attacks you can perform against them - you can use Markov chains and other fun stuff to generate likely sentences rather than plain brute forcing the password. I have no statistics on how much easier this is than brute forcing, so I'm going to go ahead and say you should assume it makes a huge difference and is much weaker.</p>\n",
+            " <blockquote>\n  <p>What better ways are there to force passwords that are more secure and\n  memorable at the same time ?</p>\n</blockquote>\n\n<p>Two things pop my mind (both related with increasing the password \"alphabet\"):</p>\n\n<p>1) It is unclear in your post whether or not numerical and special characters are permitted. Assuming it is not, that would leave you with an alphabet of only 32 different characters. I would include and also actively motivate your users to use them.</p>\n\n<p>2) Assuming you would only use English words, an attacker has two straight forward attacks. (A) brute-force each individual character or (B) brute-force each individual 4 words based on an English dictionary. Considering that large part of the world's population have English as second language, motivate your users to mix languages.</p>\n",
+            " <p><strong>Memorability.</strong> A 4-word password will definitely be easier to remember than a random password, but that doesn't mean the average user will actually remember it without writing it down or using a password manager anyway (there are just too many <em>different</em> passwords to remember nowadays). So memorability is useful and is great, but it might not be as useful as you think.</p>\n\n<p><strong>Security.</strong> A 4-word password will be more secure than the average password only if the words are chosen randomly from a sufficiently large set of words. According to <a href=\"https://wpengine.com/unmasked/\" rel=\"nofollow noreferrer\">this</a> article I've found the entropy of the password used by an average user is expected to be about 21 bits (2<sup>21</sup> = 2.1 \u00d7 <strong>10<sup>6</sup></strong>), which is worryingly low. If you choose 4 words randomly from a list of the 1000 most common English words, you would have 1000<sup>4</sup> = <strong>10<sup>12</sup></strong> possibilities, so a password that is 1 million times harder to bruteforce than the average password. </p>\n\n<p>So, generally speaking, your idea is not bad, as long as you don't let your users pick their own words, or they'll end up choosing passwords like \"pass pass pass pass\" or \"1 2 3 4\", etc. And of course, this is all speaking in general, because there are definitely specific cases where your method would actually decrease the security of the password. For example, your method would decrease the security of <strong>my</strong> password because I tend to use long random passwords by default, so if you forced me to use your method on your application I would be using a less secure password than usual. The same is probably true for communities like this one, where I hope the average password entropy is far greater than 21 bits and probably greater than your 4-word passwords.</p>\n",
+            " <p>I don't think you can have useful password enforcement of this.  The strength of the XKCD method AKA diceware depends on the words of the phrase being random.  Four chosen words, particularly four chosen words that make a sentence are a very weak passphrase and there is no way to check whether the words they enter are random or chosen.  </p>\n",
+            " <p>You can't force users to use passwords that are secure and memorable.</p>\n\n<p><a href=\"https://security.stackexchange.com/a/6116/21324\">This answer</a> to a related question summarizes the comic as emphasizing that the human aspect of password policies, not the computer aspect, \"should often be the overriding concern\".</p>\n\n<p><a href=\"https://security.stackexchange.com/a/184899/21324\">@Adonalsium's answer</a> covers the computer aspect well.  Using <a href=\"https://en.wikipedia.org/wiki/Diceware\" rel=\"nofollow noreferrer\">diceware</a> is relatively good for the human aspect without being bad for the computer aspect, so it's an acceptable way to generate passwords.</p>\n\n<p>But if you want memorability, you cannot dictate to users how to generate passwords.  Nor can you require that they use passwords you generate for them.</p>\n\n<p>There are a few obvious things to avoid, like restricting password lengths to something unreasonably short, requiring characters from a particular list (like digits or punctuation), or prohibiting characters from a particular list (like spaces or quotes).  So how can you avoid those but still require secure passwords?</p>\n\n<p>You need to estimate a lower bound on entropy of the entered password, and set your policy to only accept passwords with an estimate above some minimum (possibly based on the desired minimum crack time).  The only such estimation tool I know of is <a href=\"https://github.com/dropbox/zxcvbn\" rel=\"nofollow noreferrer\">zxcvbn</a> (which unfortunately doesn't reject \"correct horse battery staple\").</p>\n\n<p>This will allow the use of relatively short randomly generated passwords and of relatively long diceware passwords, without requiring either, or allowing either to be inadequate.  The user can choose the method best for them, and you can require the level of crack-resistance you need.</p>\n\n<p>Generating and recommending diceware passwords might be helpful, and I think it's a good idea, but I would have to make sure that process didn't introduce new vulnerabilities before I would use it myself.  (Another thing to provide links about, if you do it.)</p>\n\n<p>(I'd also be inclined to have a password security chaos monkey constantly try to crack your users passwords, and force a reset whenever it succeeds.  But I'm not sure if that would actually succeed on weak passwords more often than unlucky passwords.)</p>\n",
+            " <p>My advice is <em>don't</em>. I will not even discuss whether it will enforce <em>password</em> security (you already got a comment about 32 random characters password generated by a password manager), but more the effect on global security.</p>\n\n<p>You are adding a constraint for end users. Some (uneducated) always use same password. They hardly remembered it and do not want to be bothered by a new one so they will not use your web app if they can. Other will say: that is a nice idea, but I will not be able to remember that for a long time... let's write it down on that sheet! Those that are used to a good password manager will say <em>how stupid it is that I cannot use my random generator!</em> and again will avoid the app if they can.</p>\n\n<p>The only use case where I can accept password rules is for the main password in a corporate environment. Employees are supposed to use it everyday (every working day...) and only one is normally needed, thanks to Single Sign On solutions, so remembering it should not be a problem. For all other use cases, the end user is assumed to be responsable for his/her own data and my opinion is that anything above a minimal length is an <em>annoying</em> constraint, and I will try hard not to use that site.</p>\n",
+            " <p>Don't, but do give the user that is trying to set a thoroughly insecure password a warning and make them confirm they really want to set it.</p>\n\n<p>Forcing people to set a password that is above what they can memorize will not only have them write it down, but write it down haphazardly and in an insecure place.</p>\n\n<p>Also, in some organizations, the ability to use a secure (by complexity) but shared (among an authorized team) and/or predocumented (under lock and key) passphrase is desirable - password guidelines that reject some reasonably secure passwords can become a real annoyance here. Usage scenario: \"Please set the complex passphrase this team uses for all vendors of type XYZ, so that there will be no hassle in case another member of this team needs to urgently access it in your absence\".</p>\n"
+        ],
+        "pairs": [
+            [
+                1,
+                0
+            ],
+            [
+                2,
+                0
+            ],
+            [
+                0,
+                3
+            ],
+            [
+                4,
+                0
+            ],
+            [
+                0,
+                5
+            ],
+            [
+                6,
+                0
+            ],
+            [
+                7,
+                0
+            ],
+            [
+                0,
+                8
+            ],
+            [
+                1,
+                2
+            ],
+            [
+                1,
+                3
+            ],
+            [
+                1,
+                4
+            ],
+            [
+                1,
+                5
+            ],
+            [
+                1,
+                6
+            ],
+            [
+                1,
+                7
+            ],
+            [
+                1,
+                8
+            ],
+            [
+                2,
+                3
+            ],
+            [
+                2,
+                4
+            ],
+            [
+                2,
+                5
+            ],
+            [
+                2,
+                6
+            ],
+            [
+                2,
+                7
+            ],
+            [
+                2,
+                8
+            ],
+            [
+                4,
+                3
+            ],
+            [
+                5,
+                3
+            ],
+            [
+                6,
+                3
+            ],
+            [
+                7,
+                3
+            ],
+            [
+                8,
+                3
+            ],
+            [
+                4,
+                5
+            ],
+            [
+                6,
+                4
+            ],
+            [
+                7,
+                4
+            ],
+            [
+                4,
+                8
+            ],
+            [
+                6,
+                5
+            ],
+            [
+                7,
+                5
+            ],
+            [
+                5,
+                8
+            ],
+            [
+                7,
+                6
+            ],
+            [
+                6,
+                8
+            ],
+            [
+                7,
+                8
+            ]
+        ],
+        "sft_target": " <p>It is not necessarily a bad idea. The attacker can know the password is in that format, considering the 4 words are random enough. But here is the thing, there are other good ways to make a memorable strong password. Limiting your users to the one you like is not very nice. For example I use password manager with truly random long passwords, which is even better than what you propose, but I could not do that on your site.</p>\n\n<p>More importantly, if the reason you want to do this is to force users to use strong password, then generate the 4 words password for them. You can generate such password by having a dictionary, then choosing random number between 1 and the number of words in your dictionary and taking that word. Do this 4 times and you have a password. You can get inspiration <a href=\"https://bitbucket.org/jvdl/correcthorsebatterystaple/src\" rel=\"noreferrer\">here</a>. This is important, as most users may not choose 4 truly random words, but instead 4 easily guessable words. In such scenario, this would be worse then letting them choose any password.</p>\n",
+        "rejected_target": " <blockquote>\n  <p>What better ways are there to force passwords that are more secure and\n  memorable at the same time ?</p>\n</blockquote>\n\n<p>Two things pop my mind (both related with increasing the password \"alphabet\"):</p>\n\n<p>1) It is unclear in your post whether or not numerical and special characters are permitted. Assuming it is not, that would leave you with an alphabet of only 32 different characters. I would include and also actively motivate your users to use them.</p>\n\n<p>2) Assuming you would only use English words, an attacker has two straight forward attacks. (A) brute-force each individual character or (B) brute-force each individual 4 words based on an English dictionary. Considering that large part of the world's population have English as second language, motivate your users to mix languages.</p>\n"
+    },
+    "\n\nHuman: <p>I have a list look up column which fetches values from another list which is number(int), but on loading it takes it as a flaoting number.\nfor example the value in list firld in 10 but it is taken as 10.000000 in another list field \ni can't make it String as they will go entering characters.\nHow do i reslve that?</p>\n\n<p>Thanks,\nRaghu</p>\n\n\nAssistant:": {
+        "responses": [
+            " <p>I've been trying to recreate this problem and can't.</p>\n\n<p>What I'm doing:</p>\n\n<ol><li>Create 2 lists</li>\n<li>In list 1 create a column defined as a number, with the number of decimals set to 0</li>\n<li>In list 2 create a lookup refering to the ID in list one, and add a linked lookup column of the number from list 1</li></ol>\n\n<p>When you say you set it as a number(int) are you using anything other than the OOB list designer? I have done the above using the OOB list builder within the site, not Designer.</p>\n",
+            " <p>I created a calculated field in the same list as the lookup list.  the calculated field used =TEXT([<em>your number field</em>],\"0\") and set the output type as text (in SP10 - just setting the output as text did not seem to work.)  then, instead of grabbing my number field (by which i sort and filter as numbers,) I grabbed the text field into my new list.</p>\n"
+        ],
+        "pairs": [
+            [
+                0,
+                1
+            ]
+        ],
+        "sft_target": " <p>I've been trying to recreate this problem and can't.</p>\n\n<p>What I'm doing:</p>\n\n<ol><li>Create 2 lists</li>\n<li>In list 1 create a column defined as a number, with the number of decimals set to 0</li>\n<li>In list 2 create a lookup refering to the ID in list one, and add a linked lookup column of the number from list 1</li></ol>\n\n<p>When you say you set it as a number(int) are you using anything other than the OOB list designer? I have done the above using the OOB list builder within the site, not Designer.</p>\n",
+        "rejected_target": " <p>I created a calculated field in the same list as the lookup list.  the calculated field used =TEXT([<em>your number field</em>],\"0\") and set the output type as text (in SP10 - just setting the output as text did not seem to work.)  then, instead of grabbing my number field (by which i sort and filter as numbers,) I grabbed the text field into my new list.</p>\n"
+    },
+    "\n\nHuman: <p>I want to develop a WordPress theme using <a href=\"http://roots.io/\" rel=\"nofollow\">Roots theme framework</a> and then sell it on themeforest.net. </p>\n\n<p>Roots theme license allows me to sell the theme as per its founder's discussion with some guy on <a href=\"https://groups.google.com/forum/#!topic/roots-theme/gaZ2q1b7INI\" rel=\"nofollow\">this</a> google group post.</p>\n\n<p>It says that the product should have an MIT compatible license. The question is:-</p>\n\n<p>If I sell it on themeforest then will it be under compliance with the MIT license? I believe that themeforest has its own 'regular license'.</p>\n\n<p>Will the purchaser of the theme have the right to modify my theme's source code and sell it again on themeforest?</p>\n\n<p>Note: I don't have much knowledge of the licenses, that's why I'm here. Please don't ask me to read the license because I'm unable to understand their complex English. \"INCLUDING BUT NOT LIMITED\", \"AS IS\", \"TORT OR OTHERWISE\" etc. Can't understand it clearly.</p>\n\n\nAssistant:": {
+        "responses": [
+            " <p>Here is a summary of some popular licenses I keep handy.</p>\n\n<p><strong>MIT: Do basically whatever you want. Just don't claim you wrote it, and don't try to sue anybody.</strong></p>\n\n<p>GPL: You can do whatever you want with the code as long as your code is GPL too. You can't use it closed-source projects. You can't restrict the next person in any way.</p>\n\n<p>LGPL: GPL except some restricted forms of closed-source use are OK. I believe the idea is that you can use an LGPL library in a closed-source project. Really, both the GPL and LGPL are way too confusing.</p>\n\n<p>BSD: Essentially equivalent to MIT.</p>\n\n<p>Microsoft Public License: Essentially equivalent to MIT.</p>\n\n<p>Apache License: Essentially MIT, but you have to make sure people know that you modified the code (if in fact you did).</p>\n\n<p>Selling on Themeforest will be under compliance with MIT, and the purchaser can change your source but must attribute you for the original codebase. As to whether they can resell it, I am also unsure, I assume they can.</p>\n",
+            " <p>Given the completely different nature and scope of the themeforest.net licenses and the MIT license, it is very hard for a non-lawyer to determine if they are compatible. The only way to get any level of confidence is to ask a lawyer or the author of the Roots framework.</p>\n\n<p>The themeforest.net licenses are quite restrictive licenses for <em>using</em> a software product.</p>\n\n<p>The MIT license is a very permissive license centering around <em>modification</em> of source files.</p>\n\n<p>How the usage restrictions from the themeforest.net license interact with the freedoms from the MIT license is hard to predict. In my, non-expert, opinion, it can go any way.</p>\n\n<ul>\n<li>There is a case to make that for a buyer only the themeforest.net license is relevant,</li>\n<li>There is a case to make that both licenses apply and that the themeforest.net restrictions are effectively cancelled, and </li>\n<li>There is even a case to make that both licenses apply and are incompatible (resulting in a product that you can't sell). </li>\n</ul>\n\n<p>The only way to know for sure which it will be is to go to court. A second best option is to ask a lawyer who specialises in this kind of stuff.</p>\n"
+        ],
+        "pairs": [
+            [
+                0,
+                1
+            ]
+        ],
+        "sft_target": " <p>Here is a summary of some popular licenses I keep handy.</p>\n\n<p><strong>MIT: Do basically whatever you want. Just don't claim you wrote it, and don't try to sue anybody.</strong></p>\n\n<p>GPL: You can do whatever you want with the code as long as your code is GPL too. You can't use it closed-source projects. You can't restrict the next person in any way.</p>\n\n<p>LGPL: GPL except some restricted forms of closed-source use are OK. I believe the idea is that you can use an LGPL library in a closed-source project. Really, both the GPL and LGPL are way too confusing.</p>\n\n<p>BSD: Essentially equivalent to MIT.</p>\n\n<p>Microsoft Public License: Essentially equivalent to MIT.</p>\n\n<p>Apache License: Essentially MIT, but you have to make sure people know that you modified the code (if in fact you did).</p>\n\n<p>Selling on Themeforest will be under compliance with MIT, and the purchaser can change your source but must attribute you for the original codebase. As to whether they can resell it, I am also unsure, I assume they can.</p>\n",
+        "rejected_target": " <p>Given the completely different nature and scope of the themeforest.net licenses and the MIT license, it is very hard for a non-lawyer to determine if they are compatible. The only way to get any level of confidence is to ask a lawyer or the author of the Roots framework.</p>\n\n<p>The themeforest.net licenses are quite restrictive licenses for <em>using</em> a software product.</p>\n\n<p>The MIT license is a very permissive license centering around <em>modification</em> of source files.</p>\n\n<p>How the usage restrictions from the themeforest.net license interact with the freedoms from the MIT license is hard to predict. In my, non-expert, opinion, it can go any way.</p>\n\n<ul>\n<li>There is a case to make that for a buyer only the themeforest.net license is relevant,</li>\n<li>There is a case to make that both licenses apply and that the themeforest.net restrictions are effectively cancelled, and </li>\n<li>There is even a case to make that both licenses apply and are incompatible (resulting in a product that you can't sell). </li>\n</ul>\n\n<p>The only way to know for sure which it will be is to go to court. A second best option is to ask a lawyer who specialises in this kind of stuff.</p>\n"
+    },
+    "\n\nHuman: <p>I understand the value of networking to the people.  And with sales and marketing positions these shows add value. However unless you are in marketing I fail to see any value gained by the business in having other workers attend the trade shows.  </p>\n\n<p>With the internet most technologies are demonstrated better and earlier online before they ever get to the shows.  I am looking to justify sending workers to trade shows using our training budget, but it seems this value is not really gained by the business and that the money would be better spent sending a few people to focus training every year rather than sending several people to the different trade shows.  I understand the value of providing support if you have a booth or someone in your organization is presenting.  But I am specifically talking about shows where the company has no real stake like this in the show.  The employees would have the sole role of attendee.</p>\n\n<p>Is there any thing gained by the business when sending its workers to a (comparatively) less expensive trade shows rather than focusing on practical training classes?</p>\n\n\nAssistant:": {
+        "responses": [
+            " <blockquote>\n  <p>Is there any thing gained by the business when sending its workers to a (comparatively) less expensive trade shows rather than focusing on practical training classes?</p>\n</blockquote>\n\n<p>It depends on the position of your workers, and the kind of the trade show.</p>\n\n<p>If they can get something valuable for the business (like learn about new tools, if they are SW developers, or see something new in electronics if they are HW engineers), then it is worth it. If they can get some new ideas, seeing products of the competitors on the show, then it is also worth it.</p>\n\n<p>If they are going, just to waste time, then it is not worth the money.</p>\n\n<p>Practical trainings can be done any time. Good trade shows are only few times a year.</p>\n",
+            " <p>One previous employer would routinely send QA and developers to tradeshows where the company had a booth. One of the difficulties with \"shrinkwrap\" business software is that the folks writing the software don't always know their customers (in this case, accountants and actuaries). So for this company, it was helpful to get the techies out to learn how the users actually used the product. </p>\n",
+            " <p>I think it is a question of the complexity of your product. If you have a technically very complex product, non-marketing personell should be usefull as a backup in discussions where the marketing people are out of their depth. </p>\n",
+            " <p>Of course there is business value to sending employees to conferences!</p>\n\n<p>This is especially true if someone in your org presents a talk, but even if they go to schmooze with counterparts from other companies and bond with coworkers, it is still worth it and not just for marketing types. <a href=\"http://www.oracle.com/javaone/index.html\">Java one</a> isn't only marketing, nor is <a href=\"http://velocityconf.com/velocity2012\">Velocity</a>, nor is <a href=\"http://www.eclipsecon.org/2012/\">EclipseCon</a>. These are opportunities for folks to see the state-of-the-art, interact with the top practitioners in their field and become excited about what they're doing by sharing ideas with others.</p>\n\n<p>I can understand why a beancounter (not saying Chad is one) might disagree. It is fashionable in the current economic environment to attempt to calculate an explicit ROI for every expenditure. <strong>The problem is that you just can't compute the business value of an intellectually engaged happy employee who mingles somewhat regularly with a wide range of professionals.</strong> Some people will simply add up the hotel, plane, per-diem, and missing days of work and see a cost-sink. That's not right. </p>\n",
+            " <p>One advantage of sending a representative from your technical team to \"buying\" conferences (where you're looking at products others are trying to sell rather than hawking your own wares) that hasn't been mentioned is that they have the opportunity to intercept snap decisions that are occasionally made by executives who attend these shows and fall for the glitz and glamor that typically surround the presentations.  </p>\n\n<p>Having someone close at hand to whisper in their ears can prevent costly mistakes and lost time investigating solutions that would never have been considered if the right questions had been asked at the conference.</p>\n\n<p>I imagine other sections of the business would have similar advantages in their own areas of expertise.</p>\n",
+            " <p>I am sure there are more but these are two that I can think of without too much effort:</p>\n\n<p>If you are in industries where the technology changes a lot (e.g. software), you get more value from a good trade show talking to the technicians than attending training classes. </p>\n\n<p>This is mainly because training courses by nature only focus on non cutting edge stuff and you get more done by talking to the developers instead. Shows give you the chance to get in depth information from the horses mouth, which can be invaluable.</p>\n\n<p>Or,</p>\n\n<p>If you are in product development of any sort, you generally get more from trade shows as well. In this day and age, technology know-how is often secondary to having great ideas that can act as differentiators for your company's products.</p>\n\n<p>Let's say you already know how to design cars relatively well. Your time is better served by seeing what the other people are doing at trade shows instead of learning another design skill in a classroom where exposure is limited. </p>\n\n<p>You may not learn how to design faster, or quicker, or in the latest fashionable way at trade shows but what you get is the chance to pick up on new ideas and a head start on  designing the RIGHT product in the first place. </p>\n\n<p>That in itself is infinitely more valuable.</p>\n",
+            " <blockquote>\n  <p>However unless you are in marketing I fail to see any value gained by the business in having other workers attend the trade shows.</p>\n</blockquote>\n\n<p>Generally speaking, <strong>small companies and startups</strong>, fighting for their existence, may need to send non-marketing people to trade shows. Here's why:</p>\n\n<ol>\n<li>A small company should send a <a href=\"http://m.urbandictionary.com/#define?term=smokeshow\">smokeshow</a> to a trade show to stand at the company's booth and attract foot traffic. [In a small company, this person may or may not work in marketing.]</li>\n<li>A small company needs somebody with \"tech credibility\" to attend trade shows to converse with prospective customers, listen to their business problems, and establish the company's product as a solution to their problems. Sometimes a founder, a marketing person, or a salesperson has enough tech credibility to fill these needs, but not always. [This is also why larger companies sometimes hire pre-sales engineers.]</li>\n<li>While I agree that product managers and lead programmers are generally more useful at the workplace, building the product, they too can capture some value at trade shows. When a product manager or lead programmer understands what the marketplace demands, at a deep level, they can exercise superb judgement on requirements decisions. They can gain insight that will help them steer the product in a direction that more closely aligns with what the marketplace demands. </li>\n</ol>\n",
+            " <p>I do this on a regular basis.  A trade show is a good place to gain key business insight, however I want my sales and marketing team focussed on - well selling and marketing.</p>\n\n<p>So - when I usually send technical staff along with key, specific briefs that match with their skills and insight. These might be to review the technology of specific key competitors, or what aligned businesses are doing, or look for things that might be a threat to our business model.    </p>\n\n<p>They might not attend the whole show, just a single day, as this helps to maintain focus.</p>\n\n<p>If you combine this with meeting clients and providing technical support if needed to the selling process, its worth doing.  </p>\n\n<p>It can also help them gain appreciation of what the sales and marketing team actually have to do, which can help to break down internal communication barriers in the company.</p>\n\n<p><strong>EDIT</strong> To fully answer, some of this is funded from my training budget, especially for less senior staff where I need to grow their wider understanding of the industry.  This is usually - but not always - where we have identified a specific career development need.   We also send staff to attend technical conferences on a training budget, and I trust them to report back whether it was high value or not.</p>\n",
+            " <p>The obvious value of sending employees to trade shows is extracting them from the dreary sweatshop routine of daily work, &amp; letting them relax a bit at company's expense, see new people, places, get new impressions and ideas. It is a perk that should always be distributed around as fairly as the managers can afford.</p>\n\n<p>(To naysayers: this does help in building morale for the company in general).</p>\n",
+            " <p>I've found great value in sending employees whose work with customers is primarily over the phone or via email. Our credit department, in particular, has had great success. Instead of being thought of as a faceless collection agency, our credit reps can show them selves to be problem solvers. </p>\n\n<p>Another benefit is that employees who feel chained to their desks really appreciate the chance to spend a day (on the clock) away from the office doing something new and interacting with customers and coworkers in a different light.</p>\n\n<p>I pick and choose quite carefully. Not every show is appropriate for exrta staff.</p>\n"
+        ],
+        "pairs": [
+            [
+                1,
+                0
+            ],
+            [
+                2,
+                0
+            ],
+            [
+                3,
+                0
+            ],
+            [
+                4,
+                0
+            ],
+            [
+                5,
+                0
+            ],
+            [
+                6,
+                0
+            ],
+            [
+                7,
+                0
+            ],
+            [
+                8,
+                0
+            ],
+            [
+                9,
+                0
+            ],
+            [
+                1,
+                2
+            ],
+            [
+                3,
+                1
+            ],
+            [
+                1,
+                4
+            ],
+            [
+                1,
+                5
+            ],
+            [
+                1,
+                6
+            ],
+            [
+                7,
+                1
+            ],
+            [
+                1,
+                8
+            ],
+            [
+                1,
+                9
+            ],
+            [
+                3,
+                2
+            ],
+            [
+                4,
+                2
+            ],
+            [
+                5,
+                2
+            ],
+            [
+                6,
+                2
+            ],
+            [
+                7,
+                2
+            ],
+            [
+                2,
+                8
+            ],
+            [
+                2,
+                9
+            ],
+            [
+                3,
+                4
+            ],
+            [
+                3,
+                5
+            ],
+            [
+                3,
+                6
+            ],
+            [
+                7,
+                3
+            ],
+            [
+                3,
+                8
+            ],
+            [
+                3,
+                9
+            ],
+            [
+                5,
+                4
+            ],
+            [
+                6,
+                4
+            ],
+            [
+                7,
+                4
+            ],
+            [
+                4,
+                8
+            ],
+            [
+                4,
+                9
+            ],
+            [
+                6,
+                5
+            ],
+            [
+                7,
+                5
+            ],
+            [
+                5,
+                8
+            ],
+            [
+                5,
+                9
+            ],
+            [
+                7,
+                6
+            ],
+            [
+                6,
+                8
+            ],
+            [
+                6,
+                9
+            ],
+            [
+                7,
+                8
+            ],
+            [
+                7,
+                9
+            ],
+            [
+                9,
+                8
+            ]
+        ],
+        "sft_target": " <p>One previous employer would routinely send QA and developers to tradeshows where the company had a booth. One of the difficulties with \"shrinkwrap\" business software is that the folks writing the software don't always know their customers (in this case, accountants and actuaries). So for this company, it was helpful to get the techies out to learn how the users actually used the product. </p>\n",
+        "rejected_target": " <blockquote>\n  <p>Is there any thing gained by the business when sending its workers to a (comparatively) less expensive trade shows rather than focusing on practical training classes?</p>\n</blockquote>\n\n<p>It depends on the position of your workers, and the kind of the trade show.</p>\n\n<p>If they can get something valuable for the business (like learn about new tools, if they are SW developers, or see something new in electronics if they are HW engineers), then it is worth it. If they can get some new ideas, seeing products of the competitors on the show, then it is also worth it.</p>\n\n<p>If they are going, just to waste time, then it is not worth the money.</p>\n\n<p>Practical trainings can be done any time. Good trade shows are only few times a year.</p>\n"
+    }
+}

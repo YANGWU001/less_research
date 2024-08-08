@@ -38,8 +38,9 @@ def calculate_statistics(results):
         stats[key] = (mean, std)
     return stats
 
-def save_results_to_csv(ckpt_path, val_losses, eval_results, stats):
-    csv_path = os.path.join(ckpt_path, "evaluation_results.csv")
+def save_results_to_csv(ckpt_path, val_losses, eval_results, stats, task_name):
+    csv_path = os.path.join(ckpt_path, f"{task_name}evaluation_results.csv")
+
     with open(csv_path, mode='w', newline='') as file:
         writer = csv.writer(file)
         writer.writerow(["Metric", "Run1", "Run2", "Run3", "Run4", "Run5", "Mean", "Std"])
@@ -92,7 +93,7 @@ def main():
         eval_results.append(result)
 
     stats = calculate_statistics(eval_results)
-    save_results_to_csv(ckpt_path, val_losses, eval_results, stats)
+    save_results_to_csv(ckpt_path, val_losses, eval_results, stats, task)
 
 if __name__ == "__main__":
     main()

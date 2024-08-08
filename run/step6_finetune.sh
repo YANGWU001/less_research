@@ -1,7 +1,7 @@
 #!/bin/bash
 
 source base_training_args.sh
-
+export CUDA_VISIBLE_DEVICES=0,1,2,3
 train_files=$1
 model_path=$2
 job_name=$3
@@ -9,7 +9,8 @@ devices=$4
 
 
 
-NUM_PROC=$(echo $devices | wc -w)
+export NUM_PROC=$(echo $devices | wc -w)
+
 
 export CUDA_VISIBLE_DEVICES=$devices
 
@@ -23,7 +24,7 @@ if [[ $model_path == "meta-llama/Llama-2-13b-hf" ]]; then
     base_training_args="$base_training_args --fsdp 'full_shard auto_wrap' --fsdp_config llama2_13b_finetune"
     elif [[ $model_path == "mistralai/Mistral-7B-v0.1" ]]; then
     base_training_args="$base_training_args --fsdp 'full_shard auto_wrap' --fsdp_config mistral_7b_finetune"
-    elif [[ $model_path == "meta-llama/Llama-2-13b-hf" ]]; then
+    elif [[ $model_path == "meta-llama/Llama-2-7b-hf" ]]; then
     base_training_args="$base_training_args --fsdp 'full_shard auto_wrap' --fsdp_config llama2_7b_finetune"
 fi
 

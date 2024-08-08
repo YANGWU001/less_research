@@ -1,0 +1,254 @@
+[
+    {
+        "dataset": "shp",
+        "id": "shp_462",
+        "messages": [
+            {
+                "role": "user",
+                "content": "\n\nHuman: What are some exceptionally well-written articles? Bonus points if it's in STEM.  I'm looking to improve my scientific writing and I already read some style guides. In addition, I'm looking for some really well-written articles for inspiration.\n\nAssistant:"
+            },
+            {
+                "role": "assistant",
+                "content": " Anything at Distill.pub.  I recommend their article on research debt on why all scientific articles should be well written: Research Debt. In summary: writing a good article is hard... but it's the responsibility of the author to write well. If they don't write well, they're just transferring the work of distilling the research to their audience (which is typically more people than the authors)."
+            }
+        ]
+    },
+    {
+        "dataset": "shp",
+        "id": "shp_106",
+        "messages": [
+            {
+                "role": "user",
+                "content": "\n\nHuman: In the US, why and how Southern culture came to be seen as more authentically American, even though the South lost to the North in the Civil War? I am trying to port this question from /r/AskHistorians, as it falls within the 20 years rule in that sub, while the question is very interesting.  https://www.reddit.com/r/AskHistorians/comments/5tsanz/why_are_the_former_states_of_the_confederacy_now/  Here's what the OP asked:  > Anyone who's driven around the American South has seen the \"Confederate flag\" somewhere, often hanging or flying near an American flag. Much of Southern culture and identity seems to be focused around patriotism, even while people espouse \"Lost Cause\" ideology. How did this region go from insurrection to fervent patriotism, and how have those two ideas been reconciled so completely in many peoples' minds?  And if I could ask a follow-up question from myself, how come Southern sound and Southern pronunciation became so dominant in popular country music? Did the politically right Northerners willingly accept Southern aesthetics as more authentic, or was there (is there) any reflection on the apparent historical incongruity of this self-identification? (Like Yankees in NY flying Confederate flags on pickup trucks) Do you think Country music might have contributed to this cultural shift, or is it just a side-effect?\n\nAssistant:"
+            },
+            {
+                "role": "assistant",
+                "content": " Maybe immigration patterns had to do with it as well? The (then) largely rural/undeveloped South didn't see major immigration as did the north and west (stereotypically, anyhow). When you see fictionalized accounts of immigrants, more often than not they're headed for the East or West coasts, not the South. Meanwhile, the South could continue to thrive on a rural, former slave-owning, population largely descendant from English and Scotch-Irish colonists."
+            }
+        ]
+    },
+    {
+        "dataset": "shp",
+        "id": "shp_708",
+        "messages": [
+            {
+                "role": "user",
+                "content": "\n\nHuman: How do I use vanilla bean paste? I just bought some today but don\u2019t have any idea what to use it for\n\nAssistant:"
+            },
+            {
+                "role": "assistant",
+                "content": " Ice cream, pastry cream or any cream or sauce really, shortbread cookies, quickbreads.. you can sub vanilla extract for it as well. It\u2019s super versatile, but mostly meant to be used in things that will not only add flavor, but show the appearance of the vanilla throughout whatever you\u2019re making."
+            }
+        ]
+    },
+    {
+        "dataset": "shp",
+        "id": "shp_334",
+        "messages": [
+            {
+                "role": "user",
+                "content": "\n\nHuman: Car wouldn't move when I pressed the gas, but turned the steering wheel instead. Any ideas? So I replaced my control arm a few days ago, and had an allignment done today. However when curbside parking today, I had an extremely weird experience.  I was inching forward then my car suddenly stopped, as if someone slammed on the brakes. I pressed the gas to move forward, but my car wouldn't move an inch. Instead, the steering wheel began turning clockwise. When I stopped pressing the gas the wheel stopped, but resumed when I pressed the gas again.   I turned my car off then on again, and suddenly it had no problem.   Any ideas?\n\nAssistant:"
+            },
+            {
+                "role": "assistant",
+                "content": " Sounds like your front right brake locked up."
+            }
+        ]
+    },
+    {
+        "dataset": "shp",
+        "id": "shp_1618",
+        "messages": [
+            {
+                "role": "user",
+                "content": "\n\nHuman: Is there food science reason (beyond its own flavor and texture) that breading/battering is used when deep frying? Growing up I was never fond of breading on my deep fried foods, and though I've come to enjoy the taste, I now see it removing it as a convenient way to avoid carbs.  But I was curious if the technique is even really required for making, say, fried chicken or fish.   Could I simply season the food I would normally batter, and then drop it into oil to cook?  Or is there a food science reason why the results won't be palatable, beyond just missing the taste and texture of the breading?\n\nAssistant:"
+            },
+            {
+                "role": "assistant",
+                "content": " Besides adding flavor and texture, which I would consider part of the equation of \"food science\", it will also help keep your seasonings on, and not floating away seasoning just your oil.  It can also buffer the food you're frying, to keep from overcooking the outer portion as quickly, since you're losing some of the steam you'd get from the batter. You're going to have a slightly higher transfer of the heat of the oil directly to your food.  I've not done a side-by-side comparison myself, but I'd imagine that if you take a piece of chicken or carrot or whatever, battered one and not the other, then cooked them both to the same doneness, you'll notice a difference in texture, and definitely in flavor. This is an easy test you could do at home. My expectation is that both the carrot and the chicken will have more of a chewy texture, and without the seasoning you might add to the batter/breading. If that makes it better or worse is up to your tastes."
+            }
+        ]
+    },
+    {
+        "dataset": "shp",
+        "id": "shp_218",
+        "messages": [
+            {
+                "role": "user",
+                "content": "\n\nHuman: Is this normal or creepy for an endocrinologist? I am 27F diagnosed with Celiac disease, which led to nutrient malabsorption, which led to osteoporosis, which led to me seeing an endocrinologist. The fact that I\u2019m so young with osteoporosis is another story.   Anyways, I\u2019ve gone to my male endocrinologist twice now. Both times he has made me feel slightly uncomfortable. He gets very close when talking to me. Has complimented my hair, called me a young beautiful woman. And both visits he has had me stand up while he runs his hands down the sides of my body along my hips and thighs, he takes the side of his hand and pushes between my boobs, etc.   I would just like to ask if this is normal for an endocrinologist? I mean I like to think the closeness and compliments are to make him more personable. And with feeling my body he is trying to feel my bone structure to make sure I\u2019m healthy. But I don\u2019t know. I don\u2019t want to be naive. Typing this out makes it sound very creepy.   Any endocrinologists out there that can comment or people who have experienced the same?\n\nAssistant:"
+            },
+            {
+                "role": "assistant",
+                "content": " This is definitely creepy and not normal. A doctor cannot assess osteoporosis by feeling the bone structure. I think he is physically molesting you and passing it off as a physical assessment.   Does he have a chaperone (another person, usually a nurse) in the room when he examines you? This is standard practice when doing any kind of intimate examination. I would never touch a patient\u2019s thighs (especially not a younger female patient\u2019s thighs as a male doctor) without having a chaperone present.   Find a different endocrinologist- ask you GP to re-refer you. I would also advise that you report this doctor - he may be doing this to other patients, and may do worse in the future if he is not stopped. Your GP can help with this.   Sorry that you have had this experience, the trust between patient and doctor is very important. Abusing this trust is a very serious issue."
+            }
+        ]
+    },
+    {
+        "dataset": "shp",
+        "id": "shp_1985",
+        "messages": [
+            {
+                "role": "user",
+                "content": "\n\nHuman: Dealing with proprietary info for a job interview I have an interview next week for a job and they are asking me to put together a 50 minute presentation on work I have done. They want me to \"take the team on a deep dive of a technical project I worked on\". The one I am working on is obviously already released and is a public product. I know I cant get specific details on numbers and specific test parameters. But would an NDA generally cover whys? For example, here is a picture of a publicly released part that everyone can go buy. Can I explain that a certain feature is designed this way because x? I am really struggling to find the line of what is too much info and obviously cant go ask my boss.\n\nAssistant:"
+            },
+            {
+                "role": "assistant",
+                "content": " I'd have to tell them that a 50 minute presentation on the intellectual property of my current employer is NOT going to happen.  Unfortunate, but that'd be the reality."
+            }
+        ]
+    },
+    {
+        "dataset": "shp",
+        "id": "shp_185",
+        "messages": [
+            {
+                "role": "user",
+                "content": "\n\nHuman: In popular culture, polytheistic gods are presented as \"The god of _______.\" How accurate is this and how applicible is it to different ancient pantheons?\n\nAssistant:"
+            },
+            {
+                "role": "assistant",
+                "content": " Oh hey, something I\u2019ve done research on! I will try to answer this from the Roman perspective. \r   \r   It\u2019s true that Roman gods, to some extent, had certain domains with which they were associated. However, you\u2019re right to be skeptical that it\u2019s as simple as saying that Jupiter was the \u201cgod of thunder\u201d, Juno the \u201cgoddess of marriage\u201d, Pluto the \u201cgod of the dead\u201d, and so on. \r   \r\r   Jupiter did indeed have powers over the sky, but this is just one aspect of what made Jupiter, Jupiter. Another aspect we might look to is the extent to which his worship, and the symbols involved, were seen as relating to the power of the Roman state. The chief priest (\u201c*pontifex maximus*\u201d, a title which has since been claimed by centuries of Popes to the modern day) was a priest of Jupiter. The scepter (*sceptrum*), a symbol of power, was associated with Jupiter (Festus, *De verborum significatione*, 210). When victorious Roman generals led their army in a procession (a triumph) through the city, they wore purple regalia and their faces painted red to embody Jupiter, and their parade ended with them going to the Temple of Jupiter Optimus Maximus (\u201cJupiter the Best and Greatest\u201d) on the Capitoline Hill, a temple he shared with his wife, Juno, and his daughter, Minerva. When consuls (the two chief magistrates) came into office every year, they sacrificed an ox to Jupiter and his will could be discerned through the body parts of the sacrifice \u2013 such as the liver, which Livy mentions as having vanished from one year\u2019s ox, a bad omen (Livy, *Ab urbe condita*, 41.14.7). \r   \r   From these we can see that a large part of Jupiter\u2019s function within the Roman pantheon was as the king of the gods, who could grant legitimacy to the Roman state. In short, to call Jupiter a \u201cgod of thunder\u201d is technically not incorrect, but is quite an oversimplification that misses the nuances of function and meaning associated with his cult in the context of Roman public religion. If you really wanted to simplify things, you would probably be better served thinking of Jupiter as the god who represented the legitimate power of the Roman state rather than as the \u201cgod of thunder\u201d. This better reflects his function as a public cult deity. \r   \r   On top of this, another characteristic of Roman religion was the idea of gods having different aspects. Jupiter, being a rather powerful and important god, was worshipped all over the empire, but in different towns (and even within the city of Rome itself) one might find multiple versions of Jupiter. This can also be said of other public cult deities, such as Mars. Augustus had a temple dedicated to him, or more specifically to Mars Ultor (\u201cMars the Avenger\u201d) no doubt as a message to the Roman public that he had avenged his adoptive father Caesar\u2019s death at the hands of Brutus and his friends. Also in Rome is the Temple of Venus Genetrix (\u201cVenus the Founder\u201d, i.e., of the Julian family; the Julii claimed to be descended from Venus). The different aspects of gods were rather useful for imperial propaganda. \r   \r   Going back to Jupiter himself, there was also a Temple of Jupiter Stator (\u201cJupiter the Sustainer\u201d) in the Campus Martius (\u201cField of Mars\u201d, in the northwest part of the city). His wife, Juno, in addition to being represented in the Temple of Jupiter Optimus Maximus, could also be found as Juno Moneta (\u201cJuno the Warner\u201d) guarding the state\u2019s funds in her temple, also on the Capitoline. (The association between Juno Moneta and the state treasury is a likely explanation for the modern day \u201cmonetary\u201d, \u201cmoney\u201d, etc.). \r   \r   Though ostensibly the same god, one temple in one part of Rome, or in another city of the empire, could house within it the worship of Jupiter, Juno, or any other public cult deity in one of many different guises. In fact, some historians have argued that public religion was so tied to civic identity (in other words, the worship of the gods in localized forms was so tied to each individual city or town) that the attempts of emperors like Decius in the 3rd century AD to enforce a more coherent and consistent religious identity were doomed to failure (Rives 1995). It\u2019s worth noting that a fundamental characteristic of ancient religion was its diversity. Indeed, it\u2019s become common among historians of Roman religion to speak not of \u201ca Roman religion\u201d but of plural \u201cRoman religions\u201d which were never really brought together until the rise of Christianity, which concerns itself much more with orthodoxy.    \\[Part 1/3\\]"
+            }
+        ]
+    },
+    {
+        "dataset": "shp",
+        "id": "shp_105",
+        "messages": [
+            {
+                "role": "user",
+                "content": "\n\nHuman: Boss had (has?) COVID and hasn\u2019t had the office cleaned or spent 2 weeks in quarantine. (OH) My boss (the owner of the company), we\u2019ll call him Joe, stopped coming to work on Day 0, when he found out his daughter, Mary, tested positive for COVID. Joe came back to work in person on Day 14. Today, Day 16, I found out with 100% certainty that Joe himself had COVID. However, his test on Day 0 was negative meaning he was positive later than Day 0.  Nobody, including management, seems to care that he\u2019s here and possibly still contagious. He\u2019s talking and joking about having had it just nonchalantly.  What can I do? Do I report this to someone outside the company? What can I say to my other boss (not Joe) about it?\n\nAssistant:"
+            },
+            {
+                "role": "assistant",
+                "content": " The current CDC guidance for ending a home isolation (aka when you have covid but aren't hospitalized) is 24 hours fever free, and 10 days since first symptom appeared, and other symptoms are improved.  It's completely possible your boss developed covid within the 14 days and also met the requirements to end his isolation.   Check the CDCs website, it spells out different scenarios and when quarantines and isolations can end."
+            }
+        ]
+    },
+    {
+        "dataset": "shp",
+        "id": "shp_1014",
+        "messages": [
+            {
+                "role": "user",
+                "content": "\n\nHuman: Need help with Heidegger. Since I posted this in the wrong subreddit I'll just repost it here.  Is there someone here that can help me to get a grasp on Heidegger's Bremer Vortrage. I initially posted it in the Heidegger subreddit, but I realize my post is a bit messy, and I'm not getting any replies :D. Anyway there is not much I can do it seems, this site doesn't really let me write it with a good lay-out. For those that may be interested here is the link https://www.reddit.com/r/heidegger/comments/6ucjpe/help/ This is just how I understand everything I've read so far!\n\nAssistant:"
+            },
+            {
+                "role": "assistant",
+                "content": " *The Fourfold: Reading the Late Heidegger* is a book that covers precisely Heidegger's thinking in the Bremer Vortr\u00e4ge."
+            }
+        ]
+    },
+    {
+        "dataset": "shp",
+        "id": "shp_97",
+        "messages": [
+            {
+                "role": "user",
+                "content": "\n\nHuman: Burnt out and questioning my degree I'm wrapping up year two of a bachelor's in physics (astro concentration). I'm exhausted and completely disinterested in my studies. I feel hopelessly behind; I had to drop most of my courses this semester, and I was already behind going in. I'm nearly halfway through my degree, and I haven't had a single course I've enjoyed outside of a couple of electives.   I haven't been able to find a single other person in my major at my university, and I feel isolated. According to my school's public demographics information, there are other physics majors. I'm just completely cut off from them. I'm also apparently the only woman majoring in physics at my university.   The interest that got me to pick this major is completely gone- even things that used to be extremely exciting to me are uninteresting or even borderline upsetting. I can remember making up ridiculous problems and solving them for fun, and researching any little thing that interested me. I'd start my day reading papers way above my reading level for most of high school. Now I can barely make it through a paragraph, and I'm too anxious to re-join communities I used to be a part of. Engaging with communities that I used to love online usually just gets me death threats now anyway.   Going into science (especially physics) has been pretty much the only option given to me my whole life. I'm not sure anymore if my love of it was real, or just a way to cope with the pressure. I want to find a way to pick my enthusiasm back up and keep going, but I'm just so hopelessly behind. Even though I usually squeak by with alright grades, I feel like I haven't known what was going on in a math course since 10th grade. Even if I do somehow manage to catch up, none of the careers that could come of my degree interest me. \"Go to school for as long as possible and then go into academia\" has been my only option for as long as I can remember, but now the thought of it makes me sick. But I've looked everywhere I can, and there just doesn't seem to be any option other than academia or a minimum wage job with a physics degree.   This used to be my absolute favourite thing in the world. During especially low points, it was one of the only things that I stayed interested in. But now I'm completely burnt out and I don't think I'm going to be able to get back. I feel like I've lost my last interest and failed at my few remaining skills, and there's nothing left. I don't know what to do. I can't afford to switch majors, and nothing else interests me anyway. I don't have any family to fall back on or anything to be other than a student.\n\nAssistant:"
+            },
+            {
+                "role": "assistant",
+                "content": " Honestly, get some proper counceling. It sounds like you might need professional help. There is no shame in that, but it will benefit you more than you might think.  Unfortunately, with the current pandemic studying isn't the same as it was before, as I am sure you have noticed. Perhaps take a break for a year before everything goes back to some semblance of what it was before. Perhaps consider changing university (if it is possible for you) to simply, you know, get some change in your life, kind of like a restart, but without losing all the time you spent on your degree."
+            }
+        ]
+    },
+    {
+        "dataset": "shp",
+        "id": "shp_832",
+        "messages": [
+            {
+                "role": "user",
+                "content": "\n\nHuman: Why does alcohol kill bacteria, but not the cells that our bodies are composed of? I was thinking about this while rising my mouth out with mouthwash this morning. Why does alcohol kill 99% of bacteria in my mouth, but not the cells that make up my cheeks, gums and tongue?  Isn't a single cell essentially the same basic structure as a bacteria, just joined together with other cells? Or am I actually killing millions of cells every time I rinse, but they regrow each time?\n\nAssistant:"
+            },
+            {
+                "role": "assistant",
+                "content": " The outer layers of the cells that line your cheek are in constant turn over. Meaning it gets regenerated as you shed them and more grow underneath. In addition, bacteria are simply single cell organisms while your cheek has several layers of cells so you theoretically simply destroy the top layer but there is more underneath.   Since the bacteria has only 1 layer, its pretty much it. Its dead when the cell wall gets destroyed."
+            }
+        ]
+    },
+    {
+        "dataset": "shp",
+        "id": "shp_1255",
+        "messages": [
+            {
+                "role": "user",
+                "content": "\n\nHuman: [MCU] In Endgame, after Thanos punches Captain Marvel with the power stone, why doesn't he slam his fist with it in the ground and destroy the earth? Like how the celestials destroyed planets using the power stone. Is it because he needs a weapon to store the infinity stone to use it or because it would kill him in the process and not allowing him to wipe the slate clean for the universe?\n\nAssistant:"
+            },
+            {
+                "role": "assistant",
+                "content": " This Thanos has only just acquired the power stone for the first time.  He isn't used to using it, but he is used to fighting with fists and blades.  His mind likely went with what it was used to rather than with optimal choices.  He may also have been holding onto the mindset of a battlefield commander who wanted to preserve his forces rather than as a pseudo-god who could remake his forces at will.  In general, Thanos does not seem to gain anything like a 'cosmic awareness' with the stones that would let him know the precise best choices to make."
+            }
+        ]
+    },
+    {
+        "dataset": "shp",
+        "id": "shp_352",
+        "messages": [
+            {
+                "role": "user",
+                "content": "\n\nHuman: Why does Germany, being a major european and international economic player, only have one globally significant bank? Unlike most of its economically even smaller neighbors UK, France, Switzerland..\n\nAssistant:"
+            },
+            {
+                "role": "assistant",
+                "content": " Bankers Trust, a major US investment had some issues with Derivatives after it sold some overly complex OTC products to people like Orange County and Proctor and Gamble. Essentially they had to settle and ended up needing a rich partner.  Deutsche were interested and as a rich retail bank with an underdeveloped investment banking division, this worked out well. Deutsche became dominant.   Behind them was Dresdner, also very well developed on the retail front and they joined with a UK investment bank,  Kleinwort Benson to form DKB. London was where the IB was happening but the show was sponsored with the money coming from the German retail investors.   There was also Commerzbank which had again a mostly retail operation in Germany but a thriving IB division in London (I forget who they took over). Commerzbank was being chased by DKB.   Finally there was HVB who were again mostly retail but were aggressively chasing IB business.   Along came Lehmann. The point is that many of the IB operations were run at arm's length so it was really a trigger for something that was probably going to happen anyway.   HVB had  big problems and it finally ended up being taken over by an Italian banking group, Unicredit. DKB had big problems but the Germans did not want to lose another major bank so they looked for a partner, Commerzbank to take over but the insurance business from both went to Allianz. Commerzbank was very active overseas but it had to consolidate it's operations. Deutsche had issues with a joint venture with Commerzbank for property investment called EuroHypo which had major problems with mortgage backed securities. Luckily for Deutsche, the venture was majority owned by Commerz so they took the hit politically but financially Deutsche had issues too. Commerz had government support to take over Dresdner but as a condition they had to keep as many German jobs as possible so they also were forced to curtail their overseas activities.   Underneath the big banks are the regional banks. In general they had a good retail base but were under pressure to increase their returns which is why banks like WestLB started playing in London, but without the boards really being aware of the risk that their investment banking activities worked under. Many of them had big issues.  At the same time the EU was applying pressure on the German government to remove the state guarantees for these banks. So the Landesbank were forced to curtail their activities.   Below that were the savings banks. These go down to the size of individual towns or cities. Effectively they their own corporate investment bank that was called DG at the time (it is now DV or something) . This had existed for a while and was not particularly exciting with their risk taking. They survived fairly well.   First tranche of sources (more will come):    *  Bankers Trust vs Orange County and Proctor & Gample   * Deutsche Bank's Aquisition of Bankers Trust   * Germany's Landebanken in Trouble   * Commerzbank's Aquisition of Dresdener   * German Banking Structures   Source: more to come later, but I have consulted to all of the majors at one time or another in London, Frankfurt and Munich."
+            }
+        ]
+    },
+    {
+        "dataset": "shp",
+        "id": "shp_23",
+        "messages": [
+            {
+                "role": "user",
+                "content": "\n\nHuman: Update on my potentially blind, paralyzed dog So basically a week out after my dog flatlined after being fixed. He is doing so much better. He is doing all the zoomies. He still has some vision issues that seem to mess with his depth perception, but otherwise- he is normal.  Zooming!\n\nAssistant:"
+            },
+            {
+                "role": "assistant",
+                "content": " Yay!! I remember your post. I'm so happy for you and him! :)"
+            }
+        ]
+    },
+    {
+        "dataset": "shp",
+        "id": "shp_1656",
+        "messages": [
+            {
+                "role": "user",
+                "content": "\n\nHuman: CMV: The restrictions on government power and the rights granted by the US Constitution should also apply to corporations and individuals, not just to the federal and state governments. What's the point of a right being enumerated in the Constitution if it can be run over on a technicality that the entity violating it isn't actually the government? I can see a future USA run by libertarians where the government does nothing and all governance is done by corporations - who are not restricted by the Constitution and thus can do whatever they want regardless of any \"rights\" identified in the Constitution. So why not start the process of solidifying those rights now? Thus it would be illegal for Facebook or Twitter to ban someone because of their political views (1st amendment), illegal for a business to put up a \"gun free zone\" sign (2nd amendment), illegal for Google to harvest and sell our personal data (4th amendment), and so on. Rights are useless if they are not enforced! Not sure how this would apply to individuals but I guess there might be a way...\n\nAssistant:"
+            },
+            {
+                "role": "assistant",
+                "content": " Consider that you are missing a massive part of how broad rights are and why we don\u2019t enforce rules on private citizens and companies the same way we do the government. You aren\u2019t the only one with rights. The other party has rights too. I\u2019m allowed to tell you that I\u2019m not permitting you to come onto my property with a gun, or come into my business screaming your racist views at the top of your lungs. That is my right. If the government forced me to allow you to do whatever you want on my property and in my business, that would be a massive infringement on my rights. That\u2019s the balance that must be maintained.   You mention problems that can arise in some sort of libertarian hypothetical in which we have no government and businesses run everything. Well that\u2019s a problem with that ideology, not the way we grant rights. Don\u2019t throw the baby out with the bath water so to speak."
+            }
+        ]
+    },
+    {
+        "dataset": "shp",
+        "id": "shp_2490",
+        "messages": [
+            {
+                "role": "user",
+                "content": "\n\nHuman: Explain like I'm five years old: In the Stanford prison experiment, the guards were told to act in ways that would break the prisoner's spirits. So what about the experiment was controversial? That they went overboard? That they enjoyed being in positions of power? That the experiment became (or was from the start?) immoral?\n\nAssistant:"
+            },
+            {
+                "role": "assistant",
+                "content": " What\u2019s questionable is the conclusions people draw. It\u2019s often put forth as \u201cproof that when people are given power over others they get nasty\u201d. But as you described in your post title, the guards were **instructed specifically** to be nasty.    It undermines the conclusion that the nastiness was a spontaneous result of the power dynamic."
+            }
+        ]
+    },
+    {
+        "dataset": "shp",
+        "id": "shp_965",
+        "messages": [
+            {
+                "role": "user",
+                "content": "\n\nHuman: ND, USA: Stupid Question: neighbor is claiming my leaves have fallen in his yard and they\u2019re my responsibility to clean My (new) neighbor and I both have large trees which have recently shed their leaves. Some leaves are in the area between our two driveways and he has told me, in no uncertain terms, that it is my responsibility to clean all the leaves off both of our respective pieces of property.   We both have trees, as mentioned, so it\u2019s not possible to tell who\u2019s leaves are who\u2019s. He has been cleaning leaves more often, and I prefer to clean the leaves when most have fallen off the trees so I don\u2019t have to do it multiple times, which I believe is not applicable to this situation.   Am I responsible for cleaning the leaves off his property?\n\nAssistant:"
+            },
+            {
+                "role": "assistant",
+                "content": " Yeah no.  Pretty sure responsibility ends at your property line when it comes to leaves.  He also has the ability to cut any branches that extend past the property line to the property line provided it doesn\u2019t risk the health and life of your tree. But ultimately no, he needs to clean up his own lawn within his property line or buy a house that isn\u2019t around any trees."
+            }
+        ]
+    }
+]

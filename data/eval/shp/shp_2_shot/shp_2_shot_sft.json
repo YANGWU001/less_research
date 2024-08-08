@@ -1,0 +1,506 @@
+[
+    {
+        "dataset": "shp",
+        "id": "shp_1444",
+        "messages": [
+            {
+                "role": "user",
+                "content": "\n\nHuman: When to know you should master out of a PhD I\u2019m in my third year of graduate school (second year in my program, I switched from Medicinal chemistry/pharmacology to Biophysical and computational biology after my first year) and am seriously considering leaving with a masters at the end of this year. There are many factors I am trying to take into consideration, but these are the main ones:  * Loss of enthusiasm and passion in the field.      * I started out liking basically anything you could do with computational chemistry and biology and intended to get into computational drug design, but after my first potential advisor left the university I had to transfer departments and join a computational biology lab.      * I didn\u2019t like my initial project on \u201cprotein structure refinement\u201d. My advisor isn\u2019t super familiar with the topic and I was completely overwhelmed with the huge amount of messy data I was dealing with alone. I\u2019ve finally got a grasp on how to deal with the data, and am almost done writing the paper. However the experience really killed my interest in the field as a whole. Projects that I would have been excited to work on a year ago have absolutely no appeal to me anymore.  * I prefer a broadness in knowledge, not depth     * It\u2019s inherent to a PhD to know a great deal about an extremely narrow domain of science. However I prefer spreading my knowledge out across many domains.  * I\u2019m one of those \u201cI want to be called Dr.\u201d people     * I never considered the opportunity cost (especially being in my 20\u2019s) of a PhD when applying. I\u2019ll probably be here for a minimum of 4 more years, based on previous PhD students in this lab.     * As much as I want a doctoral degree, I don\u2019t have a practical use for one.  * I don\u2019t plan on continuing academia (or any research) after graduation.     * I really don\u2019t like most aspects of the academic environment (isolation in research, people who pride themselves on overworking,  etc).      * I would never take a postdoc position, and would be strictly looking in industry for a job. Even in industry I would be weary of any research positions.  * Jobs are mainly in academia, and there are easier paths to any industry job I would be interested in.      * I\u2019m pretty close with my family (in the upper midwest) and want to be geographically close to them (an hour or two drive at most) but PhD level jobs in computational biology are few and far between (mainly on the coasts), and would almost certainly need to move for that.      * The main field I could get into without moving across the country in industry would be data science, which is fairly  obtainable without a PhD. If I market a computational biology masters correct, I could probably a job with a masters alone.  * I have an opportunity for a job if I leave.     * I have a close friend from my chemical engineering undergraduate doing well at a wastewater systems engineering startup and has guaranteed me a job if I should want it.      * I somewhat regret leaving engineering, and could see myself working there.   My apologies for all the text. It\u2019s hard to think clearly about these things through all the sunk cost in the form of time, and  you can\u2019t exactly discuss these things openly with lab members without word spreading. Any advice or insight would be greatly appreciated!\n\nAssistant:"
+            },
+            {
+                "role": "assistant",
+                "content": " One thing I'd be cautious from reading your post about is that almost everyone has a dip in enthusiasm in the PhD, phrased in various (the Valley of Shit is a common version). There is something to be said for (demonstrating) persistence and finishing the experience, and you're not in a traumatic situation you need to escape from. Not that it can't be a good choice to stop, but the more that choice is driven by a current relatively vague feeling, the more I'd wonder whether there might be something beyond that would be worth exploring.  I'd also quibble about \"depth\" versus \"breadth\" - this may be field-specific but there's definitely a risk of superficiality in my field if someone hasn't dug down on something - the depth also gives you a kind of generalizable insight you don't get without that focus. Once you've been down there, when you know what real, deep knowledge looks like, even if you subsequently branch out you'll bring that awareness/levelness/benchmark with you.  But absolutely nothing wrong with quitting either, and definitely not with refusing to do the post-doc minioning. Especially not if there are positive reasons to pick the alternative, which you seem to have."
+            }
+        ]
+    },
+    {
+        "dataset": "shp",
+        "id": "shp_1725",
+        "messages": [
+            {
+                "role": "user",
+                "content": "\n\nHuman: How does being non-religious affect chances of getting a job or tenure at a Catholic or other religious university? I am not a religious person. It's not a matter of atheist or agnostic or anything like that; I just didn't grow up with it and it's foreign to me.   Some schools that I'm considering on my job search were founded in / through a religion and explicitly say on their job postings to list in the cover letter how one might assist the school in serving in its mission for higher education, community outreach, all that good stuff, in the spirit of God / the Church / etc.   I can make such a statement, outright and honestly, without the connection to religion. The religion aspect is the distinguishing factor and where I might falter as a job candidate compared to others.  The simple question is, given my background, am I just better off not looking at religion-focused schools?  More in depth: what are the general religion knowledge expectations of a faculty member who is not of the same faith (or any faith) as the school?\n\nAssistant:"
+            },
+            {
+                "role": "assistant",
+                "content": " At most Catholic schools, actually being religious is way, way down the list, if it is considered at all.  They mostly just want to make sure you're not going to launch an anti-Catholic, uh, crusade while at their institution.  Take a look at the mission statements of the schools that ask about mission.  There may or may not be reference to religion/God/faith, and as you mention, these can usually be addressed without reference to personal religious beliefs.  Exception: if it apppears in the Newman Guide, being Catholic is taken much more highly into account.  Other denominations can be a bit hit and miss, but if they are mainline Protestant (Lutheran, Methodist, etc.) they'll likely be similar to Catholic colleges.  Baptist, evangelical, or non-denominational colleges are more likely to want to create a little Christian bubble on campus, and may ask you about your church affiliation or to provide a statement of faith.  However, it is in these colleges' best interests to make it abundantly clear what they are looking for, so it should usually be pretty obvious which ones not to bother applying to."
+            }
+        ]
+    },
+    {
+        "dataset": "shp",
+        "id": "shp_210",
+        "messages": [
+            {
+                "role": "user",
+                "content": "\n\nHuman: How do we know that our history is correct? We weren't there when ancient Egyptians built their pyramids; nor were we there when Columbus set foot in America. We have texts, artifacts, and other materials from the time period and that's it. How can we understand ancient people's customs, culture and behaviour with that limited \"evidence\"? Can you please explain how anthropologists and historians know the things they do about past societies?\n\nAssistant:"
+            },
+            {
+                "role": "assistant",
+                "content": " Your question is a good one, but it also happens to be one that spans the entire history of the entire field of anthropology. To many motivated anthropologists and historians, the problem of gathering information, clues, about unclear historical contexts, and the influence of our own biases, on top of the biases of the past... is central to everything that an anthropologist does.  And it is central perhaps exactly because it is an impossible task. But the scientist does their best anyway.  This is why you should be skeptical of scientists who do not admit the flaws of their work. If it were possible to confirm with absolute validity any truth about the world, there would be no need for science at all."
+            }
+        ]
+    },
+    {
+        "dataset": "shp",
+        "id": "shp_348",
+        "messages": [
+            {
+                "role": "user",
+                "content": "\n\nHuman: Any happy anthropologist here? So I'm currently suffering from my career choice given that in my country (Chile) it is a varely employable major. I feel undervalued and with very little opportunities. I have read too many comments from people feeling the same way. I'd like to read any of you that is happy with his/her career choice to light me up a little bit and to regain hope about the career path ahead of me.  Thank you everyone in advance.\n\nAssistant:"
+            },
+            {
+                "role": "assistant",
+                "content": " I have a government job right now, but before this worked in education. It was pretty easy for me to find work with my Masters in anthro. I'd just suggest keep an open mind. A lot of employers like to see someone with a people-centric degree, so just think outside the box when it comes to applications and don't close any doors to any opportunities.  Edit: yes am happy too lol"
+            }
+        ]
+    },
+    {
+        "dataset": "shp",
+        "id": "shp_517",
+        "messages": [
+            {
+                "role": "user",
+                "content": "\n\nHuman: Is there a \"golden ratio\" for macarons? I've seen multiple different recipes for macarons, and they all seem to have different ratios for almond flour, granulated sugar, egg whites, and powdered sugar. I've made some of them with varying results, so I was wondering if there was some base ratio I can use in all macaron recipes instead of hunting for a new one each time?\n\nAssistant:"
+            },
+            {
+                "role": "assistant",
+                "content": " To answer your question directly, no, there is no set \"ratio\".  Many comments here are giving you their own recipes, which I'm sure work well for them, but it's important to keep in mind that because of the nature of macarons, certain recipes work well for certain people based on many different factors. Climate, altitude, oven temperature, technique, even the quality of the ingredients-- many of these things can severely alter the final product of your macaron. Not to mention the differing methods of meringue (mainly italian and french, swiss is rarely used). Even the final taste is easily adjusted with just a few ratio tweaks (sweetness, hardness of shell, etc). In short, there is a reason there are so many different recipes.  Basically, the ideal best results will come from testing and testing and testing. If that's too cost ineffective or you simply don't have the time (the struggle of macarons), then pick a random recipe you like and focus on perfecting your technique. Consistency is key. There are many articles/tutorials out there for perfecting your technique.  Most of the recipes you find will give you a good result. I think the golden rule (if there is not a ratio) is to always use weight measurements-- if there's any sort of volume bull, nope out of there as quickly as you can. It's way too finicky to even bother with trying to keep results consistent.  TL;DR: there is no golden ratio, recipes vary per person, mess around with your own ratios/recipes and/or perfect  your technique AND USE WEIGHT MEASUREMENTS.  Also I am by no means an expert, just a nerd who happens to love the science behind macarons and emptying my bank account buying ingredients for testing.  Edit: woah, reddit silver! Thanks anonymous person! \u263a\ufe0f"
+            }
+        ]
+    },
+    {
+        "dataset": "shp",
+        "id": "shp_1022",
+        "messages": [
+            {
+                "role": "user",
+                "content": "\n\nHuman: Do you think this recipe would be to much cheese? I\u2019m making my first non-boxed mix cake. Here is the recipe. Since it\u2019s a cheesecake with cream cheese frosting, I\u2019m kinda nervous it will be too rich and cheesy. Thoughts?\n\nAssistant:"
+            },
+            {
+                "role": "assistant",
+                "content": " General recommendation:  Avoid recipes that only have a few reviews or are just a blog or from a brand as a beginner baker. I see someone extensively linked you preppy kitchen. He's great. I will add Sally's Baking Addiction. Stick with recipes from somewhere like that or that have tons of reviews."
+            }
+        ]
+    },
+    {
+        "dataset": "shp",
+        "id": "shp_255",
+        "messages": [
+            {
+                "role": "user",
+                "content": "\n\nHuman: My car is vibrating whilst idling. Just got the fuel injector replaced by a mechanic, but he said to drive it 100 miles and see if it fixes it. So far driven 40, and still vibrates like hell when idling and engine is hot. What can I do? VW golf 1.6 tdi, mk6 2011. Replaced injector with a aftermarket too.  Is it time.to.sell the car now or will this be fixed after 100 miles?\n\nAssistant:"
+            },
+            {
+                "role": "assistant",
+                "content": " It sounds like it\u2019s not running on all cylinders, which will cause vibration and poor power."
+            }
+        ]
+    },
+    {
+        "dataset": "shp",
+        "id": "shp_329",
+        "messages": [
+            {
+                "role": "user",
+                "content": "\n\nHuman: Better to buy a heavily used car with exhaustive extended warranty or slightly used car? Looking at buying a 10+ year old Prius well over 150k miles (past Manufacturer battery warranty) and getting an exhaustive extended warranty to cover any major issues I run into.   Is this better in the long run than buying a slightly newer used car or should I bite the bullet on a more expensive vehicle?\n\nAssistant:"
+            },
+            {
+                "role": "assistant",
+                "content": " Buy the better car, and not have the problems in the first place.   Because you better be ready for an argument every single time you try to make a claim with a 3rd party warranty."
+            }
+        ]
+    },
+    {
+        "dataset": "shp",
+        "id": "shp_1225",
+        "messages": [
+            {
+                "role": "user",
+                "content": "\n\nHuman: How can you make a skillet or pan hot enough to sear a crust into a steak without burning the butter? Every time I have ever tried to do the classic butter-basted crusty steak, the following happens:  1.) I get the pan really hot.  Most of the tutorials I've watched recommend placing it in a 400-500F oven for 10 minutes.  If I'm using my cast iron, this is what I do; with stainless steel, I just use the stove top because the pan handle is not oven safe.    2.) I place a large pat of butter in the pan.  It immediately (and I mean truly immediately, as soon as the butter contacts the pan) turns black as midnight and sends up a smoke signal visible halfway around the globe.    3.) I clean out the pan, put on a fresh pat of butter which doesn't burn now that the pan has cooled a bit, and sear my steak in the freshly cooled pan to a nice, appetizing zombie-flesh grey color before finishing it on the grill.  I used to just grill steaks, but YouTube inspired me to try for that steakhouse seared crust.  But every time I've tried, that's what happens.  I've tried not getting the pan as hot or heating the butter in the pan, but the pan never gets hot enough to sear the steak without cooking it through first.  I've tried fats with higher smoke points, and they work, but I miss that rich butter-basted flavor.  How do I fix this?\n\nAssistant:"
+            },
+            {
+                "role": "assistant",
+                "content": " wait til AFTER you sear to baste. No fats should go into the pan til after.   Try this: Sear the salted and peppered meat DRY. First one side til it releases on its own. Then the other. Til it releases on its own. Roughly 2-3 minutes per side.   THEN sear the fat cap. about 30 seconds.   Then roast in 400 degree oven for no more than 8 minutes.   THEN BUTTER BASTE. Stove top on medium, just to get butter melty and spoonable. Butter will not turn black, aromatics will infuse into it properly and then you will have a steak to be proud of. Don't forget to let it rest."
+            }
+        ]
+    },
+    {
+        "dataset": "shp",
+        "id": "shp_391",
+        "messages": [
+            {
+                "role": "user",
+                "content": "\n\nHuman: Historically, was hummus always smooth? I've tried to find some history around it that answers my question but I fail to find anything substantial (and by searching the title question I get results a-la \"how to make silky-smooth hummus in 3 easy steps!\" which is off the bat).  There were no electric food processors around in the 13th century, not even a century ago! Did people in the Middle East work their chickpeas with mortar and pestle for hours to get lumpless hummus? I dunno. I fail to see how anyone could have cared before the age of electronics.   My curiosity comes partially inspired from recipes following \"authentic hummus\" recipes where the standard is the silky, cream-like consistency, as if silently it's become a taboo for hummus to have any other texture, not even small chickpea bits. Surely 300 years ago nobody realy cared, or at least I think so? When did everyone switch to \"authentic == absolutely no detectable pieces\" mentality?  Thank you!\n\nAssistant:"
+            },
+            {
+                "role": "assistant",
+                "content": " Don\u2019t know the answer to your interesting question but in Mexican cooking, what is now done with a blender was done with a mortar and pestle (molcajete) until quite recently."
+            }
+        ]
+    },
+    {
+        "dataset": "shp",
+        "id": "shp_316",
+        "messages": [
+            {
+                "role": "user",
+                "content": "\n\nHuman: My cat bit me while getting an injection today, my finger really hurts, should I take an antibiotic just in case? 35F, 120lbs, on propranolol since March, no chronic illnesses, incident with cat bite happened today around 6 hours ago  My cat has a terminal brain tumor so her behavior can be quite unpredictable. Last week at the vets she was an angel, but today the demon came out during an injection and she bit me twice, on my index finger and middle finger. The vet sprayed antiseptic and bandaged my fingers after this happened. I took the bandages off at home.  The index finger is more or less ok, a bit of tenderness and swelling, but its not bad. The middle finger is much worse, it hurts and is warm and swollen; it really hurts when I try to bend it. It was oozing clear/yellow liquid for a few hours from the puncture (looked like urine). The oozing has stopped now.  I'm thinking perhaps I should get a prescription for an antibiotic, but my husband says I'm overreacting.   What's the best course of action here?\n\nAssistant:"
+            },
+            {
+                "role": "assistant",
+                "content": " Break skin? If so, actually, yeah. Probably. Cats are filthy (edit: from the perspective of likelihood of an infected bite. Also from an unabashed dog person)"
+            }
+        ]
+    },
+    {
+        "dataset": "shp",
+        "id": "shp_181",
+        "messages": [
+            {
+                "role": "user",
+                "content": "\n\nHuman: Friend Shotgunning Redbulls  Hey everyone! I\u2019m kind of concerned for my friend. Shes about 5\u20197\u201d, 180-190lbs., and 22 years old. She doesn\u2019t take any medications, she vapes and drinks alcohol, and she doesn\u2019t have any significant medical diagnoses.  I\u2019m concerned because she\u2019s shotgunning redbulls multiple times per week, and sometimes multiple times per day. I\u2019m a medic in the Air National Guard, and I\u2019m also a medical technician in a hospital. I\u2019ve tried to explain to her how awful this is but she just keeps making jokes about it. I was wondering if I could get a provider (APRN, MD, DO, DNP, etc.) to explain possible complications of this so that way I could send it to her to try to get it through her thick skull that this is bad. Thank you so much in advance, and have a blessed day!\n\nAssistant:"
+            },
+            {
+                "role": "assistant",
+                "content": " Not a doctor, short story:  When I was 19, and an apprentice millwright, a fellow apprentice (also 19) and I had just worked 26 hrs. We went back to our respective hotel rooms to get 6 hours asleep before resuming our emergency overhaul.   As we left, he told me he was going to swing into 7-11 and grab a redbull. He grabbed a 4pack. He drank all four in about 30minutes time.   He had a heart attack and barely was able to pull over on 880 (bay area).   19. He lived but has been on medication since. And always will be. With side effects.   Bad deal."
+            }
+        ]
+    },
+    {
+        "dataset": "shp",
+        "id": "shp_149",
+        "messages": [
+            {
+                "role": "user",
+                "content": "\n\nHuman: What are 3-5 skills a Mechanical Engineer should have that I can\u2019t learn in class and by experience? Hi, so Im a second year, female mechanical engineering student. So after hearing the feedback from my boss that my lack of technical skills and experience compared to other co-ops he\u2019s had was the reason for a bad report of my co-op, I am trying to find ways for me to improve upon those. I\u2019ve done some of my own research and have some ideas but wanted to know what you all think.   So what are 3-5 skills that I should have becoming a mechanical engineer? Skills which I won\u2019t learn in class, and, for each skill, in what way should I go about gaining these skills (specific opportunities, websites, videos, projects, etc)-mind that I AM a broke college student so purchasing anything expensive is unfortunately not an option.\n\nAssistant:"
+            },
+            {
+                "role": "assistant",
+                "content": " Learn how to machine things and the basics of welding. You don't have to be an expert, but knowing the basics will greatly improve any designs you make. You can probably go into the student shop and ask the shop techs to show you how to run the machines. I was a shop tech in college and we loved having people do this because it gave us something to do.   Learn good references for doing your work, some of these are free, some of them aren't. Good paid examples are the machinists handbook and roark's formulas for stress and strain. Good free examples are MatWeb.com, which has material properties for most materials known to man.   Practice 3d modeling in your software of choice, most skills will transfer between programs, so if you don't get a subscription from the school, you can use fusion 360 for free. Practice with random things you have laying around or with cool ideas you come up with and might want to make or 3d print at some point."
+            }
+        ]
+    },
+    {
+        "dataset": "shp",
+        "id": "shp_1856",
+        "messages": [
+            {
+                "role": "user",
+                "content": "\n\nHuman: Can I use a 6DoF IMU mounted to the butt-cap of a tennis racket to measure the speed of the racket-head? Given the accelerometer and gyroscope readings from a 6DoF IMU sensor attached to the buttcap of a tennis racket, and the fact that the head of the racket is in a known direction relative to the sensor and has a fixed distance (buttcap-to-tip of rackethead), I am hoping to calculate the speed of the head of the racket.    Given that the \"lever\" in this scenario is of variable length (human arm + racket, arm in varying degrees of extension), and that the sensor would technically be some length away from the point of rotation.   I am having trouble wrapping my head around the physics here, thanks for any help!\n\nAssistant:"
+            },
+            {
+                "role": "assistant",
+                "content": " The racket is (approximately) a rigid body.  I.e. we can neglect elastic deformations, bending, etc. Therefore, its position and its orientation are fully determined by six degrees of freedom - X,Y,Z coordinates and Rx, Ry, Rz rotations (for a fixed global inertial coordinate system, so relative to the ground on earth).  The sensor will give you X,Y,Z, Rx,Ry,Rz (approximately by integrating the accelerations and angular accelerations) of the IMU itself. For instance we can represent this information as a 4x4 homogeneous transformation. Call it T.  (or three rotation matrices and three coordinate displacements etc).  It depends on the DoF (and time) - we can say T(X,Y,Z,Rx,Ry,Rz,t)  The IMU is bonded to the racket so the position vector of any point on the racket is **constant** with respect to a moving coordinate system aligned with the IMU.  Pick an arbitrary point - call it P1 - and its coordinates are constant in the moving CS. Call these coordinates P1\\_m (a 3x1 vector).   To find the position of any point on the racket (say P\\_1), orientation of the racket, etc etc. relative to the global CS (call this P1\\_global), you can just apply the appropriate transformation say P1\\_global = T(X,Y,Z,Rx,Ry,Rz,t)\\*P1\\_m.  Hope that helps.  I've ran hundreds of MSc projects and quite a few PhDs for my students using IMUs, and designing resonant accelerometers/gyroscopes for MEMS IMUs is my research specialty.   For the maths, see  https://en.wikipedia.org/wiki/Transformation\\_matrix#Affine\\_transformations  Edit to add: So yes, you can, if the IMU resolution is good enough for your application."
+            }
+        ]
+    },
+    {
+        "dataset": "shp",
+        "id": "shp_336",
+        "messages": [
+            {
+                "role": "user",
+                "content": "\n\nHuman: I often hear people say that the Irish Potato Famine was more a genocide than a true famine. How accurate is this claim?\n\nAssistant:"
+            },
+            {
+                "role": "assistant",
+                "content": " I had a chuckle to see another North Korea flair in this topic of all places. Cheers, /u/koliano!   This isn't my area of expertise, so a really detailed answer is beyond me. However, the Irish famine is a pretty common topic while you're studying periods of mass hunger, and it was something I saw pop up occasionally while reading about the mechanics behind North Korea's famine (1994-1998). There's something that I think might provide some helpful context for your question -- namely, how we study and think about famine has changed a lot over the last 40 years, and the line between \"genocide\" and \"famine\" has gotten blurrier as we recognize that famine is not really an accident.  So -- was the Irish \"potato famine\" a genocide against the Irish?  **Short answer:** The English didn't commit genocide by the strictest definition of the term, but they did create the circumstances that led to the famine.  **Long answer:** As others have pointed out, there's a troublesome and often politically-charged distinction to be made between genocide and famine:   - **Genocide implies intent.** It's not enough for millions of people to die: Somebody has to *want them dead* and engineer a way to do it, or capitalize on a situation likely to result in mass death. Nobody wants to be told they were responsible for genocide; it's a severe blow to the moral and political authority of the country involved. The Turks resist efforts to characterize what the Armenians call the \"Great Crime\" as genocide. Russia will tell you to fuck off when you raise the issue of the Holodomor and Stalin's being a huge asshole to the Ukrainians. The Chinese government only recently stopped censoring public discussion of the famine related to the Great Leap Forward. Nobody wants to admit to having committed genocide or -- if it's not genocide by the technical definition of the term -- anything that looks like it.  - By contrast, **famine is seen as a tragedy that nobody could have prevented.** Crops fail. Drought happens. Diseases, predators, and wildfires kill livestock. Earthquakes and floods destroy your ability to move food around. Something bad happens that interferes with your society's ability to grow, store, or transport food, and lots of people die despite your best efforts. Famine is the second horseman of the apocalypse, perennial as the grass, cold and grimly present as its brothers pestilence, war, and death. It is ubiquitous in human history and the immutable lesson is that it can happen to anyone.  Except it doesn't. Certain human societies have been strangely resistant to famine despite weathering the same shocks that caused mass starvation in similar circumstances elsewhere.   Historians and economists had a collective \"Eureka!\" moment in the late 20th century when we realized that famine DOESN'T just happen, and that it probably never has. Hunger can happen despite your best efforts to prevent it, but *famine is the result of politics*.  **Before we go any farther, we need to talk about a guy named Amartya Sen.** He's an Indian economist and historian who's written a lot of really famous and influential pieces about a variety of topics, and he was awarded the 1999 Nobel Prize for his work on welfare economics. In terms of popular reach, he's probably best-known for a 1990 essay on \"More Than 100 Million Women Are Missing,\" which addressed the result of sex-selective abortions in Asia. However, in the academic world he's arguably most famous for his work on famine in human history, and in particular a theory that sounds bananas when you first hear it, and then more and more frighteningly plausible.  I'll break it into two parts:    - **Sen argued that no famine over the last 1,000 years can be attributed to anything other than primarily man-made causes.** This took a while to get traction; we're used to saying that X famine was caused by a flood, or Y famine happened because of a drought, etc. Sen pointed out that natural disasters and crop failures are actually pretty common, but famines aren't usually the result. Left to their own devices, humans are pretty good at finding and storing food as proof against unpredictable shortages. In order to create a famine, you have to have a bad, unstable, and/or corrupt political/economic system that can't weather a sudden shock and is thrown into crisis. We've gotten used to blaming the shock (e.g., the flood, the drought), when in reality it's just a convenient excuse. The real cause is the shitty and inflexible system that existed before it.   - **Sen further argued that no famine has occurred in a democracy with a free press.** The basic idea is that government that isn't accountable to its people is notoriously unresponsive to its needs, and a free press is good at noticing and publicizing problems that government needs to address. There have been some quibbles over this, mostly related to pockets of continuing hunger in India, but for the most part this is a pretty uncontroversial theory.  Sen published his first work on famine in 1981 and has studied the issue on and off since. His work has heavily colored subsequent discussions of hunger and the political systems that create/d it, and it's a big part of the reason we're disposed to evaluate past famines differently these days. Interestingly, the 1981 piece is primarily about another famine that the British had a hand in (the 1943 Bengal famine) due to rice and transport ship confiscations setting off a price panic.  **So let's consider the Irish potato famine :** Again, I have to leave the nitty-gritty details to someone with a better command of this period than I've got, but I can tell you about the commentary that the Irish famine attracts when historians and statisticians are discussing the mechanics of hunger in modern works.  The potato blight has been commonly cited as the reason that the famine happened, and it's entirely true that it played a role. The lack of genetic diversity among the strain of potatoes being grown in Ireland at the time made the island incredibly susceptible to the blight. However, it was a classic example of a \"shock\" that revealed the underlying corruption in the economic system that surrounded it. The blight may have started the famine, but it didn't actually cause it (if that distinction makes any sense).  **So what did cause it?** Britain's Corn Laws were an aggressively protectionist series of tariffs enacted with the intent to keep grain prices high for the benefit of domestic producers. (TL:DR: Landowners didn't want to compete against cheap grain from abroad and also had to pay their farm laborers a living wage, so Parliament levied high taxes on foreign grain and tweaked them as necessary to try to bump domestic grain to what they considered ideal prices.) The Irish poor (of whom there were many, for a variety of very complicated historical and socioeconomic reasons) were largely unable to afford grain as a result of the Corn Laws, and on the generally-small holdings they farmed (for which they paid punitive rents to largely absentee English landlords) could only grow potatoes in sufficient quantity to feed their families.   The potato was thus the staple food, and the blight an utter catastrophe. When potatoes were no longer available, the poor burned through their meager savings quickly to buy grain, and when that ran out, they starved en masse. Parliament repealed the Corn Laws two years into the famine, but it was too little and too late, and also didn't address the other systemic issues (principally landlord exploitation) that contributed to the famine.  So it's pretty apparent why the genocide/famine distinction is a touchy one here:    - **Did the English commit genocide against the Irish?** Not as such.   - **Did they create the circumstances that led to the famine?** Yes, and most historians judge the government's response to the famine as woefully inadequate, to compound the issue."
+            }
+        ]
+    },
+    {
+        "dataset": "shp",
+        "id": "shp_393",
+        "messages": [
+            {
+                "role": "user",
+                "content": "\n\nHuman: Why is Omaha beach the most famous D-Day landing, when there were 4 other beaches taken on D-Day by American, Canadian, French and British troops?\n\nAssistant:"
+            },
+            {
+                "role": "assistant",
+                "content": " Omaha Beach is often described as the most \"famous\" (both well-known among the general public and portrayed in media such as video games, board games, and films) D-Day landing beach as it was the one that was by far the most hard-fought, and the one that came the closest to failure. The resultant popularity of Omaha Beach in media after the fact is due in no small part due to films like *The Longest Day* and the Beach's spectacular (yet fictionalized) depiction in Steven Spielberg's 1998 film *Saving Private Ryan* and subsequent depictions of the scene as missions in video games, some of which bear a striking resemblance to the film. Polls of people in European countries such as this one for France show a trend where public opinion has shifted more in favor of America's role in WWII.  General Omar Bradley, commander of First Army, seriously considered abandoning landings at Omaha Beach midway through the assault (unbeknownst to him, by 0900 small groups of American troops had made it past the bluffs and were attacking German defensive strongpoints from the rear) and re-routing his remaining forces through Utah or one of the British or Canadian beaches;  > I reluctantly contemplated the diversion of Omaha follow-up forces to Utah and the British beaches  Casualties at Omaha Beach were very severe in comparison to the other four landing beaches. Casualties on the beach itself ranged anywhere from 2,000 to 4,700; the exact total may never be known due to imprecise or incomplete record-keeping or the fact that many men, drowned by the weight of their equipment, sank to the bottom of the sea, or simply disappeared after being caught in German artillery bursts, never to be seen again. Joseph Balkoski comes up with a figure of roughly 4,700 for all units that participated in the beach landing or in direct support of it;  **Omaha Beach Casualties**  UNIT|KIA|WIA|MIA|TOTAL :--|:--|:--|:--|:-- **1ST INF DIV**| 16th Inf Regt|86|528|357|971 18th Inf Regt|12|147|45|204 1st Engr C Bn|4|27|6|37 1st MP Plt|1|22||23 7th FA Bn|4|14|3|21 1st Inf Div HQ Co||2||2 32nd FA Bn||||28^a 1st Med Bn||||c. 40^b 26th Inf Regt||||c. 20^b **TOTAL 1ST INF DIV**||||**1,346^b** **29TH INF DIV**|KIA|WIA|MIA|TOTAL 116th Inf Regt|247|576|184|1,007 115th Inf Regt|33|68|2|103 121st Engr C Bn|18|31|31|80 111th FA Bn|17|26|4|47 104th Med Bn|2|8|10|20 29th Inf Div HQ Co||1||1 175th Inf Regt|1|||1 29th Rcn Trp (Mec'z.)|3|||3 29th MP Plt||||c. 10^b **TOTAL 29TH INF DIV**||||**1,272** **V CORPS/FIRST ARMY UNITS**|KIA|WIA|MIA|TOTAL 2nd and 5th Rgr Bns|96|183|32|311^c 146th Engr C Bn|84|112||196 299th Engr C Bn|71|c. 75||c. 146^d 112th Engr C Bn|8|30||38 20th Engr C Bn|3|10||13 37th Engr C Bn||||82^a 336th Engr C Bn||||30^a 348th Engr C Bn||||21^a 149th Engr C Bn||||c. 50^a 147th Engr C Bn||||c. 45^a 397th AA Bn|17|71|32|120 467th AA Bn|8|31||39 197th AA Bn|5|12||17 81st Chem Mort Bn|10|20||30 741st Tk Bn|c. 45|c. 60||c. 105^b 743rd Tk Bn||||c. 70^b 745th Tk Bn|1|||1 61st Sig Bn|1|3||4^e 5th and 6th Engr Spc Brigs||||c. 250^f **TOTAL V CORPS/FIRST ARMY**||||**1,568** **U.S. NAVY/COAST GUARD AND ROYAL NAVY**|KIA|WIA|MIA|TOTAL Naval C Dem Units|24|32|15|71 6th NBB|22|77||99 7th NBB|19|10||29 USN/USCG Landing Craft Crews||||c. 280^b RN Landing Craft Crews||||c. 30^b Naval Shore Fire Control Parties||||c. 15^b **TOTAL NAVY/COAST GUARD**||||**539** **EIGHTH AF**|KIA|WIA|MIA|TOTAL 2nd Bomb Division|10|||10 **TOTAL EIGHTH AF**|10|||**10** **GRAND TOTAL OMAHA BEACH**||||**4,720**  a: Indicated figure is casualty total only. Unit records do not differentiate among killed, wounded, and missing.  b: Indicated figure is casualty approximation based upon unit records that do not specify number of killed, wounded, and missing.  c: Indicated figure includes casualties suffered on June 7, and also includes casualties among Rudder's Ranger Force at Pointe Du Hoc.  d: Company B, 299th Engineers landed on Utah Beach. Indicated 299th casualty total may include Company B on Utah.  e: Indicated casualty figure is for twenty-four-man detachment under the command of Col. B.B. Talley, embarked in two DUKWs. Talley and his subordinates reported by radio their observations of events on the beach to General Gerow on his command ship *Ancon*.  f: Indicated casualty total is approximation for all 5th and 6th Engineer Special Brigades units landing at Omaha Beach *except* for engineer combat battalions, each of which is given a separate casualty total in the above list. Among the miscellaneous Engineer Special Brigade units included in this casualty total are: signal, military police, quartermaster, medical, amphibious truck, and ordnance units. U.S. Navy units attached to Engineer Special Brigades are not included in this total.  Another reason that Omaha Beach is particularly well-known is because of the 2nd Ranger Battalion's daring mission to scale the sheer cliffs at Pointe du Hoc using grapnel hooks and rope ladders and destroy German artillery pieces located there, and then defend against German counterattacks until relieved. The Rangers suffered heavy losses during the initial assault and subsequent defense, but succeeded in their mission. The armor (especially the DD tanks) launched at Omaha Beach generally also fared very poorly in comparison to the other beaches, being launched too far out and getting caught in the swift current;  Division|DD Tank Unit|Beach|Tanks embarked|Tanks launched into sea|Tanks discharged directly onto beach|Tanks sunk after launch or not landed|Notes :--|:--|:--|:--|:--|:--|:--|:-- 3rd Br Inf Div|13th/18th Royal Hussars (Queen Mary's Own)|Sword|38|32|5|**4**|3 tanks sunk after launch, 1 not launched 3rd Cdn Inf Div|6th Cdn Armoured Regt (1st Cdn Hussars)|Juno|40|30|10|**5**|10 tanks were deposited directly on the beach after their LCTs were damaged 3rd Cdn Inf Div|10th Cdn Armoured Regt (Fort Garry Horse)|Juno|40|20|20|**0**|20 sea-launched and 20 deposited directly on beach 50th Br Inf Div|4th/7th Royal Dragoon Guards|Gold|40|0|40|**0**|Deposited directly on beach 50th Br Inf Div|Nottinghamshire Yeomanry (Sherwood Rangers)|Gold|40|40||**0**|All swam in successfully 1st US Inf Div|741st Tk Bn|Omaha|32|29|3|**27**|3 tanks were deposited directly on the beach after their LCT was damaged; 27 of the 29 sea-launched tanks sunk 29th US Inf Div|743rd Tk Bn|Omaha|32||32|**0**|Deposited directly on beach 4th US Inf Div|70th Tk Bn|Utah|32|28||**5**|1 tank sunk after launch, 4 lost when LCT hit and was sunk  In contrast, Juno Beach inflicted around 1,000 casualties on the attacking 3rd Canadian Infantry Division (340 dead, 574 wounded, 47 captured in the Division only) Gold Beach caused around 1,000 casualties to *all* British units attacking the beach. Utah Beach was roughly a tie with Gold Beach in terms of casualties; roughly 1,000 casualties encompassing *all* the units attacking the beach. Sword Beach inflicted around 700 casualties when only British 3rd Infantry Division losses are taken into consideration.  **Utah Beach Casualties:**  Unit|KIA|WIA|MIA|TOTAL :--|:--|:--|:--|:-- **4TH INF DIV**| 8th Inf Regt|29|110||139 22nd Inf Regt|13|34|4|51 12th Inf Regt|c. 10|c. 30||c. 40^a 29th FA Bn|39|22||61 Other 4th Div Units||||c. 20^a **TOTAL 4TH INFANTRY DIVISION**||||**311** **90TH INF DIV**|KIA|WIA|MIA|TOTAL 359th Inf Regt|1|1||2 **TOTAL 90TH INF DIV**|1|1||**2** **VII CORPS/FIRST ARMY UNITS**|KIA|WIA|MIA|TOTAL 4th Cav Grp|2|18||20 237th Engr C Bn|6|33||39 299th Engr C Bn|4|19||23 298th Engr C Bn||2||2 1st Engr Spc Brig|21|96||117^b 87th Chem Mort Bn|2|3||5 70th Tk Bn|19|10||29 746th Tk Bn|4|4||8 65th Armd FA Bn|2|22||24 Other VII Corps/First Army Units||||c. 10^a **TOTAL VII CORPS/FIRST ARMY**||||**278** **U.S. NAVY/COAST GUARD AND ROYAL NAVY**|KIA|WIA|MIA|Total Naval C Dem Units|4|11||15 *USS Osprey*|6|29||35^c *USS Corry*|22|33||55 *USS PC-1261*||||c. 15^a USN/USCG/RN Landing Craft Crews||||c. 100^d Naval Shore Fire Control Parties||||c. 15^e **TOTAL NAVY/COAST GUARD**||||**235** **NINTH AF**|KIA|WIA|MIA|TOTAL IX Bomber Cmd|30|||30 IX Troop Carrier Cmd|27|128||155 **TOTAL NINTH AF**|57|128||185 **GRAND TOTAL UTAH BEACH**||||**1,011**  a: Indicated figure is casualty total only. Unit records do not differentiate among killed, wounded, and missing.  b: Includes 531st Engineer Shore Regiment and U.S. Navy's 2nd Naval Beach Battalion.  c: Minesweeper, lost night of June 5.  d: Landing craft losses on D-Day included four LCT, two LCI, plus many more smaller LCMs, LCVPS, and LCAs.  e: Includes NSFCP with 82nd and 101st Airborne Divisions.  I have discounted the airborne forces under VII Corps control behind Utah and Omaha Beaches, as they didn't fight \"on the beach\" or fight over it directly by storming it;  **A/B DIVS**|KIA|WIA|MIA|TOTAL :--|:--|:--|:--|:-- 82nd A/B Div||||1,259^f 101st A/B Div||||1,240^g **TOTAL A/B DIVS**||||**2,499**  f: see Harrison, *Cross-Channel Attack*, 300. (\"D-Day losses of 1,259 including 156 known killed and 756 missing, presumed captured or killed.\")  g: Ibid., 284. (\"Total D-Day casualties calculated in August 1944 amounted to 1,240 including 182 known killed and 501 missing and presumed captured or killed.\")  Sources:  DD Tanks  *The Victory Campaign, 1944\u20131945* (the official history of the Canadian Army in the Second World War), by C.P. Stacey   *Omaha Beach: D-Day, June 6, 1944*, by J. Balkoski  *Utah Beach: The Amphibious Landing and Airborne Operations on D-Day*, by J. Balkoski  *Gold Beach*, by S. Trew  *D-Day 1944: Sword Beach & British Airborne Landings*, by K. Ford and H. Garrard  *Sword Beach*, by K. Ford"
+            }
+        ]
+    },
+    {
+        "dataset": "shp",
+        "id": "shp_301",
+        "messages": [
+            {
+                "role": "user",
+                "content": "\n\nHuman: [NY] Was I given terrible advice for taking sick time? Hi askHR, I just need a sanity check. I was told adamantly by someone whose judgement I would typically trust that I should never take just one day of sick leave. I should always take at least two as \u201cNobody is sick for just one day, taking one day of sick leave shows you want to take a day off and do nothing.\u201d  This person isn\u2019t a manager, but I believe is giving advice reflecting their own corporate culture. I hope?  Or have I been unknowingly looking like I\u2019ve been goofing off when I need a single sick day now and then?\n\nAssistant:"
+            },
+            {
+                "role": "assistant",
+                "content": " I work in disability and absence management.  People take one day all the time and it is totally normal.  Of course people can be ill one day.  It happens."
+            }
+        ]
+    },
+    {
+        "dataset": "shp",
+        "id": "shp_410",
+        "messages": [
+            {
+                "role": "user",
+                "content": "\n\nHuman: Friend/Coworker Thoughts of Self Harm after bad performance review-husband has stage 4 cancer-what to do? [TX] Hi, My close friend who is also my coworker recently told me after she received a negative review that she had thoughts of killing herself. Her husband also has stage 4 cancer and may pass away soon.  Wondering what I should do as her friend, she told me this in confidence, but I am also worried about her. Not sure if I should talk to HR. What would HR do?   Also her boss will most likely lay her off because she\u2019s an office manager and we\u2019re working remotely so he can\u2019t justify her position anymore. Any advice on what to do or what to tell her?\n\nAssistant:"
+            },
+            {
+                "role": "assistant",
+                "content": " There are support groups through a lot of treatment centers for terminal patients families. This may be helpful to her, so that she has a group of people going through these same terrible journeys.   HR can only really point her in the same kind of direction with an EAP system if they have one in place. Lots of healthcare plans offer teledoc style therapy options as well.   Can't justify a position for a office manager? What? Is she a receptionist or something with the office manager title? There's plenty of justification for having a real office manager despite there not being an 'Office' involved! That's taking something too literally unless it's an over inflated title, which does happen."
+            }
+        ]
+    },
+    {
+        "dataset": "shp",
+        "id": "shp_924",
+        "messages": [
+            {
+                "role": "user",
+                "content": "\n\nHuman: What would Kant say to stealing from a large supermarket to avoid starvation?\n\nAssistant:"
+            },
+            {
+                "role": "assistant",
+                "content": " Can you rationally will that people steal from supermarkets when they need the food to survive? I see no contradiction in logic there, so the question is whether you could will it practically.   In a world where there's more than enough food to go around and the supermarkets won't be in any real financial danger form the occasional starving person stealing food, this doesn't look like it would lead to terrible results (a collapse of the food market or something like this).  So, it's not clear to me that the categorical imperative test rules out stealing from a large supermarket to avoid starvation. As /u/TheGrammarBolshevik points out, Kant did think we have a right to self-preservation."
+            }
+        ]
+    },
+    {
+        "dataset": "shp",
+        "id": "shp_1234",
+        "messages": [
+            {
+                "role": "user",
+                "content": "\n\nHuman: Any suggestions for easy to read books on philosophy? Hi all!  Just recently I finished watching \u201cThe Good Place\u201d and after hearing all of the philosophy themes within the show I\u2019m really excited to learn more. I took a handful of philosophy classes in college and loved them. Only problem is I have the attention span of a goldfish and haven\u2019t read for fun since I was a kid.  I\u2019m not too proud to admit that I have trouble concentrating on a book with dense writing and, for all I loved about those philosophy classes, I found the lectures to be the best part as the reading was just a bit confusing for me. Additionally, I personally prefer content speaks to me on an informal level, using colloquialisms to convey complex concepts.  TL:DR: Are there any great books about philosophy out there that aren\u2019t too difficult to read/informal in their delivery? I personally prefer modern philosophy or anything surrounding existentialism, epistemology, morality and ethics.  Thanks!\n\nAssistant:"
+            },
+            {
+                "role": "assistant",
+                "content": " Sophie\u2019s world covers pretty much everything in a traditional philosophy intro course"
+            }
+        ]
+    },
+    {
+        "dataset": "shp",
+        "id": "shp_654",
+        "messages": [
+            {
+                "role": "user",
+                "content": "\n\nHuman: What's the math like in an electricity and magnetism course? Like the second course in a general physics sequence aimed at physics and engineering students. Is there a lot of multivariable calculus stuff and like systems of equations, or what?\n\nAssistant:"
+            },
+            {
+                "role": "assistant",
+                "content": " Like physics 2 e&m or a dedicated e&m class? You'll definitely be using lots of Calc 3. Lots of 3d vectors and calculus. Honestly I think that's the bulk of it. Doing integration over 3d in Cartesian, cylindrical, and polar coordinates. The rest of the math is pretty straightforward."
+            }
+        ]
+    },
+    {
+        "dataset": "shp",
+        "id": "shp_825",
+        "messages": [
+            {
+                "role": "user",
+                "content": "\n\nHuman: What does the Schr\u00f6dinger equation actually say? Does this equation say that all wave functions should be an eigenvalue of energy?  Also, I know there are two types, one is the time deependent and the other is time Independent.  But is the time Independent when I'm working with energy basis? When I'm working in position basis, it turns to the time dependent?\n\nAssistant:"
+            },
+            {
+                "role": "assistant",
+                "content": " The Schroedinger equation in layman's terms means:  1. Quantum states with a definite energy oscillate at a frequency proportional to that energy (f = E/h) 2. Quantum states which don't have a definite energy can be broken up into states that do. Each of them oscillate independently at a frequency proportional to their individual energies 3. The absolute energy (and frequency) of a quantum state doesn't matter so much, but the energy (and frequency) differences between states do matter a lot"
+            }
+        ]
+    },
+    {
+        "dataset": "shp",
+        "id": "shp_727",
+        "messages": [
+            {
+                "role": "user",
+                "content": "\n\nHuman: How can farming insects be more energy efficient than mammals? I have read that raising crickets would produce less of an environmental impact than cows, pigs or chickens.  You can measure all of the impact into simple energy used to make a kilogram of meat.  How can this be true considering economy of scale?  One kilo of insects takes thousands of bugs, wouldn't having a single larger animal be more energy efficient?\n\nAssistant:"
+            },
+            {
+                "role": "assistant",
+                "content": " Insects are efficient at turning feed into bodymass 1.7kg/kg for crickets compared to 10kg/kg for beef. We can eat 80% of a cricket but only 40% of a cow.  Other environmental considerations in favour of insects: They do not require such large amounts of pasture or water. They do not produce as much manure (and associated pollution). Insects can also eat things that other animals do not further reducing environmental impact.  Data from http://www.fao.org/docrep/018/i3253e/i3253e00.htm specifically http://www.fao.org/docrep/018/i3253e/i3253e05.pdf"
+            }
+        ]
+    },
+    {
+        "dataset": "shp",
+        "id": "shp_250",
+        "messages": [
+            {
+                "role": "user",
+                "content": "\n\nHuman: There is a video on the Front Page about the Navy's Railgun being developed. What kind of energy, damage would these sort of rounds do? https://www.reddit.com/r/videos/comments/70u6sy/the_us_navy_has_successfully_tested_the_first/  http://breakingdefense.com/2017/05/navy-railgun-ramps-up-in-test-shots/  \"Consider 35 pounds of metal moving at Mach 5.8. Ten shots per minute\"  What kind of damage would these do?  Would the kinetic energy cause an explosion?  For that type of projectile what would a current type of TNT/Weapon be in damage potential?\n\nAssistant:"
+            },
+            {
+                "role": "assistant",
+                "content": " Others have calculated the energies of the projectiles, though for u/SocomTedd: the Mark 7 gun fired explosive shells, whose *explosive* energies far exceeded the kinetic energy of the projectile (~6000 MJ explosive vs. ~40 MJ kinetic.) The kinetic energy of the projectile, while large, is insignificant compared to the actual payload.  I actually wrote an executive-level summary of railgun physics and their operation for a high-level program manager working for the Navy. (None of this involved classified material.) One potential issue is that railguns tend to use very dense materials for their projectiles, which are liable to penetrate through targets rather than deliver energy to them. This is easily solved by modifying the projectile to *scatter many smaller projectiles* near the target.   As u/jehan60188 says, 4 MJ/kg is the threshold for railgun superior effectiveness. Once the projectile is fast enough it is more effective to use the kinetic energy of the projectile rather than use (chemical) explosives. As kinetic energy scales essentially without limit with respect to velocity, railguns are inevitably more effective. They are not, *yet*, more effective, which is what motivates continuing naval research on the subject.   Chemical explosives provide a fundamental limit on the effectiveness of traditional guns, either through explosive or kinetic payloads. (There is a similar limit to the effectiveness of chemical rockets.) Electromagnetic propulsion, on the other hand, suffers from no such limit."
+            }
+        ]
+    },
+    {
+        "dataset": "shp",
+        "id": "shp_1689",
+        "messages": [
+            {
+                "role": "user",
+                "content": "\n\nHuman: [Avatar] Why do people of the various nations continue to color code themselves? In TLA I can understand the various elemental cultures wearing similar colors: it's a less connected world and harder to ship goods around, so I assume they use locally sourced dyes for their clothing (Easier to fine green/tan dyes in earth bender regions etc.) Why though, by the LoK time period do the four major tribes people still stick to Blue/Green/Red/Yellow for their clothing? There's huge national navies so one can assume civilian trade has spanned the globe much more thoroughly, and Republic City is intentionally a mixing pot of culture.\n\nAssistant:"
+            },
+            {
+                "role": "assistant",
+                "content": " Three reasons:  - As you mentioned, in Aang's time they were probably using locally-sourced dyes. While things are more connected in Korra's time, local is still usually going to be cheaper (especially if you're not in somewhere like Republic City). They're not quite to the point where it's cheaper to manufacture everything in the Earth Kingdom and ship it around the world. - It's the traditional style of their homelands. Not everyone is super patriotic, but most people would at least have some kind of fondness and connection to the culture of the place they (or their ancestors) came from. Sure, Varrick *could* get some fine red clothes from the Fire Nation (they make the best red stuff there), but he *likes* Water Tribe blue. - People in Avatar-world tend to have eye colors that match their ancestry and/or bending type. Mako has reddish eyes, Bolin has green eyes, Korra has blue eyes, and Tenzin has gray eyes. This isn't absolute - Asami actually has greenish eyes despite having Fire Nation ancestory - but it's common enough to reinforce the trends. Fashion-conscious people would gravitate towards color palettes that complement their eye colors.  These things'll probably fade over time, but for now it's only been 70 years since the end of the Hundred Years War. The world hasn't been connected that long."
+            }
+        ]
+    },
+    {
+        "dataset": "shp",
+        "id": "shp_2702",
+        "messages": [
+            {
+                "role": "user",
+                "content": "\n\nHuman: [MCU] Who legally owns/has the best claim to Captain Americas sheild? Rewatching Falcon and the Winter Solider and they mention the shield is a legal gray area and it made me wonder who would have the best claim.   Howard Stark and Stark Industries made it but I imagine they were commissioned to by American military so it started out as their property. Cap uses it during WW2 and continues to when he comes out of the ice but I don't think soliders own the weapons and equipment they use during service and until Sheild collapses Cap is still working for the government. He continues to use the shield until Civil War with the government's permission so do they lose rights to ownership by letting him use it for so long without contesting it? After Civil War Tony takes possession of it and keeps it for around 8 years. It's now in Sam's possession so is it his?  So in summary does Stark Industries have the biggest claim since they built it and Tony had it in his possession for close to a decade? Does Sam own it because he currently has it? Do the US government have a claim since they likely paid for its construction? Do the Wakandans have a claim since its likely made out of stolen Vibranium? To further complicate things the original sheild was destroyed so are there two separate owners? One for the old shield and one for the new.\n\nAssistant:"
+            },
+            {
+                "role": "assistant",
+                "content": " The ORIGINAL shield is likely property of the US Military since they likely funded its creation. The NEW shield was obtained in an alternate timeline, and US law doesn't really cover the multiverse, so it is Sam's until it was donated to the Smithsonian."
+            }
+        ]
+    },
+    {
+        "dataset": "shp",
+        "id": "shp_405",
+        "messages": [
+            {
+                "role": "user",
+                "content": "\n\nHuman: I would like to know about keynesian economics and Austrian economics right from the basics I recently watched a video of Glenn Jacobs and Gary on keynesian vs Austrian Economics. It sounded interesting and intelligent, but I don't quite get them completely.  Can someone please explain it from scratch\n\nAssistant:"
+            },
+            {
+                "role": "assistant",
+                "content": " Let's start with the very basics.  1. *Where do business cycles come from?*    * Keynesians think that business cycles are the result of swings in investor and consumer confidence, manifested in financial / stock market booms and busts. When investor confidence falters, for whatever reason, the economy plunges into recession.     * Austrians think that erratic Federal Reserve interest rate policy causes recessions. The Fed will reduce interest rates to spark a boom, but this leads investors to over-commit capital  to risky projects in their chase for yield. Austrians call this phenomenon \"malinvestment.\" These malinvestments then go bad, leading to recession. The boom contains the seeds of its own destruction.  2. *What should we do about it?*     * Keynesians think that active government policy can manage aggregate demand. In the simplest story, when investor confidence falters, the government can step in and fill the demand gap. When investor spirits are high, the government cuts back. This leads to stability in overall expenditure, thus smoothing out the business cycle.     * Austrians think we need tight restrictions on the Federal Reserve, because it's the Fed's fault to begin with for trying to engineer a boom. Thus we need to put restrictions in place, such as some kind of commodity standard to \"tie the Fed's hands\" and make sure it can't do anything too awful to the economy.     * Austrians also believe that countercyclical policy is wrongheaded: if the government steps in to prop up demand, then those malinvestments won't be liquidated, and one just prolongs the imbalance. If the Fed does screw up and plunge us into recession, the best course of action is to let the recession ride out and clear up any malinvestment. Engaging in countercyclical policy just prolongs the bleeding.  There's an intro. Let me know if you want more information. Neither of these schools of thought is right, in my estimation. :)"
+            }
+        ]
+    },
+    {
+        "dataset": "shp",
+        "id": "shp_444",
+        "messages": [
+            {
+                "role": "user",
+                "content": "\n\nHuman: if the 1960's was about a 'let it all hang out' era and yearning for authenticity; a reaction to the 1950's, then what is the present era 'about'?\n\nAssistant:"
+            },
+            {
+                "role": "assistant",
+                "content": " History wasn't really about grouping things by decade until after WW2, with the exception of publications about \"The Roaring Twenties\" since that economic boom fit so nicely into ten years, ending so sharply right at 1929.  Since WW2 is broadly understood to have begun in 1939, yet again delineating the end of a decade (AND the Great Depression), post-war popular history starts encapsulating every 20th century event into decades after 1945.  To the point where all of the 40s inherit the War, much of what we consider \"the 50s\" actually happened after 1945, and much of what we consider \"the 60s\" *really* happened in the 50s (Beat culture and the like).  On the whole, while history-by-decade is great marketing and there's no question that modern decades will inevitably get the same treatment within pop culture, in practice this is a terrible way to look at history.  The combination of shoehorning and oversimplification casts a kind of Hollywood haze over a historical time period that turns it more into a mythological story than an honest reflection of the times.  Will the 10s and the Aughts get nicknames and/or a single encapsulating storyline?  Absolutely.  *Is* such a thing really there?  Absolutely not."
+            }
+        ]
+    },
+    {
+        "dataset": "shp",
+        "id": "shp_25",
+        "messages": [
+            {
+                "role": "user",
+                "content": "\n\nHuman: I need to euthanize my dog. Should I have a service come to our home or take him to the vet... should his \"brother\" be present? Our nearly 5 year old, 109 lb, male pitbull has cancer.  It's bad.  Long story short, the only remedy is euthanasia.  According to the vet, surgery is off the table (he's too far gone), as is chemo (unlikely to yield a good result while only making him sick).  His name is Zeus and he is the sweetest, gentlest, lovable guy you will ever meet. Our family is devistated.  Here are the x-rays for anyone interested. There are 7 images in the gallery. https://imgur.com/gallery/HRfJodc  We have to make a decision soon, before he begins to suffer unnecessarily. Prolonging his life, at this point, is only because we don't want to let him go.  His \"brother\" is a 3 year old pitbull mix.  They are EXTREMELY close.  Do we arrange to have the other dog present while we have the sick guy euthanized?  I don't want him to not know where his brother went.... but maybe this is a bad idea.  I don't know and am desperately seeking advice.  Also, we can arrange a service to perform the euthanization here at home or we can take him to the vet where he absolutely loves to visit.  That call might just come down to who is available and when.  I appreciate any advice.\n\nAssistant:"
+            },
+            {
+                "role": "assistant",
+                "content": " NaV. I can\u2019t evaluate the x-rays, so I\u2019ll just assume there\u2019s nothing which can be done.  Here\u2019s what I personally would choose: The home euthanasia, without his brother being present at euthanasia (to avoid him making a connection between vet intervention and losing his brother). But I would let him say goodbye afterwards. I think there is enough evidence to show animals need closure as well. Just my thoughts. The decision you as their dog parent make, is always the best one. No one can decide better than you as you know them the best.   More importantly, make sure you know about the procedure. On that day, don\u2019t let the vets rush you, but take the time you and your dog need. And don\u2019t forget, now is the time he can have that unhealthy treat he always wanted and never was allowed to eat.   Sending strength \u2764\ufe0f"
+            }
+        ]
+    },
+    {
+        "dataset": "shp",
+        "id": "shp_164",
+        "messages": [
+            {
+                "role": "user",
+                "content": "\n\nHuman: Please HELP I think my cat was hit by car??? My cat got out last night. I found him this morning, in my yard, with a broken foot. Like his foot is completely limp and can\u2019t be used. He also is a verrrry vocal cat. He\u2019s like one of my toddlers sometimes lol. But he has barely meowed at all today. He is peeing blood. Very little urine, but some still. Blood in urine and then he sits in peeing position for like 4 minutes and every so often a drop of blood will come out. :( I\u2019ve given him an old script of his for pain. And he ate one of those small pur\u00e9ed cat treats but still won\u2019t drink water. This is my baby boy, so I guess I\u2019m just looking for advice, but honest advice. My husband is playing it off like it\u2019s stress causing the blood, and we will take him first thing in the morning, but should I wait??? I don\u2019t have the funds for an er visit, but if it is necessary I will. \ud83d\ude3f\ud83d\ude3f\ud83d\ude3f\ud83d\ude3f\ud83d\ude3f\n\nAssistant:"
+            },
+            {
+                "role": "assistant",
+                "content": " Imagine it was you feeling this pain, with urine in your blood, a fracture, and the one person that can help you won't. Our pets depend on us 100%. PLEASE TAKE YOUR BABY TO THE VET IMMEDIATELY."
+            }
+        ]
+    },
+    {
+        "dataset": "shp",
+        "id": "shp_558",
+        "messages": [
+            {
+                "role": "user",
+                "content": "\n\nHuman: CMV: We should return to the 94% income tax for every dollar over 2M (adjusted for inflation). In 1944 the top tax was 94% for every dollar over $200,000 (2M in today's money.)  *Employee* salaries and business expenses for expansion would be tax exempt money.  Someone making $1B a year would still make $59,880,000.  For every 1 million over 2 million they'd make 60K on. That's plenty.  Going overseas to avoid the tax should result in seizing of assets and removal of citizenship.  The Socialism bad people fail to realise that it would have given the government T1.768 in income tax just off the billionaires. still leaving them $120B poor them :(  We need to start using wealth gained to help everyone and not just let the rich few get wealth they will never be able to use.\n\nAssistant:"
+            },
+            {
+                "role": "assistant",
+                "content": " >Someone making $1B a year would still make $59,880,000.  No one is making a 1 Billion a year salary.  >For every 1 million over 2 million they'd make 60K on. That's plenty.  You assume that's plenty. But let me give you a real world example. Say I am a top heart surgeon. And in a life time I am limited on how many surgeries I can perform because each surgery takes a tole on my body and more specifically my hands. And by mid March I've made my 2 million. I have a choice at this point, to either take the rest of the year off or perform surgeries for 6 cents on the dollar. Which do you think I'm going to choose?   >Going overseas to avoid the tax should result in seizing of assets and removal of citizenship.  I don't understand what you mean by this, can you explain.  >The Socialism bad people fail to realise that it would have given the government T1.768 in income tax just off the billionaires. still leaving them $120B poor them :(  This is ironic. You mock \"socialism bad people\" while mixing up net wealth and income. These aren't the same thing... so let's run this back with increases in net worth. (Something that we wouldn't be \"bringing back\")  Secondly, great! We've forced the wealthy to sell off huge percentages of their assets and plummeted the value of those stocks. Sorry middle class your savings aren't worth much anymore.  3rd, I'm not sure where you're getting 1.768 Trillion from given that it's assumed that the total wealth of Billionaires is 5 Trillion. But sure, let's assume you are correct. Let's do a quick test run on this with someone who would become the next billionaire. So let's say we have Beff Jezos and he starts up a tech company. He needs to seek funding in order to grow and he sells of 25% of his company for 10 million dollars, this makes his company worth 40 million, of which he owns 75%. Uhoh, Beff has just observed a 30 million dollar jump in net worth, where is he going to come up with his 26 million dollar tax liability? He doesn't have that cash. The company has barely even gotten started and the owner is worse off than he was before he sought investment.   If we instead observe the income when the asset is sold... and have a capital gain tax on that income we might have gotten literal billions over time while potentially employing thousands of other tax paying people."
+            }
+        ]
+    },
+    {
+        "dataset": "shp",
+        "id": "shp_1586",
+        "messages": [
+            {
+                "role": "user",
+                "content": "\n\nHuman: CMV: If a leader is democratically elected, the people are absolutely to blame for the bad things he or she does either domestically or abroad People always talk about how people are different from politicians, and you are not supposed to judge a person based on what their politicians do. However I would argue that this is simply a tactic used to avoid responsibility. I do not want to point fingers at specific countries in my actual post, even though I will probably do so in the comments anyway, so my apologies if the names of these fake countries sound cheesy to you, but anyway, here we go anyway. Imagine the following hypothetical scenario:  The people of Awesomeland elect President X, who wins by a landslide. Then, President X makes some very unpopular choices domestically, and many people say:  \u201cIt is what it is, it\u2019s not up to us.\u201d   Yes it is, you specifically gave him power.  But OK, to make up for his shitty domestic choices, President X now invades Evilstan. A lot of Evilstanjans are killed by airstrikes and Awesomeland soldiers. Their economy is crippled by sanctions.  Yet the people of Awesomeland will argue, that the average Awesomelandian should not be blamed, because they\u2019re just people.   In reality, no. Every single Awesomelandian who voted for President X now has blood on his hands.  Again, not directly naming any countries, so as to not get shit in the comments.\n\nAssistant:"
+            },
+            {
+                "role": "assistant",
+                "content": " No, the argument is not that people are not always to be blamed 'because they are people'. The issue is people in an indirect democracy do not always have a choice. Let's use your Awesomeland example, but flesh it out just a bit further.   A presidential election is about to happen in Awesomeland. There are two main candidates, X and Y.  The entire electoral and political system is such that one of these two will inevitably get elected.   Candidate X, if elected, will carry out domestic policies A,B and C which are of priority importance to you. They will carry out policies D and E which you might not be as big a fan of, but you're ok with that. Abroad, they promise to invade Evilstan to protect Awesomeland and support its glorious army.   Candidate Y, if elected, will carry out domestic policies *opposite* to A,B and C, which you see as a great danger to you and others. They will carry out policies D and E just as X will. Abroad, they promise even more vehemently to invade Evilstan to protect Awesomeland and support its glorious army.   You have 3 options: vote for X, vote for Y or abstain. In any of these scenarios, either X wins or Y wins, and Evilstan is invaded.   You are essentially saying that it is more moral to abstain (for principle's sake), even if Y gets elected and the outcome is even worse? Otherwise, you have blood on your hands for shit that is deeply embedded in Awesomeland's institutions and government, and which you can't do a thing about (other than protest or start a revolution)?  Also, what if the candidate you voted for did not get elected? Are you still to be blamed for the actions of whoever won?"
+            }
+        ]
+    },
+    {
+        "dataset": "shp",
+        "id": "shp_1252",
+        "messages": [
+            {
+                "role": "user",
+                "content": "\n\nHuman: Explain like I'm five years old: Why are modern TVs and modern computer monitors not the same thing? What is the difference that makes a computer monitor better suited for the job than a similarly sized TV?\n\nAssistant:"
+            },
+            {
+                "role": "assistant",
+                "content": " One of the biggest differences I learned a couple of years ago when I was looking for a TV to use as a monitor.  One of the most important things is Chroma Subsampling.  I deal mostly with text whether it is a browser or a terminal window.  Many TV\u2019s do not do well with small colored text and it will end up with interference making it hard to read.  This article explains it well.  https://www.rtings.com/tv/learn/chroma-subsampling"
+            }
+        ]
+    },
+    {
+        "dataset": "shp",
+        "id": "shp_1465",
+        "messages": [
+            {
+                "role": "user",
+                "content": "\n\nHuman: Explain like I'm five years old:Why do the pupils in our eyes dilate when we see someone that we are attracted to?\n\nAssistant:"
+            },
+            {
+                "role": "assistant",
+                "content": " This is an effect of activating your sympathetic nervous system. Basically, your nerves have two settings: sympathetic (fight or flight) and parasympathetic (rest and digest). Both systems are active harmoniously, but the balance can be shifted in response to the environment.  When you're just sitting there chilling, the parasympathetic nervous system is dominant. This emphasizes functions such as digestion.  When something triggers it, such as seeing your crush, or being chased by a bear, or trying to kill a wasp that flew into your car when you rolled the windows down and now you're flailing for dear life, a hormone surge and the sympathetic nervous system becomes dominant. The physiological effects of this are what someone might describe as an adrenaline rush.  Some physiological effects of the sympathetic system are pupil dilation, increase in heart rate and contractility, and  dilation of blood vessels in your skeletal muscles and extremities which diverts blood flow away from your gut, slowing digestion."
+            }
+        ]
+    },
+    {
+        "dataset": "shp",
+        "id": "shp_261",
+        "messages": [
+            {
+                "role": "user",
+                "content": "\n\nHuman: Kid put his stuff in my yard; ran over it with my lawn mower; mom wants me to pay. So my yard goes pretty close to the neighbor\u2019s concrete pad where they have a basketball court set up. Neighborhood kids always go there to play and usually leave their bikes and things on my grass. It\u2019s not that big of a deal except I have had to ask them to move there stuff several times when I\u2019m mowing.   This is the first time I\u2019ve mowed this year and the grass is a few inches higher than it should be. Anyway, a kid comes over and I\u2019m mowing but he still puts the basketball he brought with him down in my grass.  I get to the basketball and just decide I can nudge it with the front of the mower and out of the way. I made eye contact with the kid several times waiting for him to move it before I got there and he never did so I figured \u201cwhatever, it\u2019ll roll.\u201d  Well I bump it with my mower over to a section of mower grass and as I continue forward past where it was there was a loud clunking and crackling like I\u2019d just run over a rock. The rock turned out to be his iPhone.   He was upset obviously that his phone was broken and I did feel bad but my thought was that he should\u2019ve said something or moved it before I got there.  He goes home and about thirty minutes later his mom shows up and tells me I broke it and am responsible for replacing it, that I should have told him to move his stuff because I am the adult.  I tell her I\u2019m sorry about the phone and politely decline her request. She just says \u201cI promise you WILL be paying for it.\u201d And then storms off. I\u2019m not really sure what her next course of action is or what she plans to do. She mentioned something about she has a friend that\u2019s a lawyer, so I guess she could take me to civil court?  Am I legally responsible for replacing the phone? Would it be cheaper than court costs if she did choose to take me to court?\n\nAssistant:"
+            },
+            {
+                "role": "assistant",
+                "content": " Everybody has a \u201cfriend that is a lawyer.\u201d  When they are really mad they have a \u201crelative that is a lawyer.\u201d  You\u2019re fine.  In the unlikely event they really know a lawyer, said lawyer will tell them they don\u2019t have a case."
+            }
+        ]
+    },
+    {
+        "dataset": "shp",
+        "id": "shp_1227",
+        "messages": [
+            {
+                "role": "user",
+                "content": "\n\nHuman: My neighbor trespassed and stole two plants while I was out of town Like the title says, my across-the-street neighbor walked onto my property when I wasn\u2019t home and stole plants sitting next to my house on the side of my driveway. I have her on camera walking onto my property multiple times and ultimately picking up and taking two large potted plants.  I am in the state of Washington, and my understanding is that this is, at a minimum, criminal trespassing (RCW 9A.52.080) but she also stole things which I can\u2019t find an applicable law for since all the burglary laws (RCW 9A.52.020 - RCW 9A.52.030) seem to apply to entering a dwelling.  I don\u2019t believe any of the defenses to criminal trespassing (RCW 9A.52.090) could apply since I\u2019ve only spoken to her one time when I moved in a few months ago and have never given her permission to walk onto my property.   The plants were near my trash cans but not out near the street or anything indicating that they were free for taking, and the plants have been there for months, since that\u2019s where I keep them. So it seems she could try to claim the defense:   *\u201c(3) The actor reasonably believed that the owner of the premises, or other person empowered to license access thereto, would have licensed him or her to enter or remain;\u201d*  but there was no indication that the plants were up for the taking. I also have a photo of me watering the plants showing they are my and are on my property.  So what are my options? Confront them and if they lie then tell them I have a video? Go straight to the police with the evidence? I know they are \u201cjust plants\u201d, but they are mine, they are important to me, and I feel very violated by her taking them.\n\nAssistant:"
+            },
+            {
+                "role": "assistant",
+                "content": " You said they were by the trash cans.  Go to her and suggest that perhaps she was confused but they were not trash so please return them. That gives her a chance to fix it.  And she will know you know and that you have cameras.     If she doesn't. File a report."
+            }
+        ]
+    }
+]

@@ -1,0 +1,142 @@
+[
+    {
+        "dataset": "se",
+        "id": "se_14",
+        "messages": [
+            {
+                "role": "user",
+                "content": "\n\nHuman: <p>Recently a manuscript from my Masters by research thesis has been accepted in a Q1 journal with Impact factor nearly 4. At the beginning of the manuscript submission, I requested my advisers to be the coauthors of my article but they denied my request. Is that ethically ok to publish the accepted manuscript?</p>\n\n\nAssistant:"
+            },
+            {
+                "role": "assistant",
+                "content": " <p>There are a few different situations that could lead to this:</p>\n<ol>\n<li><p><strong>Most plausible case:</strong> Your supervisors determined that in accordance with the standards of your field, they do not count as coauthors.</p>\n<p>Different fields have different customs concerning whether supervisors are assumed to be coauthors of papers resulting from the supervised work. If you worked independently and your supervisors agree, then being a single author on the resulting paper will always be reasonable. Since you mention asking them only at submission stage, it does sound as if their involvement is limited.</p>\n</li>\n<li><p>Your supervisors really ought to be coauthors by the standards of your field, but declined to give you an (unfair) advantage or similar.</p>\n<p>This is problematic from an ethical perspective. Having another persons consent still doesn't allow an academic to present their ideas as ones own. A carefully worded acknowledgement might work.</p>\n</li>\n<li><p>Your supervisors declined because they are aware of flaws in your paper, and don't want to be associated with it.</p>\n<p>While one would hope that peer review would spot problems, there is no guarantee that it does. If your supervisors are aware of any major flaws, it would be your ethical responsibility to find out and either fix the paper, or to withdraw it if it is unfixable.</p>\n</li>\n<li><p>The manusscript is sound, but your supervisors are under political pressure to not associate themselves with the results. (pointed out by nick012000 in the comments)</p>\n<p>Probably no ethical concerns about you publishing here, unless the political pressure is there for very good reasons.</p>\n</li>\n</ol>\n"
+            }
+        ]
+    },
+    {
+        "dataset": "se",
+        "id": "se_27",
+        "messages": [
+            {
+                "role": "user",
+                "content": "\n\nHuman: <p>There are 3rd party apps but I'm not interested in those.  I'm a web developer and during testing I find myself entering login credentials over and over again.  If I could quickly \"play\" these keystorkes it would help my sanity.  I'm assuming Automator can do this?  I've never used Automater so a complete answer for that would be appreciated.  However I would prefer something even more native if it's possible.</p>\n\n\nAssistant:"
+            },
+            {
+                "role": "assistant",
+                "content": " <p>Let me start by saying that there are lots of good third party apps for automatically logging in to web forms. I highly recommend using one of those.</p>\n\n<p>To answer your question: Yes, you can do this with a combination of Automator and AppleScript. Here's how.</p>\n\n<p>Open Automator. Go to File-> New. Select <code>Service</code>.<br>\nType <code>applescript</code> into the search bar near the top left.<br>\nDrag the <code>Run AppleScript</code> item to the area on the right.<br>\nReplace the purple code that starts in the box with this:</p>\n\n<pre><code>tell application \"System Events\"\n    keystroke \"username\"\n    keystroke tab\n    keystroke \"password\"\nend tell\n</code></pre>\n\n<p>Now replace the <code>username</code> text with your username, and replace the <code>password</code> text with your password.<br>\nThis will have the computer type your username, hit tab, and type your password.<br>\nNow, at the top of the Automator window, set <code>Service receives</code> to <code>no input</code> and <code>in</code> to the app you need this to happen in.<br>\nAutomator shoud now look like this:\n<img src=\"https://i.stack.imgur.com/gl26o.png\" alt=\"enter image description here\"></p>\n\n<p>Save this and give it a name. Now, go to the app you selected at the top right and put your cursor in the username field.</p>\n\n<p>Go to the app's menu (next to the Apple menu) and choose Services-> {<em>what you named your Automator app</em>}.</p>\n\n<p>It should run the Automator workflow and 'play back' the keystrokes.</p>\n\n<p>Again, this is the hard, insecure way. I highly recommend apps like <a href=\"https://agilebits.com/products/1Password\" rel=\"nofollow noreferrer\">1Password</a> and <a href=\"https://lastpass.com/\" rel=\"nofollow noreferrer\">LastPass</a>.</p>\n"
+            }
+        ]
+    },
+    {
+        "dataset": "se",
+        "id": "se_444",
+        "messages": [
+            {
+                "role": "user",
+                "content": "\n\nHuman: <p>I've just installed Ubuntu 14.04 LTS on my HP Envy spectre xt 13-2000eg and i just can't get my wifi working.\nI have an Intel Centrino Advanced-N 6205 \nI also have the gnome shell installed (I don't think thats the problem) when I try to connect to a wifi network it says hardware disabled.\nWhen I run </p>\n\n<pre><code>rfkill list\n</code></pre>\n\n<p>I get </p>\n\n<pre><code>0: phy0: Wireless LAN\nSoft blocked: no\nHard blocked: yes\n</code></pre>\n\n<p>Further I already checked, but I don't have a hardware switch for wireless connections. Simply trying </p>\n\n<pre><code>rfkill unblock all\n</code></pre>\n\n<p>won't do the trick either. </p>\n\n<p>Funny thing is that for a short time the wifi worked but after the reboot i had the same problem again.\nMaybe it is intel's iwlwifi? I couldn't figure out how to install that :/</p>\n\n<p>I really hope someone can help me.</p>\n\n\nAssistant:"
+            },
+            {
+                "role": "assistant",
+                "content": " <p>Hard Block cannot be unblocked using the software. </p>\n\n<p>Your WiFi is perhaps turned of by your keyboard WiFi shortcut. It is also possible that it is disabled by your BIOS settings.  Try to enable it using your keyboard shortcut or any other key available in you system. Also check you BIOS settings for any WiFi related settings.</p>\n"
+            }
+        ]
+    },
+    {
+        "dataset": "se",
+        "id": "se_43",
+        "messages": [
+            {
+                "role": "user",
+                "content": "\n\nHuman: <p>Is there a word/phrase for that?</p>\n\n<p>Example:</p>\n\n<blockquote>\n  <p>I closed my eyes, and listened to the [...] stones.</p>\n</blockquote>\n\n\nAssistant:"
+            },
+            {
+                "role": "assistant",
+                "content": " <p>Depending on the size of the stones and other characteristics of the stream and stones, it could be clashing, rattling, grinding, whispering, tumbling (not exactly a sound, but still), grumbling, grating.</p>\n"
+            }
+        ]
+    },
+    {
+        "dataset": "se",
+        "id": "se_103",
+        "messages": [
+            {
+                "role": "user",
+                "content": "\n\nHuman: <p>I have been playing kitten game and I have noticed that if I leave the game for a year the game runs fine and no kittens starve. Is there a consequence to this or can I just leave my game running to get resources?</p>\n\n\nAssistant:"
+            },
+            {
+                "role": "assistant",
+                "content": " <p>Depends on how far into the game you are. If your catnip production is high enough such that a -90% cold winter comes along and your kittens don't starve, than there are no negative consequences. But, it's possible you'll miss out on some advantages - based on how far you are into the game.</p>\n\n<p>At the very beginning of the game (before Astronomical events) you won't 'miss out' on anything, but your resource limits aren't likely to be high enough to make this a useful strategy.</p>\n\n<p>Once Astronomical Events and Hunters are unlocked, you'll have to pay more attention to the game if you want to make sure you aren't maxing out your catpower (thereby losing valuable ivory and furs, which equals more production) or missing Astronomical events - which give you science and a starchart.</p>\n\n<p>At the end of the game, once you have a Mint (or a few) (which produces furs and ivory) and have the upgrade that automatically registers Astronomical Events, the only thing you have to watch out for is maxing out your resource pools.</p>\n\n<p>TLDR; The only things you have to worry about are negative producing resources, click required resources (Astronomical Events and Hunting), and maxing out any resource pools.</p>\n"
+            }
+        ]
+    },
+    {
+        "dataset": "se",
+        "id": "se_299",
+        "messages": [
+            {
+                "role": "user",
+                "content": "\n\nHuman: <p>I have an exam in two days for first year university physics. Often for dynamics problems, I am required to solve algebraic systems of equations by hand, and this can be very daunting. </p>\n\n<p>When I see the solutions, however, the steps that the solver took to seem very clean and almost obvious. Are there some rules of thumb that physicists use to solve small systems of equations, either by elimination or substitution?</p>\n\n<p>Here is an example. Find $\\frac{m_1}{m_2}$ in terms of only $\\theta$ where the known quantities are $\\theta$, $m_1$, $m_2$.</p>\n\n<p>$$F_T \\sin \\theta = m_1 g$$\n$$F_T \\cos \\theta = m_1 a$$\n$$F_T \\sin \\theta + F_N \\cos \\theta = m_2 g$$\n$$F_N \\sin \\theta - F_T \\cos \\theta = m_2 a$$</p>\n\n\nAssistant:"
+            },
+            {
+                "role": "assistant",
+                "content": " <p>A rule of thumb would be to <strong>get rid of unwanted variables</strong>. For example, since we're only interested in $\\frac{m_1}{m_2}$ and $\\theta$, we can get rid of $F_T$.</p>\n\n<p>$$F_T \\sin \\theta = m_1 g$$\n$$F_T \\cos \\theta = m_1 a$$</p>\n\n<p>Rearrange to get</p>\n\n<p>$$\\frac{m_1 g}{\\sin \\theta}=\\frac{ m_1 a}{\\cos \\theta} \\hspace{20mm}\\text{  ...Eq  5}$$      </p>\n\n<p>I don't know whether getting this 'Equation 5' is part of the solution, but my point is get rid of unwanted variables.</p>\n"
+            }
+        ]
+    },
+    {
+        "dataset": "se",
+        "id": "se_12",
+        "messages": [
+            {
+                "role": "user",
+                "content": "\n\nHuman: <p>According to <a href=\"https://xkcd.com/936/\" rel=\"noreferrer\">XKCD: Password Strength</a>, if the password consists of \u201cfour random common words\u201d, it will be secure and memorable.  </p>\n\n<p>I want to make a web application and make users create their passwords in this way. Each password should have at least 16 characters and must be sentence of at least 4 words to make it more secure and memorable. But this will make the attacker know that all passwords are like that. Is this a bad idea?  </p>\n\n<p>What better ways are there to force passwords that are more secure and memorable at the same time? </p>\n\n\nAssistant:"
+            },
+            {
+                "role": "assistant",
+                "content": " <p>It is not necessarily a bad idea. The attacker can know the password is in that format, considering the 4 words are random enough. But here is the thing, there are other good ways to make a memorable strong password. Limiting your users to the one you like is not very nice. For example I use password manager with truly random long passwords, which is even better than what you propose, but I could not do that on your site.</p>\n\n<p>More importantly, if the reason you want to do this is to force users to use strong password, then generate the 4 words password for them. You can generate such password by having a dictionary, then choosing random number between 1 and the number of words in your dictionary and taking that word. Do this 4 times and you have a password. You can get inspiration <a href=\"https://bitbucket.org/jvdl/correcthorsebatterystaple/src\" rel=\"noreferrer\">here</a>. This is important, as most users may not choose 4 truly random words, but instead 4 easily guessable words. In such scenario, this would be worse then letting them choose any password.</p>\n"
+            }
+        ]
+    },
+    {
+        "dataset": "se",
+        "id": "se_2",
+        "messages": [
+            {
+                "role": "user",
+                "content": "\n\nHuman: <p>I have a list look up column which fetches values from another list which is number(int), but on loading it takes it as a flaoting number.\nfor example the value in list firld in 10 but it is taken as 10.000000 in another list field \ni can't make it String as they will go entering characters.\nHow do i reslve that?</p>\n\n<p>Thanks,\nRaghu</p>\n\n\nAssistant:"
+            },
+            {
+                "role": "assistant",
+                "content": " <p>I've been trying to recreate this problem and can't.</p>\n\n<p>What I'm doing:</p>\n\n<ol><li>Create 2 lists</li>\n<li>In list 1 create a column defined as a number, with the number of decimals set to 0</li>\n<li>In list 2 create a lookup refering to the ID in list one, and add a linked lookup column of the number from list 1</li></ol>\n\n<p>When you say you set it as a number(int) are you using anything other than the OOB list designer? I have done the above using the OOB list builder within the site, not Designer.</p>\n"
+            }
+        ]
+    },
+    {
+        "dataset": "se",
+        "id": "se_104",
+        "messages": [
+            {
+                "role": "user",
+                "content": "\n\nHuman: <p>I want to develop a WordPress theme using <a href=\"http://roots.io/\" rel=\"nofollow\">Roots theme framework</a> and then sell it on themeforest.net. </p>\n\n<p>Roots theme license allows me to sell the theme as per its founder's discussion with some guy on <a href=\"https://groups.google.com/forum/#!topic/roots-theme/gaZ2q1b7INI\" rel=\"nofollow\">this</a> google group post.</p>\n\n<p>It says that the product should have an MIT compatible license. The question is:-</p>\n\n<p>If I sell it on themeforest then will it be under compliance with the MIT license? I believe that themeforest has its own 'regular license'.</p>\n\n<p>Will the purchaser of the theme have the right to modify my theme's source code and sell it again on themeforest?</p>\n\n<p>Note: I don't have much knowledge of the licenses, that's why I'm here. Please don't ask me to read the license because I'm unable to understand their complex English. \"INCLUDING BUT NOT LIMITED\", \"AS IS\", \"TORT OR OTHERWISE\" etc. Can't understand it clearly.</p>\n\n\nAssistant:"
+            },
+            {
+                "role": "assistant",
+                "content": " <p>Here is a summary of some popular licenses I keep handy.</p>\n\n<p><strong>MIT: Do basically whatever you want. Just don't claim you wrote it, and don't try to sue anybody.</strong></p>\n\n<p>GPL: You can do whatever you want with the code as long as your code is GPL too. You can't use it closed-source projects. You can't restrict the next person in any way.</p>\n\n<p>LGPL: GPL except some restricted forms of closed-source use are OK. I believe the idea is that you can use an LGPL library in a closed-source project. Really, both the GPL and LGPL are way too confusing.</p>\n\n<p>BSD: Essentially equivalent to MIT.</p>\n\n<p>Microsoft Public License: Essentially equivalent to MIT.</p>\n\n<p>Apache License: Essentially MIT, but you have to make sure people know that you modified the code (if in fact you did).</p>\n\n<p>Selling on Themeforest will be under compliance with MIT, and the purchaser can change your source but must attribute you for the original codebase. As to whether they can resell it, I am also unsure, I assume they can.</p>\n"
+            }
+        ]
+    },
+    {
+        "dataset": "se",
+        "id": "se_32",
+        "messages": [
+            {
+                "role": "user",
+                "content": "\n\nHuman: <p>I understand the value of networking to the people.  And with sales and marketing positions these shows add value. However unless you are in marketing I fail to see any value gained by the business in having other workers attend the trade shows.  </p>\n\n<p>With the internet most technologies are demonstrated better and earlier online before they ever get to the shows.  I am looking to justify sending workers to trade shows using our training budget, but it seems this value is not really gained by the business and that the money would be better spent sending a few people to focus training every year rather than sending several people to the different trade shows.  I understand the value of providing support if you have a booth or someone in your organization is presenting.  But I am specifically talking about shows where the company has no real stake like this in the show.  The employees would have the sole role of attendee.</p>\n\n<p>Is there any thing gained by the business when sending its workers to a (comparatively) less expensive trade shows rather than focusing on practical training classes?</p>\n\n\nAssistant:"
+            },
+            {
+                "role": "assistant",
+                "content": " <p>One previous employer would routinely send QA and developers to tradeshows where the company had a booth. One of the difficulties with \"shrinkwrap\" business software is that the folks writing the software don't always know their customers (in this case, accountants and actuaries). So for this company, it was helpful to get the techies out to learn how the users actually used the product. </p>\n"
+            }
+        ]
+    }
+]
